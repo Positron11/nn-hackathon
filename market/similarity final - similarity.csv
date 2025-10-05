@@ -1,0 +1,28 @@
+Drug Name,Number of Generic Contributors,Price Ratio (Q1),Price Ratio (Q8),F0: Price Ratio (Diff.),F1: Therapeutic Area Score (1-10),F2: MoA Novelty Score (1-10),F3: Administration Score (1-10),F4: Market Status Score (1-10),F5: Population Scale Score (1-10),F6: Price/Reimbursement Score (1-10),Observed Market Share Drop (%)
+Amisulpride,3,1.95,1.68,-0.27,5,1,1,1,5,1,85
+Atomoxetine,2,1.23,1.23,0,5,5,1,4,5,5,2
+Capecitabine,5,1.64,1.74,0.1,1,5,1,7,1,10,40
+Cefazedone,2,1,0.99,-0.01,1,1,7,1,5,1,16
+Cefprozil,10,1,1.11,0.11,1,1,1,1,5,1,5
+Compound glutamine,2,1.05,1.43,0.38,1,1,1,1,1,1,0
+Dasatinib,3,7.1,7.2,0.1,1,10,1,7,1,10,34
+Decitabine,4,1.25,1.88,0.63,1,5,7,7,1,10,12
+Duloxetine,2,1.17,1.21,0.04,5,5,1,4,10,5,9
+Escitalopram,2,1.56,1.55,-0.01,5,5,1,4,10,5,30
+Fluticasone,2,1.04,0.96,-0.08,5,1,4,1,10,1,35
+Gadolinium tetrathiamine,2,1,0.96,-0.04,1,1,7,1,1,1,70
+Imatinib,4,5.81,8.73,2.92,1,10,1,7,1,10,42
+Ipratropium bromide,2,1.49,1.9,0.41,5,1,4,1,10,1,20
+Losartan,1,1.03,1.15,0.12,10,1,1,1,10,1,3
+Memantine,1,1.01,1.15,0.14,5,5,1,7,5,5,22
+Mirtazapine,1,1.37,1.37,0,5,1,1,1,5,1,13
+Moxifloxacin,1,1.12,1.14,0.02,1,1,1,1,5,1,11
+Olmesartan medoxomil,1,1.15,1.28,0.13,10,1,1,1,10,1,5
+Pemetrexed,1,3.3,2.48,-0.82,1,5,7,7,1,10,42
+Pregabalin,1,1.11,1.19,0.08,5,5,1,7,10,5,7
+Rebamipide,1,1.08,1.06,-0.02,1,1,1,1,5,1,15
+Rosuvastatin,1,1.03,1.1,0.07,10,1,1,4,10,1,29
+Salbutamol and ipratropium bromide,1,2.78,5.25,2.47,5,1,4,1,10,1,38
+Sildenafil,1,1.24,1.1,-0.14,10,10,1,7,10,5,25
+Tacrolimus,1,1.42,1.42,0,1,5,1,7,1,10,27
+Tiotropium bromide,1,1.68,1.69,0.01,5,5,4,7,10,5,37
