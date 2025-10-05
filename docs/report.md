@@ -90,6 +90,10 @@ The following is the result of our market sizing algorithm (`preliminary/forecas
 
 ## 3. Diabetes Subphenotype-Based Market Identification
 
+![](images/heatmap_subphenotype.png)
+
+***Figure:** subphenotype-based GLP-1 priority score heatmap*
+
 ### 3.1. Introduction
 
 This module estimates heterogeneity within the Indian type 2 diabetes population and communicates actionable insights for treatment prioritisation. Two coupled modules implement this objective. The `subphenotype/` pipeline transforms National Family Health Survey (NFHS-5) indicators into calibrated prevalence estimates for the five canonical indian diabetes clusters described in endocrinology literature. The `visualization/` workflow augments those outputs with adoption proxies and renders an interactive folium map that guides health planners toward districts most likely to benefit from glucagon-like peptide-1 (GLP-1) therapies.
@@ -503,6 +507,8 @@ Scenario levers live at the top of the notebook as scalars: the default populati
 
 ![Simulation](images/population.png)
 
+***Figure:** population insurance start / BMI distributions*
+
 ### 7.2. Condition Incidence and Progression Graph
 
 Disease onset is driven by two nested dictionaries — `obese_first_order_probs` and `non_obese_first_order_probs` — that map age groups to annual probabilities for thirteen cardiometabolic, hepatic, musculoskeletal, and mental-health diagnoses. The notebook selects the appropriate ladder by checking whether the individual’s BMI exceeds 30, capturing the higher baseline risk carried by obese members. Once a condition is acquired, `second_order_probs` governs cascading complications via conditional probabilities that depend on both the current disease load and age bracket. For example, an obese 45-year-old with hypertension automatically faces a 17% chance of coronary heart disease and a 36% chance of diabetes in the subsequent cycle, while chronic kidney disease elevates heart-failure risk above 20%. These graph-based transitions give the model enough fidelity to represent multimorbidity without introducing opaque machine-learning components.
@@ -525,11 +531,17 @@ After simulating the full horizon, the code interpolates cumulative cost traject
 
 ![Simulation](images/simulation.png)
 
+***Figure:** CBA lifetime simulation*
+
 ## 8. Visualisation Module: Data Flow
 
 The `visualization/heatmap.ipynb` notebook transforms numerical outputs from the subphenotype and genetic modules into an interactive policy tool. To reconcile inconsistent naming across sources, a string normalisation helper strips whitespace, converts text to lowercase, and applies targeted alias replacements (`aizawl → aizawal`, `belgaum → belagavi`, `aravali → aravalli`). District-level GLP-1 priority scores are mapped through `(district_key, state_key)` tuples, while state-level genetic risk is keyed solely by state name, reflecting the granularity of the source table.
 
 The notebook repurposes the same `z_norm` helper from the subphenotype module to construct an adoption proxy that blends wealth quintile prevalence (70%) with health insurance coverage (30%). The adoption score and raw insurance share are separately exposed in the map to differentiate readiness from financial protection.
+
+![](images/heatmap_adoption.png)
+
+***Figure:** adoption score heatmap*
 
 ### 8.1. Data Assets
 
