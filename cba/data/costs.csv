@@ -1,0 +1,23 @@
+One time cost ,Related diagnosis and treatment,Probabilities,Cost per annum,Cost to insurer (per annum)*
+Malignancies surgery,Tumor Surgery,45%,"3,50,000-7,00,000","3,50,000 (for benign tumor), 7,00,000 (for malignant tumor)"
+Heart Failure,CRT-D implantation,22%,"13,70,240","13,70,240"
+Coronary Heart disease,CABG,70%,"6,00,000","6,00,000"
+Liver Cirrhosis,Liver Transplant,<1 % ,"27,50,000","20,00,000"
+Hypertension,Stroke emergency,18.18%,"4,46,593","4,46,593"
+CKD,Kidney Transplant,2.50%,"16,95,629","16,95,629"
+Polycystic Ovarian Syndrome,Laproscopic ovarian drilling,,"75,000","75,000"
+,,,,
+*considering 10 lakhs as the individual health sum insured individually in a tier-1 city,,,,
+Costs for recurring events,Related diagnosis and treatment,Cost per annum,Cost to insurer (per annum),
+CKD,Dialysis,"8,58,000","8,58,000",
+Hypertension,Antihypertensive Medication,"2,150","1,060",
+Coronary heart disease,"Antiarrhythmics, aspirins and statins","62,323","30,734",
+Depression or anxiety,Psychatric visits,"18,000","18,000",
+Obstructive sleep apnea,CPAP machine,"9,000",0,
+Prediabetes,Blood tests,"2,600","2,000",
+Dyslipidemia,Atorvastatins,6844,"3,375",
+Osteoporesis,Fosamax and fracture repair,"1,300",641,
+Osteoarthirits,Acetaminophen and physiotherapy,"1,16,582","32,513",
+Type-2 diabetes (fasting plasma glucose level greater than 250 mg per dL),Synthetic insulin,"60,658","30,329",
+Malignancies,Chemotherapy and radiation therapy,"8,64,000","8,64,000",
+Heart failure,Battery change (CRT-D),"1,04,167","1,04,167",
