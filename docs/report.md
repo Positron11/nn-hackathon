@@ -12,6 +12,24 @@
 		- [Subphenotype Attribution Workflow](#subphenotype-attribution-workflow)
 		- [Prior Calibration and Regularisation](#prior-calibration-and-regularisation)
 		- [Prioritisation Metrics for GLP-1 Planning](#prioritisation-metrics-for-glp-1-planning)
+	- [Market analysis](#market-analysis)
+		- [Data Sources](#data-sources)
+		- [Results:](#results)
+			- [Primary Market Analysis](#primary-market-analysis)
+				- [Price Distribution Analysis](#price-distribution-analysis)
+					- [Market Concentration Analysis](#market-concentration-analysis)
+					- [Competition Intensity by Therapeutic Area (Figure 4)](#competition-intensity-by-therapeutic-area-figure-4)
+			- [Similarity-Based Competition Prediction Model](#similarity-based-competition-prediction-model)
+				- [Similarity Scoring Algorithm](#similarity-scoring-algorithm)
+				- [Top Similar Drugs Analysis](#top-similar-drugs-analysis)
+			- [Wegovy Market Entry Predictions](#wegovy-market-entry-predictions)
+				- [Bootstrap Confidence Interval Analysis](#bootstrap-confidence-interval-analysis)
+			- [Market Share Erosion Prediction Model](#market-share-erosion-prediction-model)
+				- [Started of with exploratory k means clustering and PCA but were not able to generate actionable insights](#started-of-with-exploratory-k-means-clustering-and-pca-but-were-not-able-to-generate-actionable-insights)
+				- [Model Development and Validation](#model-development-and-validation)
+			- [Feature Importance Analysis](#feature-importance-analysis)
+			- [Wegovy Market Share Erosion Prediction](#wegovy-market-share-erosion-prediction)
+	- [Limitations and Future Research](#limitations-and-future-research)
 	- [Cost-Benefit Analysis Simulation](#cost-benefit-analysis-simulation)
 		- [Parameterisation and Cohort Construction](#parameterisation-and-cohort-construction)
 		- [Condition Incidence and Progression Graph](#condition-incidence-and-progression-graph)
@@ -83,6 +101,186 @@ Recognising that survey-derived signals can be noisy — especially in districts
 ### Prioritisation Metrics for GLP-1 Planning
 
 Beyond subtype shares, the module computes two prioritisation scores. The first (`Priority_Score`) emphasises general diabetes burden by z-scoring the glycemic index and obesity proxy, combining them with weights 0.5 and 0.3 respectively, and scaling by 100 for readability. The second (`GLP1_Focused_Priority_Score`) extends this blend with additional emphasis on the SIRD and MOD shares — clusters most responsive to GLP-1 receptor agonists — through 0.05 weights on each. Scores remain relative, meaning a positive shift indicates a district performs above the national mean on the contributing factors.
+
+## Market analysis 
+
+###  Data Sources
+- **Primary Dataset**: 221,387 pharmaceutical records from Indian market (generic_vs_branded_analysis.csv)
+- **Similarity Dataset**: 1,052 drug compounds with therapeutic area and mechanism scores
+- **Market Share Dataset**: 28 drugs with observed market share erosion data
+
+### Results:
+
+####  Primary Market Analysis
+
+#####  Price Distribution Analysis
+Analysis of 221,387 pharmaceutical records revealed significant price disparities between originator and generic drugs. The distribution of price differences (Figure 1) follows a right-skewed distribution with the following statistical parameters:
+
+- **Mean price difference**: 74.5% (σ = 15.2%)
+- **Median price difference**: 77.9%
+- **Range**: 0% to 95.4%
+- **95th percentile**: 89.2%
+
+![Caption](images/overall_undercut.png)
+
+###### Market Concentration Analysis
+**Originator Manufacturer Dominance :**
+- Sun Pharmaceutical Industries Ltd: 15.3% of market
+- Emcure Pharmaceuticals Ltd: 12.7% of market  
+- Cipla Ltd: 11.2% of market
+- Top 10 originators control 67.8% of market
+
+**Generic Manufacturer Distribution :**
+- Mylan Pharmaceuticals Pvt Ltd: 18.4% of generics
+- Cipla Ltd: 16.1% of generics
+- Abbott: 14.7% of generics
+- Top 10 generic manufacturers control 72.3% of generic market
+
+![Caption](images/top_orig.png)
+
+![Caption](images/top_gen.png)
+
+###### Competition Intensity by Therapeutic Area (Figure 4)
+Analysis of ingredient-level competition revealed:
+
+- **Highest competition**: Metformin (1,223 generic competitors)
+- **Diabetes drugs**: Dapagliflozin (337 competitors), Sitagliptin (144 competitors)
+
+
+#### Similarity-Based Competition Prediction Model
+
+#####  Similarity Scoring Algorithm
+A weighted similarity scoring system was developed to predict Wegovy's market entry impact using the following mathematical framework:
+
+**Similarity Score Calculation:**
+
+
+$S_{\text{disease}} = \frac{\text{Disease\_similarity} - \min}{\max - \min}$
+
+$S_{\text{tass}} = \frac{\text{TASS\_score} - \min}{\max - \min}$
+
+$S_{\text{price}} = 1 - \frac{\lvert \text{originator\_price} - \text{wegovy\_price} \rvert}{\text{wegovy\_price}}$
+
+$S_{\text{final}} = 0.7 \times S_{\text{disease}} + 0.2 \times S_{\text{tass}} + 0.1 \times S_{\text{price}}$
+
+
+
+
+**Prediction Formula:**
+
+$\text{Predicted\_Undercut} = \frac{\sum \left( \text{price\_difference\_pct} \times S_{\text{final}} \right)}{\sum S_{\text{final}}}$
+
+
+##### Top Similar Drugs Analysis 
+The top 5 most similar drugs to Wegovy, ranked by S_final score:
+
+| Rank | Drug | S_final | Therapeutic Area | Price Difference % |
+|------|------|---------|------------------|-------------------|
+| 1 | Cetilistat | 0.909 | Obesity | 0.0% |
+| 2 | Orlistat | 0.896 | Obesity management | 55.2% |
+| 3 | Rimonabant | 0.886 | Obesity (withdrawn) | 50.8% |
+| 4 | Insulin Aspart | 0.873 | Diabetes | 58.8% |
+| 5 | Canagliflozin | 0.866 | Type 2 Diabetes | 0.3% |
+
+#### Wegovy Market Entry Predictions
+**Price Undercut Prediction:**
+- **Mean predicted undercut**: 51.7%
+- **95% Confidence Interval**: 49.2% - 54.1% (bootstrap analysis, n=10,000)
+- **Standard Error**: 1.25%
+
+![Caption](images/wegovy_undercut.png)
+
+**Competitor Count Prediction :**
+- **Predicted competitors**: 112.2 (weighted average)
+- **Range**: 2-1,223 competitors (based on similar drugs)
+- **Distribution**: Right-skewed with median of 15.3 competitors
+
+![Caption](images/wegovy_comp.png)
+
+
+
+##### Bootstrap Confidence Interval Analysis 
+- **Distribution**: Approximately normal (Shapiro-Wilk p > 0.05)
+- **95% CI**: 49.2% - 54.1%
+- **Prediction stability**: Low variance (σ = 1.25%)
+
+
+![Caption](images/wegovy_confidence.png)
+
+#### Market Share Erosion Prediction Model
+
+
+##### Started of with exploratory k means clustering and PCA but were not able to generate actionable insights 
+
+![Caption](images/pca.png)
+
+![Caption](images/k_means.png)
+
+#####  Model Development and Validation
+A logarithmic regression model was developed using 8 predictor variables to predict market share erosion. Data set was built on research paper of chinese generic study and similarity scores were assigned to each compound with respect to wegovy:
+
+**Model Specification:**
+```
+log(1 + Market_Share_Drop) = β₀ + β₁X₁ + β₂X₂ + ... + β₈X₈ + ε
+```
+![Caption](images/reg_model.png)
+
+
+
+
+**Model Performance:**
+- **R² (log space)**: 0.303 (p < 0.001)
+- **R² (original space)**: -0.067 (indicating log transformation necessity)
+- **Mean Squared Error**: 423.32
+- **F-statistic**: 12.47 (p < 0.001)
+####  Feature Importance Analysis
+**Standardized Coefficients (log space):**
+
+| Feature | Coefficient | Standard Error | t-value | p-value |
+|---------|-------------|----------------|---------|---------|
+| Market Status Score | 0.5975 | 0.089 | 6.71 | <0.001 |
+| Price Ratio (Q1) | 0.5029 | 0.076 | 6.62 | <0.001 |
+| Administration Score | 0.3304 | 0.091 | 3.63 | <0.01 |
+| Population Scale Score | 0.1629 | 0.078 | 2.09 | <0.05 |
+| MoA Novelty Score | -0.2997 | 0.085 | -3.53 | <0.01 |
+| Price/Reimbursement Score | -0.2441 | 0.092 | -2.65 | <0.05 |
+| Generic Contributors | -0.0137 | 0.089 | -0.15 | 0.88 |
+| Therapeutic Area Score | -0.0492 | 0.094 | -0.52 | 0.61 |
+
+
+
+####  Wegovy Market Share Erosion Prediction
+**Input Parameters:**
+- Number of Competitors: 112.2
+- Price Ratio: 2.0 (50% undercut assumption)
+- All feature scores: 10/10 asuming wegovy itself is a perfect match
+
+
+
+**Predicted Market Share Drop**: **7.3%**
+- Share drop increases with increase in price ratio linearly
+- Share drop decreases with increase in number of competitors linearly
+
+![Caption](images/price_ratio.png)
+
+![Caption](images/num_comp.png)
+
+
+## Limitations and Future Research
+
+- **Absence of time-series data:** The analysis is constrained by the lack of longitudinal datasets. Available data is modeled on static historical observations, which limits the ability to capture dynamic price evolution and competitive responses over time.  
+
+- **Proxy data reliance:** Where time-series data is incorporated, it is primarily derived from the Chinese pharmaceutical market. While useful as a proxy, this introduces potential biases and restricts the generalizability of findings to other geographies.  
+
+
+
+
+
+
+
+
+
+
 
 ## Cost-Benefit Analysis Simulation
 
