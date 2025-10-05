@@ -1,6 +1,9 @@
 # Project Report
 
 - [Project Report](#project-report)
+	- [Anti-Obesity Medication Market Sizing](#anti-obesity-medication-market-sizing)
+		- [Obesity Prevalence](#obesity-prevalence)
+		- [Semaglutide Market Size Forecasting](#semaglutide-market-size-forecasting)
 	- [Diabetes Subphenotype-Based Market Identification](#diabetes-subphenotype-based-market-identification)
 		- [Introduction](#introduction)
 		- [Data Assets](#data-assets)
@@ -20,6 +23,26 @@
 		- [Data Assets](#data-assets-1)
 		- [GeoJSON Augmentation and Layer Styling](#geojson-augmentation-and-layer-styling)
 
+
+## Anti-Obesity Medication Market Sizing
+
+### Obesity Prevalence
+
+We used the NFHS-5 survey data to estimate the obesity prevalence within urban and rural populations in India and also to see differences in obesity prevalence across the two sexes.
+
+We also used obesity prevalence data from [source](https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=line&country=~IND&mapSelect=~IND) to see the trend in obesity rates from 1990 till 2022.
+
+![Obesity Prevalence in India](./images/indiaObesityPrevalence.png)
+
+We also discovered the following relation between obesity prevalence rates across different age groups and gender through this [lancet paper](https://www.thelancet.com/journals/lansea/article/PIIS2772-3682(23)00068-9/fulltext#:~:text=Economic%20survey%20of%20India%202022%2D23%20The%20prevalence,be%20more%20obese%20than%20the%20younger%20ones.)
+
+![Obesity trends across different age groups and genders](./images/obesityAgeWisePrevalence.png)
+
+### Semaglutide Market Size Forecasting
+
+We saw the relation between [semaglutide market size in Germany](https://www.grandviewresearch.com/horizon/outlook/semaglutide-market/germany) and the obesity prevalence rates in Germany(https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=chart&country=DEU). We assumed that the Indian semaglutide market will follow the same relation between obesity prevalence rates and market size as Germany, this was to estimate the market size of semaglutide in India. The following is the result of our market sizing algorithm
+
+![Indian semaglutide Market Projection](./images/indiaSemiglutideMarketSize.png)
 
 ## Diabetes Subphenotype-Based Market Identification
 
