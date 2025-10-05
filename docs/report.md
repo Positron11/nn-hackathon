@@ -345,17 +345,17 @@ A weighted similarity scoring system was developed to predict Wegovy's market en
 
 ##### Similarity Score Calculation
 
-$S_{\text{disease}} = \frac{\text{Disease\_similarity} - \min}{\max - \min}$
+$S_{\text{disease}} = \frac{\text{Disease similarity} - \min}{\max - \min}$
 
-$S_{\text{tass}} = \frac{\text{TASS\_score} - \min}{\max - \min}$
+$S_{\text{tass}} = \frac{\text{TASS score} - \min}{\max - \min}$
 
-$S_{\text{price}} = 1 - \frac{\lvert \text{originator\_price} - \text{wegovy\_price} \rvert}{\text{wegovy\_price}}$
+$S_{\text{price}} = 1 - \frac{\lvert \text{originator\_price} - \text{wegovy\_price} \rvert}{\text{wegovy price}}$
 
 $S_{\text{final}} = 0.7 \times S_{\text{disease}} + 0.2 \times S_{\text{tass}} + 0.1 \times S_{\text{price}}$
 
 ##### Prediction Formula
 
-$\text{Predicted\_Undercut} = \frac{\sum \left( \text{price\_difference\_pct} \times S_{\text{final}} \right)}{\sum S_{\text{final}}}$
+$\text{Predicted\_Undercut} = \frac{\sum \left( \text{price difference pct} \times S_{\text{final}} \right)}{\sum S_{\text{final}}}$
 
 #### Top Similar Drugs Analysis 
 
@@ -374,7 +374,6 @@ The top 5 most similar drugs to Wegovy, ranked by `S_final` score:
 #### Price Undercut Prediction
 
 - **Mean predicted undercut**: 51.7%
-- **95% Confidence Interval**: 49.2% - 54.1% (bootstrap analysis, n=10,000)
 - **Standard Error**: 1.25%
 
 ![](images/wegovy_undercut.png)
