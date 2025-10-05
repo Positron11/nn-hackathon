@@ -24,7 +24,7 @@
 
 - Clinical profile: Higher BMI but lower HOMA-IR than SIRD; relatively mild hyperglycemia and better lipid profile.
 
-## MARD — Mild Age-Related Diabetes
+## MARD (Mild Age-Related Diabetes)
 
 - Core pathophysiology: Gradual β-cell decline with age; mild insulin resistance.
 
