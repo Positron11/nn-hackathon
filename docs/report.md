@@ -12,6 +12,17 @@
 		- [Subphenotype Attribution Workflow](#subphenotype-attribution-workflow)
 		- [Prior Calibration and Regularisation](#prior-calibration-and-regularisation)
 		- [Prioritisation Metrics for GLP-1 Planning](#prioritisation-metrics-for-glp-1-planning)
+	- [Genomics-based Risk Analysis and Patient Profiling](#genomics-based-risk-analysis-and-patient-profiling)
+		- [Introduction to DNA and Genetic Variation](#introduction-to-dna-and-genetic-variation)
+		- [Methodology](#methodology)
+			- [Population Selection and Genotype Data Processing](#population-selection-and-genotype-data-processing)
+			- [Polygenic Risk Score (PRS) Selection and Preprocessing](#polygenic-risk-score-prs-selection-and-preprocessing)
+			- [Scoring Individuals Using PLINK](#scoring-individuals-using-plink)
+			- [Composite Scoring of Individuals](#composite-scoring-of-individuals)
+		- [Key Results](#key-results)
+			- [Computing Wegovy Suitability Score](#computing-wegovy-suitability-score)
+	- [\\underbrace{\\sum\_{i=1}^{4} w\_i \\cdot \\text{Target}_i}_{\\text{Composite Target Phenotype Score}}](#underbracesum_i14-w_i-cdot-texttargetitextcomposite-target-phenotype-score)
+		- [Key Insights](#key-insights)
 	- [Market analysis](#market-analysis)
 		- [Data Sources](#data-sources)
 		- [Results:](#results)
@@ -101,6 +112,176 @@ Recognising that survey-derived signals can be noisy — especially in districts
 ### Prioritisation Metrics for GLP-1 Planning
 
 Beyond subtype shares, the module computes two prioritisation scores. The first (`Priority_Score`) emphasises general diabetes burden by z-scoring the glycemic index and obesity proxy, combining them with weights 0.5 and 0.3 respectively, and scaling by 100 for readability. The second (`GLP1_Focused_Priority_Score`) extends this blend with additional emphasis on the SIRD and MOD shares — clusters most responsive to GLP-1 receptor agonists — through 0.05 weights on each. Scores remain relative, meaning a positive shift indicates a district performs above the national mean on the contributing factors.
+
+## Genomics-based Risk Analysis and Patient Profiling
+The preceding Diabetes Subphenotype-Based Market Identification module provided actionable insights into heterogeneity within the Indian type 2 diabetes population using survey-derived population-level indicators. It enabled calculation of district-level GLP-1 priority scores, highlighting regions where patients were likely to benefit most from GLP-1 receptor agonist therapies such as Wegovy.
+
+However, this approach relies on aggregated survey data and hence could not perform patient profiling or risk stratification, as we lacked the granular, individual-level clinical data which would be necessary for such a task. 
+
+To bridge this gap in data granularity, this module employs genomics-based disease predisposition scoring as a robust proxy for individual clinical risk. By analyzing each individual's genetic makeup against validated disease risk panels, we can estimate their inherent, lifelong predisposition to developing these conditions. This approach enables the construction of detailed patient profiles and the stratification of the population based not on current diagnoses, but on their underlying biological risk. The objective is to quantify the genetic propensity for both the cardiometabolic conditions where Wegovy is most beneficial and, crucially, for the key contraindications that demand clinical caution. 
+
+ When repeated for a number of individuals across multiple ethnicities, this adds a powerful, forward-looking biological dimension to the market map, complementing the epidemiological insights with a deeper understanding of patient suitability at a molecular level. 
+
+ ### Introduction to DNA and Genetic Variation
+The foundation of this analysis rests on heritable genetic variation. The most common form of variation in the human genome consists of Single Nucleotide Polymorphisms (SNPs), which are changes at single positions in the DNA sequence. While rare diseases are often caused by a single high-impact variant (monogenic), the risk for common, complex conditions like obesity and Type 2 Diabetes is polygenic. This means their etiology is influenced by the cumulative effect of thousands of SNPs, each conferring a small, incremental change to an individual's risk.
+
+A Polygenic Risk Score (PRS) is a quantitative metric developed to capture this complexity. It is calculated for each disease, via a penalized regression framework to aggregate the effects of these numerous variants across an individual's genome into a single, composite score. This score serves as a powerful estimate of an individual's latent genetic susceptibility to a given disease, providing a measure of predisposition independent of environmental or lifestyle factors.
+### Methodology
+The genomics-based risk analysis was implemented in multiple steps, transforming raw population genotype data into interpretable patient-level and state-level risk profiles. Each step is described in detail below.
+#### Population Selection and Genotype Data Processing
+We focused on the South Asian (SAS) superpopulation from the 1000 Genomes Project to represent the Indian population and used the European (EUR) superpopulation as a reference to estimate relative risk differences.
+
+- SAS-specific and EUR-specific ethnicities were compiled from project metadata.
+
+- Processed genotype files were downloaded from [Zenodo](https://zenodo.org/records/6614170) in PLINK binary format (.bed, .bim, .fam), aligned to the GRCh37 reference genome.
+
+- This ensured compatibility with publicly available polygenic risk score (PRS) files.
+
+Genotype files contain all the SNPs for each individual. The .bim file encodes variant positions and alleles, .fam contains individual IDs and demographic information, and .bed stores the genotype matrix efficiently in binary form.
+
+#### Polygenic Risk Score (PRS) Selection and Preprocessing
+
+Polygenic risk scores summarize the genetic contribution of multiple variants to a trait or disease. We curated PRS for:
+
+- Target phenotypes: BMI, Type 2 Diabetes, Hypertension, Visceral Adiposity
+
+- Contraindications: Thyroid Carcinoma, Pancreatitis, Gall Bladder Disease, Diabetic Eye Disease, Chronic Kidney Disease
+
+For each PRS file:
+
+- Only essential columns were retained: chr:pos (SNP location), effect_allele, and effect_size using awk.
+
+- Files were harmonized to match the GRCh37 reference genome and PLINK input requirements.
+
+#### Scoring Individuals Using PLINK
+PLINK was used to calculate PRS for each disease, for each individual. Each SNP contributes to the score proportionally to its effect size, summing across all variants in the PRS file. This is the example command used to score each individual with the respective disease's PRS panel. 
+
+plink --bfile SAS_1KG --score BMI_PRS.txt 1 2 3 header --out SAS_BMI_scores
+
+#### Composite Scoring of Individuals
+
+To facilitate interpretation:
+
+- Target Phenotype Score: Weighted average of the four target PRS for each individual.
+
+- Contraindication Precaution Score: Weighted average of the five contraindication PRS for each individual.
+
+This allows simultaneous assessment of potential treatment benefit and safety risk.
+
+- Scatter plots of Target Score vs Precaution Score highlighted individuals with high potential benefit but elevated contraindication risk.
+
+### Key Results
+![Relative Genetic Risk Between South Asians and European Caucasian Individuals](images/SASvsEUR.png)
+
+Figure 1: Relative risk distribution for SAS vs EUR across target phenotypes
+
+We first compared the South Asian (SAS) superpopulation to the European (EUR) reference to assess relative predisposition to the four target phenotypes.
+
+SAS individuals displayed significantly higher genetic susceptibility for Obesity and Type 2 Diabetes (p = $6.28 \times 10^{-100}$ and p = $4.56 \times 10^{-44}$), supporting the increasing evidence of elevated metabolic risk in South Asian populations and highlighting the massive potential market for Anti-Obesity Medications in India. 
+
+Visceral Adiposity and Hypertension PRS were more evenly distributed between SAS and EUR, although subtle shifts suggested a slightly elevated baseline in SAS.
+
+![Ethnicity-wise Risk Distributions for Wegovy target diseases](images/Ethnicity_TargetPhenotype.png)
+
+![Ethnicity-wise Risk Distributions for Wegovy contraindications](images/SAS_Contra.png)
+Figures 2 and 3: Distribution of target and contraindication PRS across SAS subpopulations
+
+We stratified SAS individuals by subpopulation (PJL: Punjabi, GIH: Gujarati, BEB: Bengali, STU: Tamil, ITU: Telugu.) to examine intra-population heterogeneity.
+
+- Target Phenotypes: Genetic predisposition for the 4 target diseases varied across ethnicities. However, we note highest genetic risk for obesity among Punjabis and Tamils, which strongly aligns with epidemiological evidence from the nation-wide NFHS surveys.  
+
+- Contraindication Scores: There were no notable differences in the ethnicity-specific risk distributions for any of the contraindications, supporting the notion that contraindication risk operates predominantly at the individual-level and is not specific to any of the ethnicities. 
+
+#### Computing Wegovy Suitability Score
+To translate individual-level genetic risk into a single actionable metric for treatment prioritisation, we defined a Wegovy Suitability Score (WSS) for each individual. This score integrates predisposition to target phenotypes with risk of contraindications, providing a quantitative proxy for net treatment benefit.
+
+The WSS is calculated as:
+
+$$
+\text{Wegovy Suitability Score (WSS)} =
+\underbrace{\sum_{i=1}^{4} w_i \cdot \text{Target}_i}_{\text{Composite Target Phenotype Score}} 
+-
+\underbrace{\sum_{j=1}^{5} v_j \cdot \text{Contraindication}_j}_{\text{Composite Contraindication Score}}
+$$
+
+where:
+
+- $\text{Target}_{i,k}$ represents the polygenic risk score of individual $k$ for the $i$-th target phenotype, with $i\in$ {BMI, T2D, Hypertension, Visceral Adiposity}.
+  
+- $\text{Contraindication}_{j,k}$ represents the polygenic risk score of individual $k$ for the $j$-th contraindication, with $j\in$  {Thyroid Carcinoma, Pancreatitis, Gall Bladder Disease, Diabetic Eye Disease, Chronic Kidney Disease}.
+  
+- $w_i$ and $v_j$ are weights reflecting the relative clinical relevance of each trait.
+
+
+Weight Assignment Rationale:
+**Target Phenotype Weights vs Contraindication Weights**
+
+| Target Phenotype        | Weight \(w_i\) |
+|-------------------------|----------------|
+| BMI                     | 0.35           |
+| Type 2 Diabetes (T2D)   | 0.30           |
+| Hypertension            | 0.20           |
+| Visceral Adiposity      | 0.15           |
+
+| Contraindication        | Weight \(v_j\) |
+|-------------------------|----------------|
+| Thyroid Carcinoma       | 0.25           |
+| Pancreatitis            | 0.25           |
+| Gall Bladder Disease    | 0.20           |
+| Diabetic Eye Disease    | 0.15           |
+| Chronic Kidney Disease  | 0.15           |
+
+**Interpretation**
+
+  - $\text{WSS}_k > 0$: Likely good candidate for Wegovy treatment.  
+- $\text{WSS}_k \leq 0$: Potential risk outweighs benefit; caution recommended.
+
+The WSS metric was subsequently used for individual-level scatter plots (Target Score vs Contraindication Score) and state-level choropleth maps, enabling identification of high-value markets for Wegovy rollout.
+
+
+![Individual-level Target Score vs Contraindication Score](images/Scatter_Individual.png)
+
+Figure 4: Scatter plot of individual Target Score vs Contraindication Precaution Score
+
+This figure plots Target Phenotype Score vs Contraindication Score for each individual to identify candidates with high potential benefit but elevated safety risk.
+
+- Most individuals clustered near the diagonal, with balanced benefit-risk profiles.
+
+- A subset (~5–10%) displayed high target scores with high contraindication risk, signaling that genetic screening could guide treatment decisions and reduce adverse outcomes.
+
+This step demonstrates how PRS-based profiling can stratify patients at an individual level, complementing district-level survey data.
+
+![Choropleth Map with Genomic Score](images/catter_Individual.png)
+
+Figure 5: Choropleth map of India showing Wegovy Suitability Score
+
+By mapping SAS subpopulations to Indian states, we calculated mean target and contraindication scores per state and derived a Wegovy Suitability Score.
+
+- The Northern ethnicity (Punjab, Haryana) generally showed higher suitability scores due to elevated target phenotype risk and moderate contraindication scores.
+  
+- The Eastern ethnicity (Bengal) showed highest suitability score, as individuals had, on average, moderately high scores for the 4 target diseases, and high risks for the contraindications.
+  
+- Southern ethnicities (Tamil Nadu, Kerala) also had high suitability scores, driven by higher mean target disease scores despite similar contraindication risk.
+
+![Choropleth Map with Genomic Score layered with previous layers](images/catter_Individual.png)
+
+Figure 6: Choropleth map of India showing Wegovy Suitability Score
+
+- These scores were overlaid with wealth quintiles and health insurance coverage to identify regions with both high genetic benefit and commercial viability.
+
+- This integrated view highlights priority markets where a combination of genetic predisposition, socioeconomic factors, and insurance coverage suggest high potential uptake and impact of Wegovy.
+
+### Key Insights
+1. Genetic heterogeneity matters: Subpopulation-level differences within SAS can significantly influence both benefit and risk profiles.
+
+2. Targeted treatment is feasible: PRS-based scoring identifies individuals likely to gain maximal benefit while avoiding contraindications.
+
+3. Strategic regional focus: Combining genetic, economic, and insurance data points to specific Indian states as high-priority markets, complementing survey-based GLP-1 priority scores.
+
+4. Risk-aware commercialization: The framework supports precision marketing and patient-centric rollout, enabling interventions to be both safe and effective.
+
+
+
 
 ## Market analysis 
 
