@@ -349,9 +349,9 @@ $S_{\text{disease}} = \frac{\text{Disease similarity} - \min}{\max - \min}$
 
 $S_{\text{tass}} = \frac{\text{TASS score} - \min}{\max - \min}$
 
-$S_{\text{price}} = 1 - \frac{\lvert \text{originator\_price} - \text{wegovy\_price} \rvert}{\text{wegovy price}}$
+$S_{\text{price}} = 1 - \frac{\lvert \text{originator price} - \text{wegovy price} \rvert}{\text{wegovy price}}$
 
-$S_{\text{final}} = 0.7 \times S_{\text{disease}} + 0.2 \times S_{\text{tass}} + 0.1 \times S_{\text{price}}$
+$S_\text{final} = 0.7 \times S_\text{disease} + 0.2 \times S_\text{tass} + 0.1 \times S_\text{price}$
 
 ##### Prediction Formula
 
