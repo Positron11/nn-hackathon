@@ -1,0 +1,1052 @@
+ID,Compound Name,Primary Therapeutic Area,Primary Mechanism of Action,TASS Score,MANS Score,Disease similarity,Rationale for Scores
+1,Abacavir,HIV/AIDS,Nucleoside Reverse Transcriptase Inhibitor (NRTI),0.1,10,0,"TA: Infectious disease, unrelated to metabolic disorders. A minimal score is given due to known metabolic side effects of some antiretrovirals. MoA: Inhibition of a viral enzyme is completely unrelated to human endocrine modulation."
+2,Abciximab,Percutaneous Coronary Intervention (PCI),Glycoprotein IIb/IIIa Receptor Antagonist,3.5,9.8,6.3,"TA: Acute cardiovascular intervention, related to Wegovy's CV risk reduction but different patient setting (acute vs. chronic). MoA: Antiplatelet aggregation is unrelated to metabolic hormone signaling."
+3,Abemaciclib,"Breast Cancer (HR+, HER2-)",Cyclin-Dependent Kinase (CDK) 4/6 Inhibitor,0,9,0,"TA: Oncology, no relation to metabolic disease. MoA: Inhibition of cell cycle kinases is mechanistically distinct, though kinase signaling can have distant metabolic links."
+4,Abiraterone Acetate,Prostate Cancer,CYP17 Enzyme Inhibitor (Androgen Biosynthesis Inhibitor),0,9.9,0,"TA: Oncology, no relation to metabolic disease. MoA: Inhibition of steroid hormone synthesis is unrelated to incretin pathways."
+5,Acamprosate,Alcohol Dependence,NMDA Receptor Modulator / GABA Agonist,1.1,9.6,0.5,"TA: Substance use disorder, unrelated. A minimal score is given as appetite/cravings can be a shared neurological concept. MoA: Modulation of CNS neurotransmitters for addiction is distinct from metabolic hormone signaling."
+6,Acarbose,Type 2 Diabetes,Alpha-Glucosidase Inhibitor,7.2,8.2,9,"TA: T2DM is a key comorbidity. Primary goal is glycemic control, not weight loss. MoA: Peripheral inhibition of carbohydrate digestion is entirely different from systemic hormonal action."
+7,Acebrophylline,"Asthma, COPD","Mucolytic, Bronchodilator (Phosphodiesterase Inhibitor)",0,9.8,0.8,"TA: Respiratory disease, unrelated. MoA: PDE inhibition for bronchodilation is unrelated to GLP-1 agonism."
+8,Aceclofenac,"Pain, Inflammation (Arthritis)",Cyclooxygenase (COX) Inhibitor (NSAID),0.5,9.4,4.8,"TA: Pain/inflammation, unrelated. A minimal score is given as chronic inflammation is a feature of obesity. MoA: COX inhibition is distinct from GLP-1 agonism."
+9,Acenocoumarol,Thromboembolism,Vitamin K Epoxide Reductase Inhibitor,3.2,9.9,6.5,"TA: Anticoagulation, related to CV risk but different therapeutic goal. MoA: Inhibition of clotting factor synthesis is unrelated to metabolic signaling."
+10,Acetazolamide,"Glaucoma, Edema, Epilepsy",Carbonic Anhydrase Inhibitor,0.2,9.8,0.5,"TA: Unrelated conditions. A minimal score is given due to its diuretic effect, which can affect weight transiently. MoA: Enzyme inhibition affecting ion transport is unrelated to GLP-1 signaling."
+11,Acetylcysteine,"Mucolytic, Paracetamol Overdose","Mucolytic, Glutathione Precursor",0,9.7,2,"TA: Respiratory conditions and toxicology, unrelated. MoA: Disulfide bond disruption and antioxidant action are unrelated to GLP-1 agonism."
+12,Acitretin,Psoriasis,Systemic Retinoid (RAR/RXR Activator),0,9.5,4.2,"TA: Dermatology, unrelated. MoA: Nuclear receptor modulation affecting gene transcription for cell differentiation is unrelated to GLP-1 signaling."
+13,Acotiamide,Functional Dyspepsia,Acetylcholinesterase Inhibitor,1.8,9.8,1.5,"TA: GI motility disorder. Wegovy also affects gastric emptying, creating a minor symptomatic link. MoA: Cholinergic modulation is distinct from incretin hormone agonism."
+14,Acyclovir,Herpes Virus Infections,Viral DNA Polymerase Inhibitor,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral-specific enzyme is completely unrelated to human endocrine modulation."
+15,Adalimumab,"Autoimmune Diseases (e.g., RA, Psoriasis)",TNF-alpha Inhibitor (Monoclonal Antibody),1.5,9.2,4,"TA: Autoimmune/inflammatory diseases. Link via ""metaflammation"" in obesity. MoA: Neutralizing an extracellular cytokine is profoundly different from activating a GPCR."
+16,Adapalene,Acne Vulgaris,Retinoic Acid Receptor (RAR) Agonist,0,9.5,0,"TA: Dermatology, unrelated. MoA: Topical nuclear receptor modulation is unrelated to systemic GLP-1 signaling."
+17,Adefovir,Hepatitis B,Nucleotide Reverse Transcriptase Inhibitor,0.1,10,0,"TA: Infectious disease, unrelated. Minimal score for link to liver health (Wegovy treats MASH). MoA: Inhibition of a viral enzyme is completely unrelated to human endocrine modulation."
+18,Ademetionine,"Liver Disease, Depression",S-adenosylmethionine (SAMe) Supplement,5.1,9.7,2.2,"TA: Liver disease is a relevant comorbidity (MASH). MoA: Acts as a methyl donor and precursor to glutathione, unrelated to GLP-1 signaling."
+19,Adenosine,Supraventricular Tachycardia,Adenosine Receptor Agonist,3.1,9.8,0.5,"TA: Acute cardiac arrhythmia treatment, a distant cardiovascular link. MoA: Purinergic receptor agonism is unrelated to GLP-1 signaling."
+20,Adrenaline,"Anaphylaxis, Cardiac Arrest",Adrenergic Receptor Agonist,0.3,9.6,0,"TA: Emergency medicine, unrelated. MoA: Adrenergic agonism affects metabolism but through a completely different pathway than GLP-1."
+21,Adrenochrome Monosemicarbazone,Capillary Bleeding,Hemostatic,0,10,0,"TA: Hemostasis, unrelated. MoA: Believed to decrease capillary permeability, unrelated to metabolic pathways."
+22,Afatinib Dimaleate,Non-Small Cell Lung Cancer (NSCLC),ErbB Family Tyrosine Kinase Inhibitor,0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition is distinct, though some kinases are involved in metabolic signaling."
+23,Aflapin,Osteoarthritis,5-Lipoxygenase (5-LOX) Inhibitor,0.5,9.4,4.7,"TA: Pain/inflammation, unrelated. Minimal score for link to chronic inflammation in obesity. MoA: Inhibition of leukotriene synthesis is unrelated to GLP-1 signaling."
+24,Agomelatine,Major Depressive Disorder,"Melatonin (MT1/MT2) Agonist, 5-HT2C Antagonist",1.2,9.6,3,"TA: Psychiatry, unrelated. Minimal score as mood/circadian rhythm can influence eating behavior. MoA: Melatonergic/serotonergic modulation is distinct from GLP-1 agonism."
+25,Albendazole,Parasitic Worm Infections,Tubulin Polymerization Inhibitor,0,10,0,"TA: Infectious disease, unrelated. MoA: Disruption of parasite cytoskeleton is completely unrelated to human endocrine modulation."
+26,Albumin,"Hypovolemia, Hypoalbuminemia",Plasma Volume Expander,0,10,0.5,"TA: Critical care/fluid resuscitation, unrelated. MoA: Oncotic pressure regulation is a physical mechanism, not pharmacological signaling."
+27,Alendronic Acid,Osteoporosis,Bisphosphonate (Farnesyl Pyrophosphate Synthase Inhibitor),0.2,9.9,2.8,"TA: Bone metabolism, unrelated. Minimal score as metabolic health can influence bone density. MoA: Inhibition of osteoclast function is unrelated to GLP-1 signaling."
+28,Alfuzosin,Benign Prostatic Hyperplasia (BPH),Alpha-1 Adrenergic Receptor Antagonist,0,9.8,0.8,"TA: Urological condition, unrelated. MoA: Alpha-blockade is unrelated to GLP-1 signaling."
+29,Aliskiren,Hypertension,Direct Renin Inhibitor,5.2,9.8,7,"TA: Treats hypertension, a key comorbidity for Wegovy's target population. MoA: Inhibition of the RAAS pathway is distinct from GLP-1 agonism."
+30,Allium Cepa,Scar Treatment,Botanical Extract,0,10,0,"TA: Dermatology (scarring), unrelated. MoA: Complex botanical, likely anti-inflammatory/proliferative, unrelated to GLP-1."
+31,Allopurinol,"Gout, Hyperuricemia",Xanthine Oxidase Inhibitor,0.4,9.8,5.5,"TA: Gout is a metabolic disease, but distinct from obesity/T2DM. MoA: Inhibition of purine metabolism is unrelated to GLP-1 signaling."
+32,Allylestrenol,Threatened Miscarriage/Preterm Labor,Progestogen,0,9.9,0,"TA: Obstetrics, unrelated. MoA: Progesterone receptor agonism is unrelated to GLP-1 signaling."
+33,Almotriptan,Migraine,Serotonin 5-HT1B/1D Receptor Agonist,0,9.6,0.7,"TA: Neurology (headache), unrelated. MoA: Serotonergic agonism for vasoconstriction is unrelated to GLP-1 signaling."
+34,Alogliptin,Type 2 Diabetes,Dipeptidyl Peptidase-4 (DPP-4) Inhibitor,7.5,2.5,9.2,"TA: T2DM is a key comorbidity. MoA: Directly modulates the incretin system by preserving endogenous GLP-1, making it mechanistically adjacent to Wegovy."
+35,Alpha Glycerylphosphorylcholine,Cognitive Impairment (Dementia),Choline Precursor,0,9.9,0.5,"TA: Neurology/cognitive enhancement, unrelated. MoA: Provides choline for acetylcholine synthesis, unrelated to GLP-1."
+36,Alpha Ketoanalogue,Chronic Kidney Disease,Nutritional Supplement,3.2,9.9,2.6,"TA: Treats a comorbidity (CKD) often seen with T2DM/obesity. MoA: Provides nitrogen-free amino acid precursors, a nutritional strategy unrelated to GLP-1."
+37,Alpha Lipoic Acid,Diabetic Neuropathy,"Antioxidant, Cofactor",3.8,9.7,2.5,"TA: Treats a direct complication of T2DM. MoA: Acts as an antioxidant and metabolic cofactor, distinct from GLP-1 signaling."
+38,Alpha-Amylase,"Indigestion, Inflammation",Digestive Enzyme,0,10,0,"TA: Digestive aid/anti-inflammatory, unrelated. MoA: Enzymatic breakdown of starch is unrelated to endocrine signaling."
+39,Alpha-Beta Arteether,Malaria,Antimalarial (Artemisinin derivative),0,10,0,"TA: Infectious disease, unrelated. MoA: Generates free radicals in parasites, completely unrelated to human endocrine modulation."
+40,Alprazolam,"Anxiety, Panic Disorder",Benzodiazepine (GABA-A Receptor Modulator),1.1,9.6,0.8,"TA: Psychiatry, unrelated. Minimal score as anxiety can influence eating behaviors. MoA: CNS depressant action via GABA is distinct from GLP-1 signaling."
+41,Aluminium Hydroxide,"Heartburn, Indigestion",Antacid,0,10,0,"TA: GI symptom relief, unrelated. MoA: Direct chemical neutralization of stomach acid, not a pharmacological mechanism."
+42,Amantadine,"Parkinson's Disease, Influenza A","NMDA Antagonist, Dopaminergic Agent",1.3,9.6,0.8,"TA: Neurology/antiviral, unrelated. Minimal score as dopamine pathways are involved in appetite. MoA: CNS neurotransmitter modulation is distinct from GLP-1 signaling."
+43,Ambrisentan,Pulmonary Arterial Hypertension (PAH),Endothelin Receptor Antagonist,3.3,9.8,0.9,"TA: A specific form of hypertension, a distant cardiovascular link. MoA: Endothelin pathway blockade is unrelated to GLP-1 signaling."
+44,Ambroxol,Productive Cough,Mucolytic,0,10,0,"TA: Respiratory symptom relief, unrelated. MoA: Breaks down mucus fibers, unrelated to metabolic pathways."
+45,Amifostine,Chemotherapy/Radiotherapy Cytoprotection,Cytoprotective Agent (Prodrug of a Thiol),0,10,0,"TA: Oncology support, unrelated. MoA: Free radical scavenging is unrelated to GLP-1 signaling."
+46,Amikacin,Bacterial Infections,Aminoglycoside Antibiotic (30S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis is completely unrelated to human endocrine modulation."
+47,Amiloride,"Hypertension, Edema",Potassium-Sparing Diuretic (ENaC Blocker),5.2,9.8,6.2,"TA: Treats hypertension, a key comorbidity. MoA: Blocks sodium channels in the kidney, unrelated to GLP-1 signaling."
+48,Aminophylline,"Asthma, COPD","Bronchodilator (PDE Inhibitor, Adenosine Antagonist)",0,9.8,0.8,"TA: Respiratory disease, unrelated. MoA: PDE inhibition and adenosine antagonism for bronchodilation are unrelated to GLP-1 agonism."
+49,Amiodarone,Ventricular Arrhythmias,Antiarrhythmic (Multi-channel Blocker),3.4,9.8,0.9,"TA: Treats a serious cardiovascular condition, related to Wegovy's CV risk reduction indication. MoA: Blocks cardiac ion channels, unrelated to metabolic signaling."
+50,Amisulpride,"Schizophrenia, Dysthymia",Atypical Antipsychotic (D2/D3 Antagonist),1.6,9.6,3.8,"TA: Psychiatry, unrelated. Score reflects significant potential for weight gain side effect. MoA: Dopamine receptor antagonism is distinct from GLP-1 agonism."
+51,Amitriptyline,"Depression, Neuropathic Pain",Tricyclic Antidepressant (Serotonin/Norepinephrine Reuptake Inhibitor),1.5,9.7,3.2,"TA: Psychiatry, unrelated. Score reflects significant potential for weight gain side effect. MoA: Monoamine reuptake inhibition is distinct from GLP-1 agonism."
+52,Amlexanox,"Aphthous Ulcers, Metabolic Disorders (investigational)",Anti-inflammatory (IKKε/TBK1 Inhibitor),1.7,9.1,0,"TA: Primarily topical anti-inflammatory. Score reflects investigational use in metabolic disease. MoA: Kinase inhibition is distinct, but has a plausible link to metabolic inflammation."
+53,Amlodipine,"Hypertension, Angina",Dihydropyridine Calcium Channel Blocker,5.2,9.8,7.5,"TA: Treats hypertension, a key comorbidity. MoA: Blocks calcium channels in vascular smooth muscle, unrelated to GLP-1 signaling."
+54,Ammonium Chloride,"Metabolic Alkalosis, Expectorant","Systemic Acidifier, Expectorant",0,10,0,"TA: Acid-base balance/respiratory, unrelated. MoA: Provides acid load or irritates bronchial mucosa, unrelated to GLP-1 signaling."
+55,Amorolfine,Fungal Nail Infections,Antifungal (Ergosterol Synthesis Inhibitor),0,10,0,"TA: Infectious disease (topical), unrelated. MoA: Inhibition of fungal-specific enzyme is completely unrelated to human endocrine modulation."
+56,Amoxapine,Depression,"Tetracyclic Antidepressant (Dopamine Antagonist, NE Reuptake Inhibitor)",1.5,9.6,3.2,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Dopamine/norepinephrine modulation is distinct from GLP-1 agonism."
+57,Amoxycillin,Bacterial Infections,Beta-Lactam Antibiotic (Cell Wall Synthesis Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis is completely unrelated to human endocrine modulation."
+58,Amphotericin B,Systemic Fungal Infections,Polyene Antifungal (Binds to Ergosterol),0,10,0,"TA: Infectious disease, unrelated. MoA: Binds to fungal cell membrane components, completely unrelated to human endocrine modulation."
+59,Ampicillin,Bacterial Infections,Beta-Lactam Antibiotic (Cell Wall Synthesis Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis is completely unrelated to human endocrine modulation."
+60,Amrinone,Congestive Heart Failure,Phosphodiesterase 3 (PDE3) Inhibitor,3.6,9.8,6.2,"TA: Treats heart failure, a relevant cardiovascular comorbidity. MoA: PDE3 inhibition for inotropic effect is unrelated to GLP-1 agonism."
+61,Amylmetacresol,Sore Throat,Antiseptic,0,10,0,"TA: Local antiseptic for minor throat infections, unrelated. MoA: Non-specific antimicrobial action, unrelated to metabolic pathways."
+62,Anastrozole,Breast Cancer (HR+),Aromatase Inhibitor,0,9.9,0.7,"TA: Oncology, unrelated. MoA: Inhibition of estrogen synthesis is unrelated to incretin pathways."
+63,Anidulafungin,Invasive Candidiasis,Echinocandin Antifungal (Glucan Synthase Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of fungal cell wall synthesis is completely unrelated to human endocrine modulation."
+64,Apixaban,Thromboembolism Prophylaxis/Treatment,Direct Factor Xa Inhibitor,3.5,9.9,6.5,"TA: Anticoagulation, relevant to CV risk but different goal. MoA: Inhibition of a specific clotting factor is unrelated to metabolic signaling."
+65,Apremilast,"Psoriasis, Psoriatic Arthritis",Phosphodiesterase 4 (PDE4) Inhibitor,1.6,9.3,4.5,"TA: Autoimmune/inflammatory. Score reflects weight loss as a common side effect. MoA: PDE4 inhibition modulates inflammation, distinct from GLP-1."
+66,Aprepitant,Chemotherapy-Induced Nausea/Vomiting (CINV),Neurokinin-1 (NK1) Receptor Antagonist,1.8,9.7,0,"TA: Antiemetic. Wegovy can cause nausea, creating a minor symptomatic link. MoA: NK1 antagonism in the CNS vomiting center is distinct from GLP-1's peripheral/central appetite effects."
+67,Aprotinin,Reduce Surgical Bleeding,Serine Protease Inhibitor,0,10,0,"TA: Surgical hemostasis, unrelated. MoA: Broad protease inhibition is unrelated to specific GLP-1 receptor signaling."
+68,Aripiprazole,"Schizophrenia, Bipolar Disorder",Atypical Antipsychotic (D2/5-HT1A Partial Agonist),1.4,9.6,3.8,"TA: Psychiatry, unrelated. Score reflects potential for metabolic side effects (less weight gain than others). MoA: Dopamine/serotonin modulation is distinct from GLP-1 agonism."
+69,Armodafinil,"Narcolepsy, Sleep Apnea",Wakefulness-Promoting Agent (Dopamine Reuptake Inhibitor),1.9,6.8,0.9,"TA: Sleep disorders, unrelated. Score reflects known effect on appetite suppression. MoA: CNS stimulant action via dopamine reuptake inhibition is a non-hormonal central mechanism."
+70,Arsenic Trioxide,Acute Promyelocytic Leukemia,Antineoplastic,0,10,0,"TA: Oncology, unrelated. MoA: Induces apoptosis and differentiation in cancer cells, unrelated to metabolic pathways."
+71,Arteether,Malaria,Antimalarial (Artemisinin derivative),0,10,0,"TA: Infectious disease, unrelated. MoA: Generates free radicals in parasites, completely unrelated to human endocrine modulation."
+72,Artemether,Malaria,Antimalarial (Artemisinin derivative),0,10,0,"TA: Infectious disease, unrelated. MoA: Generates free radicals in parasites, completely unrelated to human endocrine modulation."
+73,Artesunate,Severe Malaria,Antimalarial (Artemisinin derivative),0,10,0,"TA: Infectious disease, unrelated. MoA: Generates free radicals in parasites, completely unrelated to human endocrine modulation."
+74,Asenapine,"Schizophrenia, Bipolar Disorder",Atypical Antipsychotic (Multi-receptor Antagonist),1.5,9.6,3.8,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Broad dopamine/serotonin antagonism is distinct from GLP-1 agonism."
+75,Aspirin,"Pain, Inflammation, CV Prophylaxis",COX-1/COX-2 Inhibitor,4.5,9.4,6.8,"TA: CV risk reduction is a shared indication, though for a different patient population (primary/secondary prevention vs. established disease with obesity). MoA: COX inhibition is distinct from GLP-1 agonism."
+76,Astemizole,Allergic Rhinitis,H1-Histamine Receptor Antagonist,1.2,9.7,0,"TA: Allergy, unrelated. Score reflects potential for weight gain side effect. MoA: Histamine antagonism is distinct from GLP-1 agonism."
+77,Atazanavir,HIV/AIDS,Protease Inhibitor,0.1,10,0,"TA: Infectious disease, unrelated. Minimal score for known metabolic side effects (dyslipidemia). MoA: Inhibition of a viral enzyme is completely unrelated to human endocrine modulation."
+78,Atenolol,"Hypertension, Angina",Beta-1 Adrenergic Receptor Antagonist,5.2,9.8,7.2,"TA: Treats hypertension, a key comorbidity. MoA: Beta-blockade is distinct from GLP-1 agonism."
+79,Atomoxetine,ADHD,Selective Norepinephrine Reuptake Inhibitor,1.9,6.5,0.9,"TA: Psychiatry (ADHD), unrelated. Score reflects known effect on appetite suppression. MoA: CNS stimulant-like action via norepinephrine is a non-hormonal central mechanism."
+80,Atorvastatin,"Hypercholesterolemia, CV Risk Reduction",HMG-CoA Reductase Inhibitor (Statin),5.8,8.4,8.2,"TA: Treats dyslipidemia and reduces CV risk, both key aspects for Wegovy's target population. MoA: Inhibition of cholesterol synthesis is a peripheral metabolic mechanism distinct from GLP-1."
+81,Atracurium,Surgical Muscle Relaxation,Non-depolarizing Neuromuscular Blocker,0,10,0,"TA: Anesthesiology, unrelated. MoA: Competitive antagonism of nicotinic acetylcholine receptors at the neuromuscular junction is unrelated."
+82,Atropine,"Bradycardia, Organophosphate Poisoning",Muscarinic Acetylcholine Receptor Antagonist,0,9.8,0,"TA: Emergency medicine/toxicology, unrelated. MoA: Anticholinergic action is distinct from GLP-1 agonism."
+83,Avanafil,Erectile Dysfunction,Phosphodiesterase 5 (PDE5) Inhibitor,0.3,9.8,2.9,TA: Urological condition. Minimal score for distant link to vascular health. MoA: PDE5 inhibition for vasodilation is unrelated to GLP-1 signaling.
+84,Axitinib,Renal Cell Carcinoma,Tyrosine Kinase Inhibitor (VEGFR),0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition is distinct, though some kinases are involved in metabolic signaling."
+85,Azacitidine,Myelodysplastic Syndrome,Demethylation Agent (Nucleoside Analog),0,10,0,"TA: Oncology, unrelated. MoA: Incorporation into DNA/RNA to alter gene expression is unrelated to GLP-1 signaling."
+86,Azathioprine,"Autoimmune Diseases, Transplant Rejection",Immunosuppressant (Purine Analog),0.5,9.9,3.9,"TA: Immunology, unrelated. Minimal score for link to chronic inflammation. MoA: Inhibition of purine synthesis to suppress immune cells is unrelated to GLP-1."
+87,Azelnidipine,Hypertension,Dihydropyridine Calcium Channel Blocker,5.2,9.8,7.5,"TA: Treats hypertension, a key comorbidity. MoA: Blocks L- and T-type calcium channels, unrelated to GLP-1 signaling."
+88,Azilsartan Medoxomil,Hypertension,Angiotensin II Receptor Blocker (ARB),5.2,9.8,7.6,"TA: Treats hypertension, a key comorbidity. MoA: Inhibition of the RAAS pathway is distinct from GLP-1 agonism."
+89,Azithromycin,Bacterial Infections,Macrolide Antibiotic (50S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis is completely unrelated to human endocrine modulation."
+90,Aztreonam,Bacterial Infections,Monobactam Antibiotic (Cell Wall Synthesis Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis is completely unrelated to human endocrine modulation."
+91,Bacillus Calmette-Guerin Strain,"Tuberculosis (Vaccine), Bladder Cancer",Immunotherapy/Vaccine,0,10,0,"TA: Infectious disease prevention/oncology, unrelated. MoA: Live attenuated bacterium that stimulates a non-specific immune response."
+92,Baclofen,Spasticity,GABA-B Receptor Agonist,0,9.6,0,"TA: Neurology (muscle relaxant), unrelated. MoA: GABAergic agonism in the CNS is distinct from GLP-1 signaling."
+93,Bacterial Lysate,Respiratory Tract Infection Prophylaxis,Immunostimulant,0,10,0,"TA: Infectious disease prevention, unrelated. MoA: Contains bacterial antigens that stimulate the immune system."
+94,Balofloxacin,Bacterial Infections,Fluoroquinolone Antibiotic (DNA Gyrase Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial DNA replication is completely unrelated to human endocrine modulation."
+95,Balsalazide,Ulcerative Colitis,5-Aminosalicylic Acid (5-ASA) Prodrug,0.5,9.4,3.9,"TA: Inflammatory bowel disease, unrelated. Minimal score for link to chronic inflammation. MoA: Local anti-inflammatory action in the colon is distinct from GLP-1."
+96,Bambuterol,"Asthma, COPD",Long-Acting Beta-2 Adrenergic Agonist (Prodrug),0,9.8,0.8,"TA: Respiratory disease, unrelated. MoA: Beta-2 agonism for bronchodilation is unrelated to GLP-1 signaling."
+97,Baricitinib,"Rheumatoid Arthritis, COVID-19",Janus Kinase (JAK) Inhibitor,0.5,9.1,4,"TA: Autoimmune/inflammatory. Minimal score for link to chronic inflammation. MoA: Kinase inhibition is distinct, but JAK/STAT pathway has links to metabolic signaling."
+98,Beclometasone,"Asthma, Allergic Rhinitis",Corticosteroid,0.3,9.9,1,"TA: Inflammatory/allergic conditions, unrelated. MoA: Glucocorticoid receptor agonism can cause weight gain, but is mechanistically distinct from GLP-1."
+99,Bempedoic Acid,Hypercholesterolemia,ATP Citrate Lyase (ACL) Inhibitor,5.7,8.4,8.1,"TA: Treats dyslipidemia, a key comorbidity. MoA: Inhibition of an early step in cholesterol synthesis is a peripheral metabolic mechanism distinct from GLP-1."
+100,Benazepril,Hypertension,Angiotensin-Converting Enzyme (ACE) Inhibitor,5.2,9.8,7.8,"TA: Treats hypertension, a key comorbidity. MoA: Inhibition of the RAAS pathway is distinct from GLP-1 agonism."
+101,Bendamustine,"CLL, Non-Hodgkin Lymphoma",Alkylating Agent,0,10,0,"TA: Oncology, unrelated. MoA: Causes DNA damage in cancer cells, unrelated to metabolic pathways."
+102,Benfotiamine,Diabetic Neuropathy,Thiamine (Vitamin B1) Prodrug,3.8,9.7,2.4,"TA: Treats a direct complication of T2DM. MoA: Vitamin supplement that improves glucose metabolism pathways, distinct from GLP-1 signaling."
+103,Benidipine,Hypertension,Dihydropyridine Calcium Channel Blocker,5.2,9.8,7.5,"TA: Treats hypertension, a key comorbidity. MoA: Blocks L-, N-, and T-type calcium channels, unrelated to GLP-1 signaling."
+104,Benzocaine,Local Anesthesia,Local Anesthetic (Sodium Channel Blocker),0,10,0,"TA: Local pain relief, unrelated. MoA: Blocks neuronal sodium channels, completely unrelated to endocrine signaling."
+105,Benzonatate,Cough,Antitussive (Peripheral Anesthetic),0,10,0,"TA: Symptomatic cough relief, unrelated. MoA: Anesthetizes stretch receptors in the lungs, unrelated to metabolic pathways."
+106,Benzoxonium Chloride,Sore Throat,Antiseptic (Quaternary Ammonium Compound),0,10,0,"TA: Local antiseptic, unrelated. MoA: Disrupts microbial cell membranes, unrelated to metabolic pathways."
+107,Benzydamine,"Sore Throat, Oral Inflammation",Non-Steroidal Anti-inflammatory Drug (NSAID),0.5,9.4,0,"TA: Local pain/inflammation, unrelated. Minimal score for link to inflammation. MoA: Inhibits pro-inflammatory cytokines, distinct from GLP-1."
+108,Benzyl Nicotinate,Muscle/Joint Pain,Rubefacient (Vasodilator),0,10,0,"TA: Topical pain relief, unrelated. MoA: Causes local vasodilation, unrelated to systemic metabolic pathways."
+109,Bepotastine,Allergic Rhinitis/Conjunctivitis,H1-Histamine Receptor Antagonist,1.2,9.7,0,"TA: Allergy, unrelated. Score reflects potential for weight gain side effect. MoA: Histamine antagonism is distinct from GLP-1 agonism."
+110,Betahistine,Meniere's Disease,Histamine H1 Agonist / H3 Antagonist,0,9.7,0,"TA: Vertigo, unrelated. MoA: Histaminergic modulation is distinct from GLP-1 signaling."
+111,Betamethasone,"Inflammation, Allergic Reactions",Corticosteroid,0.3,9.9,1.5,"TA: Inflammatory/allergic conditions, unrelated. MoA: Glucocorticoid receptor agonism can cause weight gain, but is mechanistically distinct from GLP-1."
+112,Bethanechol,Urinary Retention,Muscarinic Acetylcholine Receptor Agonist,0,9.8,0,"TA: Urological condition, unrelated. MoA: Cholinergic agonism is distinct from GLP-1 agonism."
+113,Bevacizumab,Various Cancers,VEGF Inhibitor (Monoclonal Antibody),0,9,0,"TA: Oncology, unrelated. MoA: Inhibition of angiogenesis is distinct, though has distant links to metabolic health."
+114,Bezafibrate,Hyperlipidemia,Fibrate (PPAR-alpha Agonist),5.6,8.3,8,"TA: Treats dyslipidemia, a key comorbidity. MoA: PPAR agonism affects lipid metabolism, a peripheral metabolic mechanism distinct from GLP-1."
+115,Bicalutamide,Prostate Cancer,Androgen Receptor Antagonist,0,9.9,0,"TA: Oncology, unrelated. MoA: Blockade of steroid hormone receptors is unrelated to incretin pathways."
+116,Bilastine,"Allergic Rhinitis, Urticaria",H1-Histamine Receptor Antagonist,0,9.7,0,"TA: Allergy, unrelated. MoA: Histamine antagonism is distinct from GLP-1 agonism."
+117,Bimatoprost,"Glaucoma, Eyelash Hypotrichosis",Prostaglandin Analog,0,9.9,0,"TA: Ophthalmology/cosmetic, unrelated. MoA: Prostaglandin receptor agonism is unrelated to GLP-1 signaling."
+118,Biotin,Biotin Deficiency,Vitamin B7 Supplement,0,10,0.5,"TA: Nutritional deficiency, unrelated. MoA: Acts as a coenzyme in metabolic reactions, a fundamental process distinct from specific receptor agonism."
+119,Bisacodyl,Constipation,Stimulant Laxative,0,10,0.5,"TA: GI symptom relief, unrelated. MoA: Stimulates enteric nerves to cause peristalsis, unrelated to metabolic signaling."
+120,Bisoprolol,"Hypertension, Heart Failure",Beta-1 Adrenergic Receptor Antagonist,5.2,9.8,7.2,"TA: Treats hypertension and heart failure, key comorbidities. MoA: Beta-blockade is distinct from GLP-1 agonism."
+121,Bivalirudin,Anticoagulation during PCI,Direct Thrombin Inhibitor,3.5,9.9,6.3,"TA: Acute cardiovascular intervention, related to Wegovy's CV risk reduction but different patient setting. MoA: Direct inhibition of a clotting factor is unrelated to metabolic signaling."
+122,Bleomycin,Various Cancers,Antineoplastic (DNA Cleavage Agent),0,10,0,"TA: Oncology, unrelated. MoA: Causes DNA strand breaks, unrelated to metabolic pathways."
+123,Blonanserin,Schizophrenia,Atypical Antipsychotic (D2/5-HT2A Antagonist),1.5,9.6,3.8,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Dopamine/serotonin antagonism is distinct from GLP-1 agonism."
+124,Bortezomib,"Multiple Myeloma, Mantle Cell Lymphoma",Proteasome Inhibitor,0,9.2,0,"TA: Oncology, unrelated. MoA: Inhibition of the proteasome is a fundamental cellular process, distinct from GLP-1 signaling but with broad cellular effects."
+125,Bosentan,Pulmonary Arterial Hypertension (PAH),Endothelin Receptor Antagonist,3.3,9.8,0.9,"TA: A specific form of hypertension, a distant cardiovascular link. MoA: Endothelin pathway blockade is unrelated to GLP-1 signaling."
+126,Bosutinib,Chronic Myeloid Leukemia (CML),"Tyrosine Kinase Inhibitor (BCR-ABL, Src)",0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition is distinct, though some kinases are involved in metabolic signaling."
+127,Brimonidine,"Glaucoma, Rosacea",Alpha-2 Adrenergic Receptor Agonist,0,9.8,0,"TA: Ophthalmology/dermatology, unrelated. MoA: Adrenergic agonism is distinct from GLP-1 signaling."
+128,Brinzolamide,Glaucoma,Carbonic Anhydrase Inhibitor,0,9.8,0,"TA: Ophthalmology, unrelated. MoA: Enzyme inhibition affecting ion transport is unrelated to GLP-1 signaling."
+129,Brivaracetam,Epilepsy,Anticonvulsant (SV2A Ligand),0,9.7,0,"TA: Neurology, unrelated. MoA: Binds to synaptic vesicle protein 2A, unrelated to GLP-1 signaling."
+130,Bromelain,"Inflammation, Swelling",Proteolytic Enzyme,0.5,10,0.5,"TA: Anti-inflammatory, unrelated. Minimal score for link to inflammation. MoA: Enzymatic protein degradation is unrelated to endocrine signaling."
+131,Bromfenac,Ocular Pain/Inflammation,Non-Steroidal Anti-inflammatory Drug (NSAID),0,9.4,0,"TA: Ophthalmology, unrelated. MoA: Topical COX inhibition is distinct from systemic GLP-1 agonism."
+132,Bromhexine,Productive Cough,Mucolytic,0,10,0,"TA: Respiratory symptom relief, unrelated. MoA: Breaks down mucus fibers, unrelated to metabolic pathways."
+133,Bromocriptine,"Parkinson's, Hyperprolactinemia, T2DM",Dopamine D2 Receptor Agonist,7.1,6.2,8.5,"TA: Approved for T2DM, a key comorbidity. MoA: Central dopamine agonism is a non-hormonal mechanism that can affect appetite and metabolism."
+134,Buclizine,"Nausea, Vertigo, Appetite Stimulation","Antihistamine, Anticholinergic",1.2,9.7,1.2,"TA: Antiemetic/appetite stimulant, unrelated. Score reflects appetite effect. MoA: Histamine/muscarinic antagonism is distinct from GLP-1."
+135,Budesonide,"Asthma, Crohn's Disease",Corticosteroid,0.3,9.9,1,"TA: Inflammatory conditions, unrelated. MoA: Glucocorticoid receptor agonism can cause weight gain, but is mechanistically distinct from GLP-1."
+136,Bupivacaine,Local/Regional Anesthesia,Local Anesthetic (Sodium Channel Blocker),0,10,0,"TA: Local pain relief, unrelated. MoA: Blocks neuronal sodium channels, completely unrelated to endocrine signaling."
+137,Buprenorphine,"Opioid Dependence, Pain",Partial Mu-Opioid Receptor Agonist,0,9.8,0.5,"TA: Pain/addiction, unrelated. MoA: Opioid receptor modulation is distinct from GLP-1 signaling."
+138,Bupropion,"Depression, Smoking Cessation",Norepinephrine-Dopamine Reuptake Inhibitor (NDRI),2.5,6,3.5,"TA: Unrelated. Score reflects off-label use for weight loss (e.g., in Contrave). MoA: A non-hormonal central appetite suppressant mechanism."
+139,Buserelin,"Prostate Cancer, Endometriosis",Gonadotropin-Releasing Hormone (GnRH) Agonist,0,9.9,0,"TA: Oncology/gynecology, unrelated. MoA: Modulation of the HPG axis is distinct from the incretin system."
+140,Buspirone,Anxiety Disorders,Serotonin 5-HT1A Receptor Partial Agonist,1.1,9.6,0.8,"TA: Psychiatry, unrelated. Minimal score as anxiety can influence eating behaviors. MoA: Serotonergic modulation is distinct from GLP-1 agonism."
+141,Busulfan,Chronic Myeloid Leukemia (CML),Alkylating Agent,0,10,0,"TA: Oncology, unrelated. MoA: Causes DNA damage in cancer cells, unrelated to metabolic pathways."
+142,Butorphanol,Pain,Opioid Agonist-Antagonist,0,9.8,0,"TA: Pain management, unrelated. MoA: Opioid receptor modulation is distinct from GLP-1 signaling."
+143,Cabazitaxel,Prostate Cancer,Taxane Antineoplastic (Microtubule Inhibitor),0,10,0,"TA: Oncology, unrelated. MoA: Disrupts microtubule function, unrelated to metabolic pathways."
+144,Cabergoline,"Hyperprolactinemia, Parkinson's",Dopamine D2 Receptor Agonist,0.2,6.2,0.9,"TA: Endocrine/neurology, unrelated. MoA: Central dopamine agonism can affect appetite/metabolism."
+145,Cabozantinib,"Various Cancers (e.g., RCC, HCC)","Tyrosine Kinase Inhibitor (VEGFR, MET, AXL)",0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition is distinct, though some kinases are involved in metabolic signaling."
+146,Cadexomer Iodine,Wound Cleaning,Antiseptic (Iodine-releasing),0,10,2,"TA: Topical antiseptic, unrelated. MoA: Non-specific antimicrobial action of iodine."
+147,Caffeine,"CNS Stimulant, Apnea of Prematurity","Adenosine Receptor Antagonist, PDE Inhibitor",0.4,9.7,1.2,"TA: CNS stimulation, unrelated. Minimal score for known metabolic effects (e.g., thermogenesis). MoA: Adenosine antagonism/PDE inhibition is distinct from GLP-1."
+148,Calcium,Nutritional Supplement,Mineral Supplement,0,10,0.6,"TA: Nutrition, unrelated. MoA: Acts as a mineral/electrolyte, not a pharmacological signaling molecule in this context."
+149,Calcium Acetate,Hyperphosphatemia in ESRD,Phosphate Binder,3.2,10,2.7,"TA: Treats a complication of CKD, a relevant comorbidity. MoA: Binds dietary phosphate in the GI tract, a physical/chemical action."
+150,Calcium Carbonate,"Antacid, Calcium Supplement","Antacid, Mineral Supplement",0,10,0.6,"TA: GI symptom relief/nutrition, unrelated. MoA: Chemical neutralization of acid/mineral supplementation."
+151,Calcium Citrate,Calcium Supplement,Mineral Supplement,0,10,0.6,"TA: Nutrition, unrelated. MoA: Mineral supplementation."
+152,Calcium Citrate Malate,Calcium Supplement,Mineral Supplement,0,10,0.6,"TA: Nutrition, unrelated. MoA: Mineral supplementation."
+153,Calcium Dobesilate,"Chronic Venous Insufficiency, Diabetic Retinopathy",Vasoprotective,3.8,9.9,2.8,"TA: Treats a complication of T2DM. MoA: Unclear, thought to improve capillary function, unrelated to GLP-1."
+154,Calcium Gluconate,"Hypocalcemia, Hyperkalemia",Mineral Supplement,0,10,0,"TA: Electrolyte imbalance, unrelated. MoA: Provides calcium ions."
+155,Calcium Leucovorin,"Methotrexate Rescue, Colorectal Cancer",Folic Acid Analog,0,10,0,"TA: Oncology support, unrelated. MoA: Bypasses dihydrofolate reductase inhibition."
+156,Calcium Polystyrene Sulphonate,Hyperkalemia,Potassium Binder,3.1,10,2.5,"TA: Treats a complication of CKD/medications for comorbidities. MoA: Binds potassium in the GI tract, a physical/chemical action."
+157,Camylofin,Antispasmodic,"Anticholinergic, Smooth Muscle Relaxant",0,9.8,0,"TA: GI/GU spasm relief, unrelated. MoA: Anticholinergic action is distinct from GLP-1."
+158,Canagliflozin,Type 2 Diabetes,SGLT2 Inhibitor,8.8,8,9.7,TA: T2DM with significant weight loss and CV risk reduction benefits. MoA: Peripheral mechanism (renal glucose excretion) is very different from GLP-1.
+159,Candesartan,"Hypertension, Heart Failure",Angiotensin II Receptor Blocker (ARB),5.2,9.8,7.6,"TA: Treats hypertension and heart failure, key comorbidities. MoA: Inhibition of the RAAS pathway is distinct from GLP-1 agonism."
+160,Capecitabine,"Breast, Colorectal Cancer",Antineoplastic (Prodrug of 5-Fluorouracil),0,10,0,"TA: Oncology, unrelated. MoA: Antimetabolite that interferes with DNA synthesis."
+161,Capreomycin,Tuberculosis,Polypeptide Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+162,Captopril,"Hypertension, Heart Failure",Angiotensin-Converting Enzyme (ACE) Inhibitor,5.2,9.8,7.8,"TA: Treats hypertension and heart failure, key comorbidities. MoA: Inhibition of the RAAS pathway is distinct from GLP-1 agonism."
+163,Carbamazepine,"Epilepsy, Bipolar Disorder, Neuropathic Pain",Anticonvulsant (Sodium Channel Blocker),0,9.7,0.9,"TA: Neurology/psychiatry, unrelated. MoA: Blocks neuronal sodium channels."
+164,Carbazochrome,Hemostatic,Hemostatic,0,10,0,"TA: Hemostasis, unrelated. MoA: Thought to increase platelet aggregation via adrenoreceptors."
+165,Carbimazole,Hyperthyroidism,Antithyroid Agent (Prodrug of Methimazole),0.4,9.9,2.9,"TA: Thyroid disease, a distinct metabolic condition. MoA: Inhibits thyroid hormone synthesis."
+166,Carboplatin,Various Cancers,Alkylating Agent (Platinum-based),0,10,0,"TA: Oncology, unrelated. MoA: Forms DNA crosslinks."
+167,Carboxymethylcellulose,Dry Eyes,Ocular Lubricant,0,10,0,"TA: Ophthalmology, unrelated. MoA: Physical lubrication of the eye surface."
+168,Carfilzomib,Multiple Myeloma,Proteasome Inhibitor,0,9.2,0,"TA: Oncology, unrelated. MoA: Inhibition of the proteasome."
+169,Cariprazine,"Schizophrenia, Bipolar Disorder",Atypical Antipsychotic (D3/D2 Partial Agonist),1.4,9.6,3.8,"TA: Psychiatry, unrelated. Score reflects potential for metabolic side effects. MoA: Dopamine/serotonin modulation."
+170,Carisoprodol,Musculoskeletal Pain,Skeletal Muscle Relaxant,0,9.7,0,"TA: Pain management, unrelated. MoA: CNS depressant, mechanism not fully clear."
+171,Carmustine,"Brain Tumors, Lymphoma",Alkylating Agent (Nitrosourea),0,10,0,"TA: Oncology, unrelated. MoA: Causes DNA damage."
+172,Caroverine,"Tinnitus, Spasms","NMDA/AMPA Antagonist, Calcium Channel Blocker",0,9.7,0,"TA: Otology/neurology, unrelated. MoA: Glutamate and calcium channel blockade."
+173,Carvedilol,"Heart Failure, Hypertension",Non-selective Beta Blocker / Alpha-1 Blocker,5.2,9.8,7.2,"TA: Treats heart failure and hypertension, key comorbidities. MoA: Adrenergic blockade."
+174,Caspofungin,Invasive Fungal Infections,Echinocandin Antifungal (Glucan Synthase Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of fungal cell wall synthesis."
+175,Cefaclor,Bacterial Infections,2nd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+176,Cefadroxil,Bacterial Infections,1st Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+177,Cefalexin,Bacterial Infections,1st Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+178,Cefazolin,Bacterial Infections,1st Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+179,Cefdinir,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+180,Cefditoren,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+181,Cefepime,Bacterial Infections,4th Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+182,Cefetamet,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+183,Cefixime,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+184,Cefoperazone,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+185,Cefotaxime,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+186,Cefpirome,Bacterial Infections,4th Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+187,Cefpodoxime Proxetil,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+188,Cefprozil,Bacterial Infections,2nd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+189,Ceftazidime,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+190,Ceftizoxime,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+191,Ceftriaxone,Bacterial Infections,3rd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+192,Cefuroxime,Bacterial Infections,2nd Gen Cephalosporin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+193,Cefuroxime Axetil,Bacterial Infections,2nd Gen Cephalosporin Antibiotic (Prodrug),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+194,Celecoxib,"Pain, Inflammation (Arthritis)",Selective COX-2 Inhibitor (NSAID),0.5,9.4,4.8,"TA: Pain/inflammation, unrelated. Minimal score for link to chronic inflammation. MoA: COX inhibition."
+195,Celiprolol,"Hypertension, Angina",Beta-1 Blocker / Beta-2 Agonist,5.2,9.8,7.2,"TA: Treats hypertension, a key comorbidity. MoA: Adrenergic modulation."
+196,Centchroman,Contraception,Selective Estrogen Receptor Modulator (SERM),0,9.9,0,"TA: Contraception, unrelated. MoA: Estrogen receptor modulation."
+197,Cerebroprotein Hydrolysate,"Stroke, TBI, Dementia",Neurotrophic Agent,0,9.9,0.6,"TA: Neurology, unrelated. MoA: Mixture of peptides with neuroprotective effects."
+198,Cetilistat,Obesity,Pancreatic Lipase Inhibitor,10,7.5,10,TA: Direct indication for weight management. MoA: Peripheral inhibition of fat absorption.
+199,Cetirizine,"Allergic Rhinitis, Urticaria",H1-Histamine Receptor Antagonist,0,9.7,0,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+200,Cetrorelix,Infertility Treatment,GnRH Antagonist,0,9.9,0,"TA: Reproductive medicine, unrelated. MoA: Modulation of the HPG axis."
+201,Chlorambucil,"CLL, Lymphoma",Alkylating Agent,0,10,0,"TA: Oncology, unrelated. MoA: DNA alkylation."
+202,Chloramphenicol,Bacterial Infections,Antibiotic (50S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+203,Chlordiazepoxide,"Anxiety, Alcohol Withdrawal",Benzodiazepine (GABA-A Receptor Modulator),1.1,9.6,0.5,"TA: Psychiatry, unrelated. Minimal score for anxiety/eating link. MoA: GABAergic modulation."
+204,Chlorhexidine Gluconate,Antiseptic,Antiseptic,0,10,0,"TA: Disinfection, unrelated. MoA: Disrupts microbial cell membranes."
+205,Chlormezanone,"Anxiety, Muscle Spasms",Anxiolytic/Muscle Relaxant,0,9.7,0.5,"TA: Psychiatry/neurology, unrelated. MoA: Unclear, CNS depressant."
+206,Chloroquine,"Malaria, Autoimmune Diseases","Antimalarial, Immunomodulator",0.5,9.3,0.2,"TA: Infectious/autoimmune disease, unrelated. Minimal score for inflammation link. MoA: Interferes with parasite heme metabolism/lysosomal function."
+207,Chlorpheniramine Maleate,"Allergic Rhinitis, Cold Symptoms",H1-Histamine Receptor Antagonist,0,9.7,0.8,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+208,Chlorpromazine,"Schizophrenia, Bipolar Disorder",Typical Antipsychotic (Dopamine Antagonist),1.6,9.6,3.5,"TA: Psychiatry, unrelated. Score reflects significant potential for weight gain. MoA: Dopamine antagonism."
+209,Chlorthalidone,"Hypertension, Edema",Thiazide-like Diuretic,5.2,9.8,5.5,"TA: Treats hypertension, a key comorbidity. MoA: Inhibits sodium-chloride symporter in the kidney."
+210,Chlorzoxazone,Muscle Spasms,Skeletal Muscle Relaxant,0,9.7,0,"TA: Musculoskeletal pain, unrelated. MoA: Acts on spinal cord/subcortical areas to inhibit reflexes."
+211,Cholestyramine,Hypercholesterolemia,Bile Acid Sequestrant,5.6,8.3,6.5,"TA: Treats dyslipidemia, a key comorbidity. MoA: Binds bile acids in the intestine, preventing their reabsorption."
+212,Choline,Nutritional Supplement,Essential Nutrient,0,10,0.9,"TA: Nutrition, unrelated. MoA: Precursor for acetylcholine, phospholipids."
+213,Choline Theophyllinate,"Asthma, COPD",Bronchodilator (Theophylline salt),0,9.8,0,"TA: Respiratory disease, unrelated. MoA: PDE inhibition/adenosine antagonism."
+214,Chondroitin,Osteoarthritis,Nutritional Supplement,0,10,4,"TA: Joint health, unrelated. MoA: Component of cartilage."
+215,Ciclosporin,"Transplant Rejection, Autoimmune Diseases",Calcineurin Inhibitor,0.5,9.3,3.4,"TA: Immunology, unrelated. Minimal score for inflammation link. MoA: Immunosuppression via inhibition of T-cell activation."
+216,Cilnidipine,Hypertension,Dihydropyridine Calcium Channel Blocker,5.2,9.8,5.4,"TA: Treats hypertension, a key comorbidity. MoA: Blocks L- and N-type calcium channels."
+217,Cilostazol,Intermittent Claudication,PDE3 Inhibitor,3.3,9.8,4.5,"TA: Peripheral artery disease, a distant cardiovascular link. MoA: Antiplatelet and vasodilator."
+218,Cimetidine,"Peptic Ulcers, GERD",H2-Histamine Receptor Antagonist,0,9.7,1.5,"TA: GI acid disorders, unrelated. MoA: Blocks histamine H2 receptors to reduce acid secretion."
+219,Cinacalcet,Hyperparathyroidism,Calcimimetic,0.2,9.9,0,"TA: Endocrine (calcium metabolism), unrelated. MoA: Increases sensitivity of calcium-sensing receptors."
+220,Cinitapride,"GERD, Functional Dyspepsia",5-HT4 Agonist / D2 Antagonist (Prokinetic),1.8,9.6,2.2,TA: GI motility. Minor symptomatic link to Wegovy's gastric emptying effect. MoA: Serotonergic/dopaminergic modulation.
+221,Cinnarizine,"Motion Sickness, Vertigo","Antihistamine, Calcium Channel Blocker",0,9.7,0,"TA: Neurology/otology, unrelated. MoA: H1 antagonism and calcium channel blockade."
+222,Ciprofloxacin,Bacterial Infections,Fluoroquinolone Antibiotic (DNA Gyrase Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial DNA replication."
+223,Cisapride,GERD,Serotonin 5-HT4 Receptor Agonist,1.8,9.6,2,TA: GI motility. Minor symptomatic link to Wegovy's gastric emptying effect. MoA: Serotonergic modulation.
+224,Cisatracurium,Surgical Muscle Relaxation,Non-depolarizing Neuromuscular Blocker,0,10,0,"TA: Anesthesiology, unrelated. MoA: Nicotinic acetylcholine receptor antagonism."
+225,Cisplatin,Various Cancers,Alkylating Agent (Platinum-based),0,10,0,"TA: Oncology, unrelated. MoA: Forms DNA crosslinks."
+226,Citalopram,"Depression, Anxiety",Selective Serotonin Reuptake Inhibitor (SSRI),1.3,9.7,1.2,"TA: Psychiatry, unrelated. Score reflects potential for weight changes. MoA: Serotonin reuptake inhibition."
+227,Citicoline,"Stroke, Head Injury, Cognitive Decline",Nootropic (Choline/Cytidine Precursor),0,9.9,0.1,"TA: Neurology, unrelated. MoA: Promotes phospholipid synthesis."
+228,Citric Acid,"Alkalinizing Agent, Food Additive",pH Modifier,0,10,0.1,TA: Unrelated. MoA: Chemical pH modification.
+229,Clarithromycin,Bacterial Infections,Macrolide Antibiotic (50S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+230,Clemastine,Allergic Rhinitis,H1-Histamine Receptor Antagonist,0,9.7,0.8,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+231,Clidinium,"Peptic Ulcer, IBS",Anticholinergic,0,9.8,0.4,"TA: GI disorders, unrelated. MoA: Muscarinic antagonism."
+232,Clindamycin,Bacterial Infections,Lincosamide Antibiotic (50S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+233,Clinidipine,Hypertension,Dihydropyridine Calcium Channel Blocker,5.2,9.8,5.4,"TA: Treats hypertension, a key comorbidity. MoA: Blocks L- and N-type calcium channels."
+234,Clobazam,"Epilepsy, Anxiety",Benzodiazepine (GABA-A Receptor Modulator),0,9.6,0,"TA: Neurology/psychiatry, unrelated. MoA: GABAergic modulation."
+235,Clobetasol,"Skin Disorders (e.g., Psoriasis, Eczema)",Potent Corticosteroid,0,9.9,0.2,"TA: Dermatology, unrelated. MoA: Topical glucocorticoid receptor agonism."
+236,Clofarabine,Acute Lymphoblastic Leukemia (ALL),Purine Nucleoside Antimetabolite,0,10,0,"TA: Oncology, unrelated. MoA: Inhibits DNA synthesis."
+237,Clofazimine,"Leprosy, Tuberculosis",Antimycobacterial,0,10,0,"TA: Infectious disease, unrelated. MoA: Binds to bacterial DNA."
+238,Clomiphene,Female Infertility,Selective Estrogen Receptor Modulator (SERM),0,9.9,4.8,"TA: Reproductive medicine, unrelated. MoA: Estrogen receptor modulation."
+239,Clomipramine,"Depression, OCD",Tricyclic Antidepressant (Serotonin Reuptake Inhibitor),1.5,9.7,2.5,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Monoamine reuptake inhibition."
+240,Clonazepam,"Seizures, Panic Disorder",Benzodiazepine (GABA-A Receptor Modulator),1.1,9.6,0.5,"TA: Neurology/psychiatry, unrelated. Minimal score for anxiety/eating link. MoA: GABAergic modulation."
+241,Clopidogrel,CV Event Prevention,Antiplatelet (P2Y12 Inhibitor),3.5,9.8,6.9,"TA: CV risk reduction, but different patient setting/goal. MoA: Antiplatelet aggregation."
+242,Clotrimazole,Fungal Infections,Azole Antifungal,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of fungal ergosterol synthesis."
+243,Cloxacillin,Bacterial Infections,Penicillinase-resistant Penicillin,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+244,Clozapine,Schizophrenia,Atypical Antipsychotic (Multi-receptor Antagonist),1.7,9.6,3.8,"TA: Psychiatry, unrelated. Score reflects very high risk of weight gain and metabolic syndrome. MoA: Broad dopamine/serotonin antagonism."
+245,Codeine,"Pain, Cough",Opioid Agonist,0,9.8,0.3,"TA: Pain/cough, unrelated. MoA: Opioid receptor agonism."
+246,Coenzyme Q10,Nutritional Supplement,"Antioxidant, Cofactor",0.3,9.7,0.9,"TA: Supplement, unrelated. Minimal score for role in mitochondrial energy metabolism. MoA: Component of the electron transport chain."
+247,Colchicine,"Gout, Familial Mediterranean Fever",Anti-inflammatory (Tubulin Polymerization Inhibitor),0.4,9.4,4.6,"TA: Gout is a metabolic disease, but distinct from obesity/T2DM. MoA: Anti-inflammatory action via microtubule disruption."
+248,Colistin Sulphate,Bacterial Infections,Polymyxin Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Disrupts bacterial cell membranes."
+249,Colloidal Bismuth Subcitrate,"Peptic Ulcers, H. pylori Infection",Antacid/Antimicrobial,0,10,0.3,"TA: GI disorders, unrelated. MoA: Coats ulcers and has bactericidal effects."
+250,Colostrum,Nutritional Supplement,Nutritional Supplement,0,10,0.1,"TA: Nutrition, unrelated. MoA: Provides immune factors and nutrients."
+251,Conivaptan,Hyponatremia,Vasopressin Receptor Antagonist,3.1,9.9,0,"TA: Electrolyte imbalance, often in context of heart/liver failure. MoA: Blocks vasopressin V1a/V2 receptors."
+252,Conjugated Estrogens,"Menopause Symptoms, Osteoporosis",Estrogen Replacement Therapy,0.2,9.9,3.6,"TA: Hormone replacement, unrelated. MoA: Estrogen receptor agonism."
+253,Coral Calcium,Calcium Supplement,Mineral Supplement,0,10,0.1,"TA: Nutrition, unrelated. MoA: Mineral supplementation."
+254,Cyclandelate,Peripheral Vascular Disease,Vasodilator,3.3,9.8,4.4,"TA: Vascular disease, a distant cardiovascular link. MoA: Direct smooth muscle relaxant."
+255,Cyclobenzaprine,Muscle Spasms,Skeletal Muscle Relaxant,0,9.7,0.6,"TA: Musculoskeletal pain, unrelated. MoA: Acts at the brain stem to reduce tonic somatic motor activity."
+256,Cyclophosphamide,"Various Cancers, Autoimmune Diseases",Alkylating Agent,0,10,0,"TA: Oncology/immunology, unrelated. MoA: DNA alkylation."
+257,Cycloserine,Tuberculosis,Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits bacterial cell wall synthesis."
+258,Cyproheptadine,"Allergic Rhinitis, Appetite Stimulation","Antihistamine, Serotonin Antagonist",1.3,9.7,2.8,TA: Allergy/appetite stimulant. Score reflects appetite effect. MoA: H1 and serotonin receptor antagonism.
+259,Cyproterone,"Prostate Cancer, Hirsutism","Antiandrogen, Progestin",0,9.9,1,"TA: Oncology/endocrinology, unrelated. MoA: Androgen receptor antagonism."
+260,Cytarabine,Leukemia,Antineoplastic (Antimetabolite),0,10,0,"TA: Oncology, unrelated. MoA: Inhibits DNA synthesis."
+261,Dabigatran Etexilate,Thromboembolism Prophylaxis/Treatment,Direct Thrombin Inhibitor,3.5,9.9,6.7,"TA: Anticoagulation, relevant to CV risk but different goal. MoA: Inhibition of a specific clotting factor."
+262,Dacarbazine,"Melanoma, Hodgkin Lymphoma",Alkylating Agent,0,10,0,"TA: Oncology, unrelated. MoA: DNA alkylation."
+263,Daclatasvir,Hepatitis C,NS5A Replication Complex Inhibitor,0.1,10,0,"TA: Infectious disease, unrelated. Minimal score for link to liver health. MoA: Inhibition of a viral-specific protein."
+264,Dactinomycin,Various Cancers,Antineoplastic (Intercalating Agent),0,10,0,"TA: Oncology, unrelated. MoA: Intercalates into DNA and inhibits transcription."
+265,Danazol,"Endometriosis, Fibrocystic Breast Disease",Synthetic Steroid (Weak Androgen),0,9.9,3.1,"TA: Gynecology, unrelated. MoA: Suppresses pituitary-ovarian axis."
+266,Dapagliflozin,"Type 2 Diabetes, Heart Failure, CKD",SGLT2 Inhibitor,8.9,8,9.5,"TA: T2DM with strong indications for weight loss, CV risk reduction, and renal protection. MoA: Peripheral mechanism (renal glucose excretion)."
+267,Dapoxetine,Premature Ejaculation,Selective Serotonin Reuptake Inhibitor (SSRI),0,9.7,0,"TA: Urological/sexual health, unrelated. MoA: Serotonin reuptake inhibition."
+268,Daptomycin,Bacterial Infections,Lipopeptide Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Disrupts bacterial cell membrane function."
+269,Darifenacin,Overactive Bladder,Anticholinergic (M3 Selective),0,9.8,0,"TA: Urological condition, unrelated. MoA: Muscarinic antagonism."
+270,Darunavir,HIV/AIDS,Protease Inhibitor,0.1,10,0,"TA: Infectious disease, unrelated. Minimal score for known metabolic side effects. MoA: Inhibition of a viral enzyme."
+271,Dasatinib,"CML, ALL","Tyrosine Kinase Inhibitor (BCR-ABL, Src)",0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition."
+272,Daunorubicin,Leukemia,Anthracycline Antineoplastic,0,10,0,"TA: Oncology, unrelated. MoA: Intercalates into DNA."
+273,Deca Peptide,Not a standard drug; likely cosmetic/supplement,Peptide,0,10,0,"TA: Unclear, likely cosmetic, unrelated. MoA: Unclear, likely topical signaling, unrelated."
+274,Decitabine,Myelodysplastic Syndrome,Demethylation Agent (Nucleoside Analog),0,10,0,"TA: Oncology, unrelated. MoA: Incorporation into DNA to inhibit methyltransferase."
+275,Deferasirox,Iron Overload,Iron Chelator,0,10,0,"TA: Hematology/toxicology, unrelated. MoA: Binds to and promotes excretion of iron."
+276,Deflazacort,"Inflammation, Autoimmune Diseases",Corticosteroid,0.3,9.9,3.2,"TA: Inflammatory conditions, unrelated. MoA: Glucocorticoid receptor agonism."
+277,Degarelix,Prostate Cancer,GnRH Antagonist,0,9.9,3,"TA: Oncology, unrelated. MoA: Modulation of the HPG axis."
+278,Dehydroepiandrosterone,"Adrenal Insufficiency, Supplement",Steroid Hormone Precursor,0.2,9.9,1.1,"TA: Endocrine, unrelated. MoA: Precursor to androgens/estrogens."
+279,Denosumab,"Osteoporosis, Bone Metastases",RANKL Inhibitor (Monoclonal Antibody),0.2,9.9,0,"TA: Bone metabolism, unrelated. MoA: Inhibits osteoclast formation and function."
+280,Desloratadine,"Allergic Rhinitis, Urticaria",H1-Histamine Receptor Antagonist,0,9.7,0,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+281,Desmopressin,"Diabetes Insipidus, Nocturia",Vasopressin Analog,0,9.9,0,"TA: Endocrine/urology, unrelated. MoA: Vasopressin V2 receptor agonism."
+282,Desogestrel,Contraception,Progestin,0,9.9,0.7,"TA: Contraception, unrelated. MoA: Progesterone receptor agonism."
+283,Desvenlafaxine,Major Depressive Disorder,Serotonin-Norepinephrine Reuptake Inhibitor (SNRI),1.4,9.7,1.4,"TA: Psychiatry, unrelated. Score reflects potential for weight changes. MoA: Monoamine reuptake inhibition."
+284,Dexamethasone,"Inflammation, Autoimmune Diseases, Cancers",Corticosteroid,0.3,9.9,3.2,"TA: Inflammatory conditions, unrelated. MoA: Glucocorticoid receptor agonism."
+285,Dexchlorpheniramine,Allergic Rhinitis,H1-Histamine Receptor Antagonist,0,9.7,0.8,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+286,Dexibuprofen,"Pain, Inflammation",Non-Steroidal Anti-inflammatory Drug (NSAID),0.5,9.4,4.1,"TA: Pain/inflammation, unrelated. MoA: COX inhibition."
+287,Dexketoprofen,Pain,Non-Steroidal Anti-inflammatory Drug (NSAID),0.5,9.4,4.1,"TA: Pain/inflammation, unrelated. MoA: COX inhibition."
+288,Dexlansoprazole,"GERD, Erosive Esophagitis",Proton Pump Inhibitor (PPI),0,10,1.6,"TA: GI acid disorders, unrelated. MoA: Irreversibly inhibits H+/K+-ATPase."
+289,Dexrabeprazole,"GERD, Peptic Ulcers",Proton Pump Inhibitor (PPI),0,10,1.6,"TA: GI acid disorders, unrelated. MoA: Irreversibly inhibits H+/K+-ATPase."
+290,Dextran 40,"Hypovolemia, Thrombosis Prophylaxis",Plasma Volume Expander,0,10,0,"TA: Fluid resuscitation, unrelated. MoA: Osmotic effect."
+291,Dextromethorphan Hydrobromide,Cough,"Antitussive (NMDA Antagonist, Sigma-1 Agonist)",0,9.7,0,"TA: Cough suppression, unrelated. MoA: Acts on the cough center in the brainstem."
+292,Dextrose,"Hypoglycemia, Fluid/Calorie Source",Carbohydrate,0,10,0.5,"TA: Nutrition/emergency medicine, unrelated. MoA: Simple sugar for energy."
+293,Diacerein,Osteoarthritis,Anthraquinone (IL-1β Inhibitor),0.5,9.3,4.2,"TA: Joint inflammation, unrelated. MoA: Anti-inflammatory via IL-1 inhibition."
+294,Diatrizoic Acid,Radiographic Contrast Agent,Contrast Media,0,10,0,"TA: Diagnostic imaging, unrelated. MoA: Iodine-based agent that opacifies vessels/organs to X-rays."
+295,Diazepam,"Anxiety, Seizures, Muscle Spasms",Benzodiazepine (GABA-A Receptor Modulator),1.1,9.6,0.5,"TA: Psychiatry/neurology, unrelated. MoA: GABAergic modulation."
+296,Diazoxide,"Hypoglycemia, Hypertensive Emergency",Potassium Channel Activator,0.4,9.8,1.8,"TA: Treats hypoglycemia, the opposite of Wegovy's T2DM context. MoA: Opens ATP-sensitive K+ channels."
+297,Dichlorobenzyl Alcohol,Sore Throat,Antiseptic,0,10,0,"TA: Local antiseptic, unrelated. MoA: Non-specific antimicrobial action."
+298,Diclofenac,"Pain, Inflammation",Non-Steroidal Anti-inflammatory Drug (NSAID),0.5,9.4,4.1,"TA: Pain/inflammation, unrelated. MoA: COX inhibition."
+299,Dicyclomine,Irritable Bowel Syndrome (IBS),Anticholinergic/Antispasmodic,0,9.8,0.5,"TA: GI symptom relief, unrelated. MoA: Muscarinic antagonism."
+300,Didanosine,HIV/AIDS,Nucleoside Reverse Transcriptase Inhibitor (NRTI),0.1,10,1,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral enzyme."
+301,Dienogest,"Endometriosis, Contraception",Progestin,0,9.9,0.7,"TA: Gynecology, unrelated. MoA: Progesterone receptor agonism."
+302,Diethylcarbamazine,Filariasis,Anthelmintic,0,10,0,"TA: Infectious disease, unrelated. MoA: Alters parasite membranes, making them susceptible to immune attack."
+303,Digoxin,"Heart Failure, Atrial Fibrillation",Cardiac Glycoside (Na+/K+-ATPase Inhibitor),3.6,9.9,5.2,"TA: Treats heart failure, a relevant comorbidity. MoA: Inhibition of sodium-potassium pump."
+304,Dihydralazine,Hypertension,Vasodilator,5.2,9.8,5.3,"TA: Treats hypertension, a key comorbidity. MoA: Direct smooth muscle relaxant."
+305,Dill Oil,"Indigestion, Flatulence",Carminative,0,10,0.1,"TA: GI symptom relief, unrelated. MoA: Botanical with antispasmodic properties."
+306,Diloxanide,Amebiasis,Luminal Amebicide,0,10,0,"TA: Infectious disease, unrelated. MoA: Unclear, acts on amoebic cysts."
+307,Diltiazem,"Hypertension, Angina, Arrhythmias",Non-dihydropyridine Calcium Channel Blocker,5.2,9.8,5.6,TA: Treats hypertension and other CV conditions. MoA: Blocks calcium channels in heart and blood vessels.
+308,Dimenhydrinate,"Motion Sickness, Nausea","Antihistamine, Anticholinergic",0,9.7,0.6,"TA: Antiemetic, unrelated. MoA: H1 and muscarinic antagonism."
+309,Dimethicone,"Gas, Bloating",Antifoaming Agent,0,10,0,"TA: GI symptom relief, unrelated. MoA: Reduces surface tension of gas bubbles (physical action)."
+310,Dimethindene,Allergic Reactions,H1-Histamine Receptor Antagonist,0,9.7,0.8,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+311,Dimethyl Fumarate,"Multiple Sclerosis, Psoriasis",Nrf2 Pathway Activator,0.5,9.3,0,"TA: Autoimmune/neurology, unrelated. MoA: Immunomodulatory and anti-inflammatory."
+312,Dinoprostone,"Labor Induction, Cervical Ripening",Prostaglandin E2 Analog,0,9.9,0,"TA: Obstetrics, unrelated. MoA: Prostaglandin receptor agonism."
+313,Diosmin,"Chronic Venous Insufficiency, Hemorrhoids",Phlebotonic Agent,0,10,2,"TA: Vascular disorders, unrelated. MoA: Improves venous tone and lymphatic drainage."
+314,Diphenhydramine,"Allergic Reactions, Insomnia",H1-Histamine Receptor Antagonist,0,9.7,0.9,"TA: Allergy/sedation, unrelated. MoA: Histamine antagonism."
+315,Diphenoxylate,Diarrhea,Opioid Receptor Agonist,0,9.8,0.3,"TA: GI symptom relief, unrelated. MoA: Slows gut motility via opioid receptors."
+316,Dipyridamole,"Stroke Prevention, Thromboembolism","Antiplatelet, Vasodilator (PDE Inhibitor)",3.5,9.8,6.8,TA: CV risk reduction. MoA: Antiplatelet and vasodilator.
+317,Disodium Hydrogen Citrate,"Urinary Tract Infections, Kidney Stones",Urinary Alkalinizer,0,10,4.7,"TA: Urological conditions, unrelated. MoA: Increases urine pH."
+318,Disopyramide,Ventricular Arrhythmias,Class IA Antiarrhythmic (Sodium Channel Blocker),3.4,9.8,4.3,TA: Treats cardiac arrhythmias. MoA: Blocks cardiac sodium channels.
+319,Disulfiram,Alcohol Dependence,Aldehyde Dehydrogenase Inhibitor,0,10,0.2,"TA: Substance use disorder, unrelated. MoA: Causes unpleasant reaction to alcohol."
+320,Divalproex,"Epilepsy, Bipolar Disorder, Migraine",Anticonvulsant (Increases GABA),1.6,9.7,0,"TA: Neurology/psychiatry. Score reflects potential for weight gain. MoA: Increases GABA levels, blocks sodium channels."
+321,Dobutamine,"Cardiogenic Shock, Severe Heart Failure",Beta-1 Adrenergic Receptor Agonist,3.6,9.8,0,TA: Acute heart failure management. MoA: Adrenergic agonism.
+322,Docetaxel,Various Cancers,Taxane Antineoplastic (Microtubule Inhibitor),0,10,0,"TA: Oncology, unrelated. MoA: Disrupts microtubule function."
+323,Docosahexanoic Acid,Nutritional Supplement,Omega-3 Fatty Acid,0.3,9.9,1.5,"TA: Nutrition. Minimal score for role in metabolic health. MoA: Essential fatty acid, precursor to signaling molecules."
+324,Docusate,Constipation,Stool Softener,0,10,0.2,"TA: GI symptom relief, unrelated. MoA: Anionic surfactant that lowers surface tension of stool."
+325,Dolutegravir,HIV/AIDS,Integrase Strand Transfer Inhibitor (INSTI),0.1,10,0.4,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral enzyme."
+326,Domperidone,"Nausea, Vomiting, Dyspepsia",Dopamine D2 Receptor Antagonist,1.8,9.6,1.8,TA: GI motility/antiemetic. Minor symptomatic link. MoA: Peripheral dopamine antagonism.
+327,Donepezil,Alzheimer's Disease,Acetylcholinesterase Inhibitor,0,9.8,0.3,"TA: Neurology, unrelated. MoA: Increases acetylcholine levels in the brain."
+328,Dopamine,"Shock, Low Blood Pressure",Adrenergic/Dopaminergic Agonist,0.3,9.6,0,"TA: Critical care, unrelated. MoA: Acts on dopamine and adrenergic receptors."
+329,Doripenem,Bacterial Infections,Carbapenem Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+330,Dosulepin,Depression,Tricyclic Antidepressant,1.5,9.7,2.4,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Monoamine reuptake inhibition."
+331,Doxazosin,"Hypertension, BPH",Alpha-1 Adrenergic Receptor Antagonist,5.2,9.8,5.7,"TA: Treats hypertension, a key comorbidity. MoA: Alpha-blockade."
+332,Doxepin,"Depression, Anxiety, Insomnia",Tricyclic Antidepressant,1.5,9.7,2.6,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Monoamine reuptake inhibition."
+333,Doxofylline,"Asthma, COPD",Bronchodilator (Methylxanthine),0,9.8,0,"TA: Respiratory disease, unrelated. MoA: PDE inhibition."
+334,Doxorubicin,Various Cancers,Anthracycline Antineoplastic,0,10,0,"TA: Oncology, unrelated. MoA: Intercalates into DNA."
+335,Doxycycline,Bacterial Infections,Tetracycline Antibiotic (30S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+336,Doxylamine,"Insomnia, Nausea/Vomiting in Pregnancy",H1-Histamine Receptor Antagonist,0,9.7,0.9,"TA: Sedation/antiemetic, unrelated. MoA: Histamine antagonism."
+337,Dronedarone,Atrial Fibrillation,Antiarrhythmic (Multi-channel Blocker),3.4,9.8,4.3,TA: Treats cardiac arrhythmias. MoA: Blocks cardiac ion channels.
+338,Drospirenone,"Contraception, Acne","Progestin, Antiandrogen",0,9.9,0.7,"TA: Contraception/dermatology, unrelated. MoA: Progestin/antiandrogen activity."
+339,Drotaverine,"Spasms (GI, Biliary, GU)",PDE4 Inhibitor (Antispasmodic),0,9.8,0,"TA: Spasm relief, unrelated. MoA: Smooth muscle relaxation via PDE4 inhibition."
+340,Duloxetine,"Depression, Anxiety, Neuropathic Pain",Serotonin-Norepinephrine Reuptake Inhibitor (SNRI),1.4,9.7,4.9,"TA: Psychiatry/pain, unrelated. Score reflects potential for weight changes. MoA: Monoamine reuptake inhibition."
+341,Dutasteride,Benign Prostatic Hyperplasia (BPH),5-alpha-reductase Inhibitor,0,9.9,1,"TA: Urological condition, unrelated. MoA: Inhibits conversion of testosterone to DHT."
+342,Dydrogesterone,"Menstrual Disorders, Infertility",Progestogen,0,9.9,0.6,"TA: Gynecology, unrelated. MoA: Progesterone receptor agonism."
+343,Ebastine,"Allergic Rhinitis, Urticaria",H1-Histamine Receptor Antagonist,0,9.7,0,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+344,Edaravone,"Amyotrophic Lateral Sclerosis (ALS), Stroke",Free Radical Scavenger,0,9.7,0,"TA: Neurology, unrelated. MoA: Antioxidant."
+345,Efavirenz,HIV/AIDS,Non-Nucleoside Reverse Transcriptase Inhibitor (NNRTI),0.1,10,0.5,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral enzyme."
+346,Efonidipine,Hypertension,Dihydropyridine Calcium Channel Blocker,5.2,9.8,5.4,"TA: Treats hypertension, a key comorbidity. MoA: Blocks L- and T-type calcium channels."
+347,Eicosapentaenoic Acid,Hypertriglyceridemia,Omega-3 Fatty Acid,5.6,9.9,6,"TA: Treats dyslipidemia, a key comorbidity. MoA: Reduces hepatic triglyceride synthesis."
+348,Electrolytes,"Dehydration, Electrolyte Imbalance",Electrolyte Replacement,0,10,0,"TA: Fluid/electrolyte management, unrelated. MoA: Provides essential ions."
+349,Elemental Iron,Iron Deficiency Anemia,Mineral Supplement,0,10,0.1,"TA: Nutritional deficiency, unrelated. MoA: Provides iron for hemoglobin synthesis."
+350,Eltrombopag,Thrombocytopenia,Thrombopoietin Receptor Agonist,0,9.9,0,"TA: Hematology, unrelated. MoA: Stimulates platelet production."
+351,Empagliflozin,"Type 2 Diabetes, Heart Failure, CKD",SGLT2 Inhibitor,8.9,8,9.6,"TA: T2DM with strong indications for weight loss, CV risk reduction, and renal protection. MoA: Peripheral mechanism (renal glucose excretion)."
+352,Emtricitabine,HIV/AIDS,Nucleoside Reverse Transcriptase Inhibitor (NRTI),0.1,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral enzyme."
+353,Enalapril,"Hypertension, Heart Failure",Angiotensin-Converting Enzyme (ACE) Inhibitor,5.2,9.8,5.8,"TA: Treats hypertension and heart failure, key comorbidities. MoA: Inhibition of the RAAS pathway."
+354,Enclomiphene,Hypogonadism,Selective Estrogen Receptor Modulator (SERM),0,9.9,4.7,"TA: Endocrinology, unrelated. MoA: Estrogen receptor modulation."
+355,Enoxaparin,Thromboembolism Prophylaxis/Treatment,Low Molecular Weight Heparin (LMWH),3.5,9.9,6.6,"TA: Anticoagulation, relevant to CV risk. MoA: Potentiates antithrombin to inhibit clotting factors."
+356,Entacapone,Parkinson's Disease,COMT Inhibitor,0,9.7,0,"TA: Neurology, unrelated. MoA: Inhibits breakdown of levodopa."
+357,Entecavir,Hepatitis B,Nucleoside Analog (Reverse Transcriptase Inhibitor),0.1,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral enzyme."
+358,Enzalutamide,Prostate Cancer,Androgen Receptor Antagonist,0,9.9,1,"TA: Oncology, unrelated. MoA: Androgen receptor blockade."
+359,Epalrestat,Diabetic Neuropathy,Aldose Reductase Inhibitor,3.8,8.1,4.8,"TA: Treats a direct complication of T2DM. MoA: Inhibits the polyol pathway, a peripheral metabolic mechanism."
+360,Eperisone,Muscle Spasms,Skeletal Muscle Relaxant,0,9.7,0,"TA: Musculoskeletal pain, unrelated. MoA: Acts on spinal cord and vascular smooth muscle."
+361,Epirubicin,Various Cancers,Anthracycline Antineoplastic,0,10,0,"TA: Oncology, unrelated. MoA: Intercalates into DNA."
+362,Eplerenone,"Heart Failure, Hypertension",Aldosterone Antagonist,3.6,9.8,5.9,TA: Treats heart failure and hypertension. MoA: Blocks mineralocorticoid receptors.
+363,Eptifibatide,"Acute Coronary Syndrome, PCI",Glycoprotein IIb/IIIa Receptor Antagonist,3.5,9.8,6.9,TA: Acute cardiovascular intervention. MoA: Antiplatelet aggregation.
+364,Erdosteine,Chronic Bronchitis,Mucolytic,0,10,0.3,"TA: Respiratory disease, unrelated. MoA: Thins mucus."
+365,Ergotamine,Migraine,Ergot Alkaloid (Vasoconstrictor),0,9.6,0,"TA: Neurology (headache), unrelated. MoA: Acts on serotonin, dopamine, and adrenergic receptors."
+366,Eribulin Mesylate,"Breast Cancer, Liposarcoma",Microtubule Inhibitor,0,10,0,"TA: Oncology, unrelated. MoA: Inhibits microtubule growth."
+367,Erlotinib,"NSCLC, Pancreatic Cancer",Tyrosine Kinase Inhibitor (EGFR),0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition."
+368,Ertapenem,Bacterial Infections,Carbapenem Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+369,Erythromycin,Bacterial Infections,Macrolide Antibiotic (50S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+370,Escitalopram Oxalate,"Depression, Anxiety",Selective Serotonin Reuptake Inhibitor (SSRI),1.3,9.7,1.3,"TA: Psychiatry, unrelated. Score reflects potential for weight changes. MoA: Serotonin reuptake inhibition."
+371,Eslicarbazepine,Epilepsy,Anticonvulsant (Sodium Channel Blocker),0,9.7,0,"TA: Neurology, unrelated. MoA: Blocks neuronal sodium channels."
+372,Esmolol,"Supraventricular Tachycardia, Hypertension",Beta-1 Adrenergic Receptor Antagonist,3.4,9.8,4.5,TA: Treats acute CV conditions. MoA: Beta-blockade.
+373,Esomeprazole,"GERD, Peptic Ulcers",Proton Pump Inhibitor (PPI),0,10,1.6,"TA: GI acid disorders, unrelated. MoA: Irreversibly inhibits H+/K+-ATPase."
+374,Estradiol,"Menopause Symptoms, Contraception",Estrogen Hormone,0.2,9.9,3.7,"TA: Hormone replacement, unrelated. MoA: Estrogen receptor agonism."
+375,Estramustine,Prostate Cancer,Antineoplastic (Alkylating Agent + Estrogen),0,10,1,"TA: Oncology, unrelated. MoA: Acts as an alkylating agent and microtubule inhibitor."
+376,Estriol,Vaginal Atrophy,Estrogen Hormone,0.2,9.9,3.5,"TA: Hormone replacement, unrelated. MoA: Estrogen receptor agonism."
+377,Eszopiclone,Insomnia,Nonbenzodiazepine Hypnotic (GABA-A Modulator),0,9.6,0.5,"TA: Sleep disorder, unrelated. MoA: GABAergic modulation."
+378,Etanercept,"Autoimmune Diseases (e.g., RA, Psoriasis)",TNF-alpha Inhibitor (Fusion Protein),1.5,9.2,4.4,"TA: Autoimmune/inflammatory diseases. Link via ""metaflammation"". MoA: Binds and neutralizes TNF-alpha."
+379,Ethambutol,Tuberculosis,Antimycobacterial,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits mycobacterial cell wall synthesis."
+380,Ethamsylate,"Bleeding (Menorrhagia, Surgical)",Hemostatic,0,10,0,"TA: Hemostasis, unrelated. MoA: Thought to enhance platelet adhesion and restore capillary resistance."
+381,Ethinyl Estradiol,"Contraception, Menopause Symptoms",Synthetic Estrogen,0.2,9.9,3.7,"TA: Contraception/hormone replacement, unrelated. MoA: Estrogen receptor agonism."
+382,Ethionamide,Tuberculosis,Antimycobacterial,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits mycolic acid synthesis."
+383,Ethylmorphine,"Cough, Pain",Opioid Agonist,0,9.8,0.3,"TA: Cough/pain, unrelated. MoA: Opioid receptor agonism."
+384,Etidronate,"Paget's Disease, Osteoporosis",Bisphosphonate,0.2,9.9,0,"TA: Bone metabolism, unrelated. MoA: Inhibition of osteoclast activity."
+385,Etizolam,"Anxiety, Insomnia",Thienodiazepine (GABA-A Modulator),1.1,9.6,0.5,"TA: Psychiatry, unrelated. MoA: GABAergic modulation."
+386,Etodolac,"Pain, Inflammation (Arthritis)",Non-Steroidal Anti-inflammatory Drug (NSAID),0.5,9.4,4.1,"TA: Pain/inflammation, unrelated. MoA: COX inhibition."
+387,Etofylline,"Asthma, COPD",Bronchodilator (Xanthine derivative),0,9.8,0,"TA: Respiratory disease, unrelated. MoA: PDE inhibition/adenosine antagonism."
+388,Etomidate,General Anesthesia Induction,Anesthetic,0,10,0,"TA: Anesthesiology, unrelated. MoA: Potentiates GABA-A receptors."
+389,Etoposide,Various Cancers,Topoisomerase II Inhibitor,0,10,0,"TA: Oncology, unrelated. MoA: Inhibits DNA synthesis."
+390,Etoricoxib,"Pain, Inflammation (Arthritis)",Selective COX-2 Inhibitor (NSAID),0.5,9.4,4.2,"TA: Pain/inflammation, unrelated. MoA: COX inhibition."
+391,Euphorbia Prostrata Extract,Hemorrhoids,Botanical,0,10,2,"TA: Proctology, unrelated. MoA: Astringent and anti-inflammatory."
+392,Evening Primrose Oil,"Eczema, PMS, Arthritis",Nutritional Supplement,0,10,0.4,"TA: Supplement, unrelated. MoA: Source of gamma-linolenic acid (GLA)."
+393,Everolimus,"Cancer, Transplant Rejection",mTOR Inhibitor,0.4,9.1,3.3,TA: Oncology/immunology. Score reflects hyperglycemia as a common side effect. MoA: Kinase inhibition of a key metabolic pathway.
+394,Evogliptin,Type 2 Diabetes,Dipeptidyl Peptidase-4 (DPP-4) Inhibitor,7.5,2.5,8,TA: T2DM is a key comorbidity. MoA: Directly modulates the incretin system.
+395,Exemestane,Breast Cancer (HR+),Aromatase Inhibitor (Steroidal),0,9.9,3,"TA: Oncology, unrelated. MoA: Irreversible inhibition of estrogen synthesis."
+396,Extractum Cepae-Cepalin,Scar Treatment,Botanical Extract,0,10,0,"TA: Dermatology (scarring), unrelated. MoA: Anti-inflammatory/fibrinolytic."
+397,Ezetimibe,Hypercholesterolemia,Cholesterol Absorption Inhibitor,5.6,8.3,6.6,"TA: Treats dyslipidemia, a key comorbidity. MoA: Inhibits cholesterol absorption in the small intestine."
+398,Famciclovir,Herpes Virus Infections,Antiviral (Prodrug of Penciclovir),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of viral DNA polymerase."
+399,Famotidine,"Peptic Ulcers, GERD",H2-Histamine Receptor Antagonist,0,9.7,1.5,"TA: GI acid disorders, unrelated. MoA: Blocks histamine H2 receptors."
+400,Faropenem,Bacterial Infections,Penem Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+401,Favipiravir,"Influenza, COVID-19",Antiviral (RNA Polymerase Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of a viral enzyme."
+402,Febuxostat,"Gout, Hyperuricemia",Xanthine Oxidase Inhibitor,0.4,9.8,4.7,"TA: Gout, a metabolic disease. MoA: Inhibition of purine metabolism."
+403,Felodipine,"Hypertension, Angina",Dihydropyridine Calcium Channel Blocker,5.2,9.8,5.4,"TA: Treats hypertension, a key comorbidity. MoA: Blocks calcium channels."
+404,Fenofibrate,Hyperlipidemia,Fibrate (PPAR-alpha Agonist),5.6,8.3,6.7,"TA: Treats dyslipidemia, a key comorbidity. MoA: PPAR agonism affects lipid metabolism."
+405,Fenoverine,Irritable Bowel Syndrome (IBS),Spasmolytic,0,9.8,0.5,"TA: GI symptom relief, unrelated. MoA: Modulates calcium channels in smooth muscle."
+406,Fenticonazole,Fungal Infections (Vaginal),Azole Antifungal,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of fungal ergosterol synthesis."
+407,Feracrylum,Wound Healing,Hemostatic/Antiseptic Polymer,0,10,0,"TA: Wound care, unrelated. MoA: Forms a physical barrier and has antimicrobial properties."
+408,Ferric Carboxymaltose,Iron Deficiency Anemia,Iron Replacement,0,10,0.1,"TA: Nutritional deficiency, unrelated. MoA: Provides iron for hemoglobin synthesis."
+409,Ferrous Ascorbate,Iron Deficiency Anemia,Iron/Vitamin C Supplement,0,10,0.1,"TA: Nutritional deficiency, unrelated. MoA: Provides iron and enhances its absorption."
+410,Ferrous Bisglycinate,Iron Deficiency Anemia,Iron Supplement,0,10,0.1,"TA: Nutritional deficiency, unrelated. MoA: Provides iron."
+411,Fexofenadine,"Allergic Rhinitis, Urticaria",H1-Histamine Receptor Antagonist,0,9.7,0,"TA: Allergy, unrelated. MoA: Histamine antagonism."
+412,Fimasartan,Hypertension,Angiotensin II Receptor Blocker (ARB),5.2,9.8,5.8,"TA: Treats hypertension, a key comorbidity. MoA: Inhibition of the RAAS pathway."
+413,Finasteride,"BPH, Male Pattern Baldness",5-alpha-reductase Inhibitor,0,9.9,1,"TA: Urology/dermatology, unrelated. MoA: Inhibits conversion of testosterone to DHT."
+414,Fingolimod,Multiple Sclerosis,Sphingosine-1-phosphate Receptor Modulator,0,9.3,0,"TA: Neurology/immunology, unrelated. MoA: Sequesters lymphocytes in lymph nodes."
+415,Flavoxate,"Overactive Bladder, Dysuria",Antispasmodic/Anticholinergic,0,9.8,0,"TA: Urological condition, unrelated. MoA: Smooth muscle relaxant."
+416,Flucloxacillin Sodium,Bacterial Infections,Penicillinase-resistant Penicillin,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial cell wall synthesis."
+417,Fluconazole,Fungal Infections,Azole Antifungal,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of fungal ergosterol synthesis."
+418,Flucytosine,Systemic Fungal Infections,Antifungal (Antimetabolite),0,10,0,"TA: Infectious disease, unrelated. MoA: Converted to 5-fluorouracil in fungal cells, inhibiting DNA/RNA synthesis."
+419,Fludarabine,Chronic Lymphocytic Leukemia (CLL),Purine Analog Antimetabolite,0,10,0,"TA: Oncology, unrelated. MoA: Inhibits DNA synthesis."
+420,Flunarizine,"Migraine Prophylaxis, Vertigo",Calcium Channel Blocker,0,9.8,0.2,"TA: Neurology, unrelated. MoA: Blocks calcium channels."
+421,Fluorouracil,Various Cancers,Antineoplastic (Antimetabolite),0,10,0,"TA: Oncology, unrelated. MoA: Inhibits thymidylate synthase."
+422,Fluoxetine,"Depression, OCD, Panic Disorder",Selective Serotonin Reuptake Inhibitor (SSRI),1.8,9.7,1.2,"TA: Psychiatry, unrelated. Score reflects known effects on appetite/weight (can be loss or gain). MoA: Serotonin reuptake inhibition."
+423,Flupenthixol,"Schizophrenia, Depression",Typical Antipsychotic,1.6,9.6,3.5,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Dopamine antagonism."
+424,Fluphenazine,Schizophrenia,Typical Antipsychotic,1.6,9.6,3.5,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Dopamine antagonism."
+425,Flupirtine,Pain,Selective Neuronal Potassium Channel Opener,0,9.8,0,"TA: Pain management, unrelated. MoA: Non-opioid central analgesic."
+426,Flurazepam,Insomnia,Benzodiazepine (GABA-A Receptor Modulator),0,9.6,0.5,"TA: Sleep disorder, unrelated. MoA: GABAergic modulation."
+427,Flutamide,Prostate Cancer,Antiandrogen,0,9.9,1,"TA: Oncology, unrelated. MoA: Androgen receptor antagonism."
+428,Fluticasone Propionate,"Asthma, Allergic Rhinitis",Corticosteroid,0,9.9,0.2,"TA: Respiratory/allergy, unrelated. MoA: Glucocorticoid receptor agonism."
+429,Fluvoxamine,"OCD, Depression",Selective Serotonin Reuptake Inhibitor (SSRI),1.3,9.7,1.2,"TA: Psychiatry, unrelated. Score reflects potential for weight changes. MoA: Serotonin reuptake inhibition."
+430,Folic Acid,"Folate Deficiency, Neural Tube Defect Prevention",Vitamin B9 Supplement,0,10,0.1,"TA: Nutritional deficiency, unrelated. MoA: Coenzyme in nucleic acid and amino acid synthesis."
+431,Fondaparinux,Thromboembolism Prophylaxis/Treatment,Synthetic Pentasaccharide (Indirect Factor Xa Inhibitor),3.5,9.9,6.6,"TA: Anticoagulation, relevant to CV risk. MoA: Binds antithrombin to selectively inhibit Factor Xa."
+432,Fosaprepitant,CINV,Neurokinin-1 (NK1) Receptor Antagonist (Prodrug),1.8,9.7,0,TA: Antiemetic. Minor symptomatic link to Wegovy. MoA: NK1 antagonism.
+433,Fosfomycin,Urinary Tract Infections,Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits bacterial cell wall synthesis."
+434,Fosinopril,"Hypertension, Heart Failure",Angiotensin-Converting Enzyme (ACE) Inhibitor,5.2,9.8,5.8,TA: Treats hypertension and heart failure. MoA: Inhibition of the RAAS pathway.
+435,Fosphenytoin,Seizures,Anticonvulsant (Prodrug of Phenytoin),0,9.7,0,"TA: Neurology, unrelated. MoA: Blocks neuronal sodium channels."
+436,Fulvestrant,Breast Cancer (HR+),Selective Estrogen Receptor Degrader (SERD),0,9.9,2.9,"TA: Oncology, unrelated. MoA: Binds to and degrades the estrogen receptor."
+437,Furazolidone,Bacterial/Protozoal Diarrhea,Nitrofuran Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits bacterial enzymes."
+438,Furosemide,"Edema, Hypertension",Loop Diuretic,4,9.8,5.6,"TA: Treats edema (e.g., in heart failure) and hypertension. MoA: Inhibits Na-K-2Cl symporter in the kidney."
+439,Fusidic Acid,Bacterial Infections (Staph),Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits bacterial protein synthesis."
+440,Gabapentin,"Epilepsy, Neuropathic Pain",Anticonvulsant (GABA Analog),1.5,9.7,4.8,TA: Neurology/pain. Score reflects potential for weight gain. MoA: Binds to alpha-2-delta subunit of voltage-gated calcium channels.
+441,Galantamine,Alzheimer's Disease,Acetylcholinesterase Inhibitor,0,9.8,0.3,"TA: Neurology, unrelated. MoA: Increases acetylcholine levels."
+442,Ganciclovir,Cytomegalovirus (CMV) Infections,Antiviral (Guanoisine Analog),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibits viral DNA synthesis."
+443,Ganirelix,Infertility Treatment,GnRH Antagonist,0,9.9,0.6,"TA: Reproductive medicine, unrelated. MoA: Modulation of the HPG axis."
+444,Gatifloxacin,Bacterial Infections,Fluoroquinolone Antibiotic,0.3,10,0,TA: Infectious disease. Score reflects risk of dysglycemia. MoA: Inhibition of bacterial DNA replication.
+445,Gefitinib,Non-Small Cell Lung Cancer (NSCLC),Tyrosine Kinase Inhibitor (EGFR),0,9,0,"TA: Oncology, unrelated. MoA: Kinase inhibition."
+446,Gemcitabine,Various Cancers,Antineoplastic (Antimetabolite),0,10,0,"TA: Oncology, unrelated. MoA: Inhibits DNA synthesis."
+447,Gemfibrozil,Hyperlipidemia,Fibrate (PPAR-alpha Agonist),5.6,8.3,6.7,"TA: Treats dyslipidemia, a key comorbidity. MoA: PPAR agonism affects lipid metabolism."
+448,Gemifloxacin,Bacterial Infections,Fluoroquinolone Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial DNA replication."
+449,Gentamicin,Bacterial Infections,Aminoglycoside Antibiotic (30S Ribosome Inhibitor),0,10,0,"TA: Infectious disease, unrelated. MoA: Inhibition of bacterial protein synthesis."
+450,Ginkgo Biloba,"Cognitive Function, Dementia",Botanical Supplement,0,10,0.1,"TA: Supplement, unrelated. MoA: Complex, includes antioxidant and circulatory effects."
+451,Glatiramer Acetate,Multiple Sclerosis,Immunomodulator,0,9.3,0,"TA: Neurology/immunology, unrelated. MoA: Mimics myelin basic protein, modulates T-cell response."
+452,Glibenclamide,Type 2 Diabetes,Sulfonylurea,7,7.8,7.5,TA: T2DM is a key comorbidity. MoA: Stimulates insulin release by blocking K-ATP channels. Can cause weight gain.
+453,Gliclazide,Type 2 Diabetes,Sulfonylurea,7,7.8,7.5,TA: T2DM is a key comorbidity. MoA: Stimulates insulin release by blocking K-ATP channels. Can cause weight gain.
+454,Glimepiride,Type 2 Diabetes,Sulfonylurea,7,7.8,7.5,TA: T2DM is a key comorbidity. MoA: Stimulates insulin release by blocking K-ATP channels. Can cause weight gain.
+455,Glipizide,Type 2 Diabetes,Sulfonylurea,7,7.8,7.5,TA: T2DM is a key comorbidity. MoA: Stimulates insulin release by blocking K-ATP channels. Can cause weight gain.
+456,Glucagon,Severe Hypoglycemia,Hormone,0.4,4.5,1,"TA: Treats severe hypoglycemia, the opposite of Wegovy's T2DM context. MoA: Hormone that raises blood glucose, acting on a related but opposing pathway to GLP-1."
+457,Glucosamine,Osteoarthritis,Nutritional Supplement,0,10,4,"TA: Joint health, unrelated. MoA: Precursor for glycosaminoglycans."
+458,Glutathione,Nutritional Supplement,Antioxidant,0.3,9.7,0.2,"TA: Supplement. Minimal score for role in oxidative stress, relevant to metabolic disease. MoA: Major intracellular antioxidant."
+459,Glycerin,"Constipation, Ocular Hypertension",Osmotic Agent,0,10,0.2,"TA: GI/ophthalmology, unrelated. MoA: Osmotic action."
+460,Glycopyrrolate,"Peptic Ulcers, Anesthesia (reduce secretions)",Anticholinergic,0,9.8,0,"TA: GI/anesthesiology, unrelated. MoA: Muscarinic antagonism."
+461,Goserelin Acetate,"Prostate/Breast Cancer, Endometriosis",GnRH Agonist,0,9.9,3,"TA: Oncology/gynecology, unrelated. MoA: Modulation of the HPG axis."
+462,Gramicidin,Bacterial Infections (Topical),Polypeptide Antibiotic,0,10,0,"TA: Infectious disease, unrelated. MoA: Forms pores in bacterial membranes."
+463,Granisetron,CINV,Serotonin 5-HT3 Receptor Antagonist,1.8,9.6,0,TA: Antiemetic. Minor symptomatic link. MoA: Serotonin 5-HT3 antagonism.
+464,Granulocyte Colony Stimulating Factor,Neutropenia,Growth Factor,0,9.9,0,"TA: Hematology, unrelated. MoA: Stimulates production of neutrophils."
+465,Griseofulvin,"Fungal Infections (Skin, Hair, Nails)",Antifungal,0,10,0,"TA: Infectious disease, unrelated. MoA: Disrupts fungal mitotic spindle."
+466,Guaifenesin,Cough (Expectorant),Expectorant,0,10,0,"TA: Respiratory symptom relief, unrelated. MoA: Increases volume and reduces viscosity of respiratory secretions."
+467,Haloperidol,"Schizophrenia, Tourette's",Typical Antipsychotic (Dopamine Antagonist),1.6,9.6,3.5,"TA: Psychiatry, unrelated. Score reflects potential for weight gain. MoA: Dopamine antagonism."
+468,Haloperidol Decanoate,Schizophrenia,Typical Antipsychotic (Long-acting),1.6,9.6,3.5,"TA: Psychiatry, unrelated. MoA: Dopamine antagonism."
+469,Homotaurine,Not a standard drug; supplement for cognitive health,GABA Analog,0,9.6,0.1,"TA: Supplement, unrelated. MoA: GABAergic activity."
+470,Human Normal Immunoglobulin,"Immunodeficiency, Autoimmune Diseases",Immunoglobulin Replacement/Modulation,0,10,0,"TA: Immunology, unrelated. MoA: Provides passive immunity/modulates immune system."
+471,Hyaluronic Acid,"Osteoarthritis, Dermal Filler",Polysaccharide,0,10,4,"TA: Joint health/cosmetic, unrelated. MoA: Viscosupplementation/volume enhancement."
+472,Hydralazine,"Hypertension, Heart Failure",Vasodilator,5.2,9.8,5.3,TA: Treats hypertension and heart failure. MoA: Direct arterial smooth muscle relaxant.
+473,Hydrochlorothiazide,"Hypertension, Edema",Thiazide Diuretic,5.2,9.8,5.5,"TA: Treats hypertension, a key comorbidity. MoA: Inhibits sodium-chloride symporter in the kidney."
+474,Hydrocortisone,"Inflammation, Adrenal Insufficiency",Corticosteroid,0.3,9.9,3.2,"TA: Inflammatory conditions, unrelated. MoA: Glucocorticoid receptor agonism."
+475,Hydroquinone,Hyperpigmentation,Tyrosinase Inhibitor,0,10,0,"TA: Dermatology, unrelated. MoA: Inhibits melanin synthesis."
+476,Hydrotalcite,Antacid,Antacid,0,10,0.3,"TA: GI symptom relief, unrelated. MoA:"
+477,Hydroxychloroquine,"Autoimmune diseases (rheumatoid arthritis, lupus), malaria","Immunomodulator, inhibits Toll-like receptors",2,4,0.2,Low therapeutic similarity; mechanism is not novel.
+478,Hydroxyprogesterone,Prevention of preterm birth,"Progestin, progesterone receptor agonist",1,3,0.7,No therapeutic similarity; well-established mechanism.
+479,Hydroxypropylmethylcellulose,Dry eyes,Lubricant and thickener,0,0,0,Not a pharmacological agent.
+480,Hydroxyurea,"Cancer, sickle cell anemia",Inhibits ribonucleotide reductase,0,3,0,No therapeutic similarity; established cytotoxic agent.
+481,Hydroxyzine,"Allergic itching, anxiety",Histamine H1 receptor inverse agonist,1,2,0.9,No therapeutic similarity; very old mechanism.
+482,Hyoscine Butylbromide,"Abdominal cramps, IBS",Anticholinergic/antimuscarinic,2.5,2,0.5,Distant GI connection; very old mechanism.
+483,Hyoscyamine,"GI disorders, bladder spasms",Anticholinergic/antimuscarinic,2.5,2,0.5,Distant GI connection; very old mechanism.
+484,Ibandronic Acid,Osteoporosis,"Bisphosphonate, inhibits osteoclast activity",1,3,0,No therapeutic similarity; established mechanism.
+485,Ibrutinib,B-cell cancers,Bruton's tyrosine kinase (BTK) inhibitor,0,8,0,No therapeutic similarity; relatively novel mechanism.
+486,Ibuprofen,"Pain, fever, inflammation","NSAID, inhibits COX enzymes",1,1,4.1,No therapeutic similarity; very common mechanism.
+487,Idebenone,Leber's hereditary optic neuropathy,"Antioxidant, coenzyme Q10 analog",1.5,5,0.2,No direct therapeutic similarity; antioxidant mechanism is general.
+488,Ifosfamide,Cancer,"Alkylating agent, DNA synthesis inhibitor",0,2,0,No therapeutic similarity; old cytotoxic agent.
+489,Iguratimod,Rheumatoid arthritis,"Immunomodulator, inhibits NF-κB",2,6.5,4.3,Low therapeutic similarity; moderately novel immunomodulatory mechanism.
+490,Ilaprazole,"Acid reflux, ulcers",Proton pump inhibitor (PPI),3,4,1.6,Some GI connection; PPIs are an established class.
+491,Iloperidone,Schizophrenia,"Atypical antipsychotic, dopamine D2 and serotonin 5-HT2A antagonist",1,4,3.6,No therapeutic similarity; established antipsychotic mechanism.
+492,Imatinib Mesylate,"Cancer (CML, GIST)",Tyrosine kinase inhibitor (BCR-ABL),0,8.5,0,No therapeutic similarity; highly novel targeted therapy.
+493,Imipenem,Bacterial infections,"Carbapenem antibiotic, inhibits cell wall synthesis",0,3,0,No therapeutic similarity; established antibiotic class.
+494,Imipramine,Depression,"Tricyclic antidepressant, norepinephrine and serotonin reuptake inhibitor",2.5,2,2.5,"Some overlap with CNS effects, but different therapeutic area; old mechanism."
+495,Imiquimod,"Genital warts, skin cancer","Toll-like receptor 7 (TLR7) agonist, immune response modifier",1,7.5,0,No therapeutic similarity; novel mechanism of action.
+496,Inactivated Influenza Vaccine,Influenza prevention,Induces an immune response to the influenza virus,0,N/A,0,Not a therapeutic drug with a mechanism of action in the traditional sense.
+497,Indapamide,"Hypertension, edema",Thiazide-like diuretic,2,3,5.5,Distant cardiovascular link; established diuretic mechanism.
+498,Indinavir,HIV/AIDS,Protease inhibitor,0,7,1.1,No therapeutic similarity; part of a novel class of antivirals.
+499,Indomethacin,"Pain, inflammation","NSAID, inhibits COX enzymes",1,1,4.1,No therapeutic similarity; very common mechanism.
+500,Infliximab,"Autoimmune diseases (Crohn's, rheumatoid arthritis)","Monoclonal antibody, TNF-alpha inhibitor",2.5,8,4.4,"Low therapeutic similarity; biologic with a targeted, novel mechanism."
+501,Inositol Nicotinate,High cholesterol,"Nicotinic acid derivative, lipid-lowering agent",5,4,0.8,Some overlap in metabolic area; established mechanism.
+502,Insulin Aspart,Diabetes,Rapid-acting insulin analog,9,6,8.8,Very high therapeutic similarity (diabetes); mechanism is a modification of a natural hormone.
+503,Insulin Isophane/Nph,Diabetes,Intermediate-acting insulin,9,5,8.8,Very high therapeutic similarity (diabetes); older insulin formulation.
+504,Insulin Lispro,Diabetes,Rapid-acting insulin analog,9,6,8.8,Very high therapeutic similarity (diabetes); mechanism is a modification of a natural hormone.
+505,Iohexol,Medical imaging,Contrast agent,0,N/A,0,Not a therapeutic drug.
+506,Ipratropium Bromide,"COPD, asthma",Anticholinergic/antimuscarinic,1,2,5.8,No therapeutic similarity; old mechanism.
+507,Irbesartan,"Hypertension, diabetic nephropathy",Angiotensin II receptor blocker (ARB),3,5,0,Some cardiovascular/metabolic overlap; established mechanism.
+508,Irinotecan,Cancer (colorectal),Topoisomerase I inhibitor,0,4,0.1,No therapeutic similarity; established cytotoxic agent.
+509,Iron,Iron-deficiency anemia,Mineral supplement,1,1,0.1,Not a drug with a complex mechanism of action.
+510,Iron Isomaltoside,Iron-deficiency anemia,Iron replacement product,1,2,0.1,More complex formulation but still a supplement.
+511,Iron Sucrose,Iron-deficiency anemia,Iron replacement product,1,2,0,More complex formulation but still a supplement.
+512,Isoflurane,General anesthesia,"Inhaled anesthetic, enhances GABA receptor function",0,3,0,No therapeutic similarity; old anesthetic mechanism.
+513,Isoniazid,Tuberculosis,"Antibiotic, inhibits mycolic acid synthesis",0,4,0,No therapeutic similarity; specific to mycobacteria.
+514,Isoprenaline,"Bradycardia, heart block",Non-selective beta-adrenergic agonist,3.5,3,0.4,"Some metabolic effects, but primarily cardiovascular; old mechanism."
+515,Isopropamide,GI disorders,Anticholinergic,2.5,2,5,Distant GI connection; old mechanism.
+516,Isosorbide Dinitrate,"Angina, heart failure","Vasodilator, nitric oxide donor",2,3,5,Cardiovascular focus; established mechanism.
+517,Isosorbide Mononitrate,"Angina, heart failure","Vasodilator, nitric oxide donor",2,3,2,Cardiovascular focus; established mechanism.
+518,Isotretinoin,Severe acne,"Retinoid, multiple effects on sebaceous glands",1,5,4.4,No therapeutic similarity; unique mechanism for a dermatological drug.
+519,Isoxsuprine,"Peripheral vascular disease, preterm labor","Beta-adrenergic agonist, vasodilator",2,3,2.2,Distant metabolic/vascular link; old mechanism.
+520,Itopride,"Dyspepsia, GERD","Prokinetic agent, dopamine D2 antagonist and acetylcholinesterase inhibitor",4,4,0,GI focus; established prokinetic mechanism.
+521,Itraconazole,Fungal infections,"Antifungal, inhibits ergosterol synthesis",0,4,5.3,No therapeutic similarity; established antifungal mechanism.
+522,Ivabradine,"Heart failure, angina",Funny channel (If) inhibitor in the sinoatrial node,2,7,0,Cardiovascular focus; novel mechanism for heart rate reduction.
+523,Ivermectin,Parasitic infections,"Anthelmintic, targets glutamate-gated chloride channels",0,6,0,No therapeutic similarity; novel mechanism for an antiparasitic.
+524,Kanamycin,Bacterial infections,"Aminoglycoside antibiotic, inhibits protein synthesis",0,3,0,No therapeutic similarity; established antibiotic class.
+525,Ketamine,"Anesthesia, depression",NMDA receptor antagonist,1,6.5,0,No therapeutic similarity; novel mechanism for depression.
+526,Ketoconazole,Fungal infections,"Antifungal, inhibits ergosterol synthesis",0,4,4.1,No therapeutic similarity; established antifungal mechanism.
+527,Ketoprofen,"Pain, inflammation","NSAID, inhibits COX enzymes",1,1,4.1,No therapeutic similarity; very common mechanism.
+528,Ketorolac,Pain,"NSAID, inhibits COX enzymes",1,1,0.8,No therapeutic similarity; very common mechanism.
+529,Ketotifen,"Allergic conjunctivitis, asthma",Antihistamine and mast cell stabilizer,1,3,0.1,No therapeutic similarity; established mechanism.
+530,L-Alanyl-L-Glutamine,Nutritional supplement,Dipeptide of L-alanine and L-glutamine,2,2,0.3,"Nutritional support, not a drug with a specific MoA."
+531,L-Arginine,Dietary supplement,"Amino acid, precursor to nitric oxide",2.5,2,0.1,General metabolic/cardiovascular use; not a specific MoA.
+532,L-Methyl Folate,Folate deficiency,Active form of folate,1.5,1,0.1,Nutritional supplement.
+533,L-Methyl Folate Calcium,Folate deficiency,Calcium salt of the active form of folate,1.5,1,0.4,Nutritional supplement.
+534,L-Ornithine L-Aspartate,Hepatic encephalopathy,Combination of two amino acids,2,3,5.7,"Metabolic focus, but for a specific liver condition."
+535,Labetalol,Hypertension,"Beta-blocker (beta-1, beta-2) and alpha-1 blocker",2.5,3,5.4,Cardiovascular focus; established mechanism.
+536,Lacidipine,Hypertension,Calcium channel blocker,2,4,0,Cardiovascular focus; established mechanism.
+537,Lacosamide,Epilepsy,"Anticonvulsant, enhances slow inactivation of voltage-gated sodium channels",1,6.5,0.2,No therapeutic similarity; relatively novel anticonvulsant mechanism.
+538,Lactitol,"Constipation, hepatic encephalopathy",Osmotic laxative,3,2,0.2,GI focus; simple osmotic mechanism.
+539,Lactulose,"Constipation, hepatic encephalopathy",Osmotic laxative,3,2,1.5,GI focus; simple osmotic mechanism.
+540,Lafutidine,"Acid reflux, ulcers",H2 receptor antagonist,3,3,0,GI focus; older mechanism than PPIs.
+541,Lamivudine,"HIV/AIDS, hepatitis B",Nucleoside reverse transcriptase inhibitor (NRTI),0,6,0,No therapeutic similarity; established class of antivirals.
+542,Lamotrigine,"Epilepsy, bipolar disorder","Anticonvulsant, sodium channel blocker",1,4,1.6,No therapeutic similarity; established anticonvulsant mechanism.
+543,Lansoprazole,"Acid reflux, ulcers",Proton pump inhibitor (PPI),3,4,0,GI focus; established class.
+544,Lanthanum Carbonate,Hyperphosphatemia in kidney disease,Phosphate binder,1,3,0,No therapeutic similarity; simple binding mechanism.
+545,Lapatinib,Breast cancer,Dual tyrosine kinase inhibitor (EGFR and HER2),0,8,0,No therapeutic similarity; targeted cancer therapy.
+546,Ledipasvir,Hepatitis C,NS5A inhibitor,0,8.5,4.3,No therapeutic similarity; highly novel antiviral mechanism.
+547,Leflunomide,Rheumatoid arthritis,"Immunosuppressant, inhibits pyrimidine synthesis",2,6,0,Low therapeutic similarity; moderately novel mechanism.
+548,Lenalidomide,Multiple myeloma,Immunomodulatory drug (IMiD),0,8,0,No therapeutic similarity; novel mechanism of action.
+549,Lenvatinib,"Cancer (thyroid, renal)",Multiple tyrosine kinase inhibitor,0,8,5.4,No therapeutic similarity; targeted cancer therapy.
+550,Lercanidipine,Hypertension,Calcium channel blocker,2,4,3,Cardiovascular focus; established mechanism.
+551,Letrozole,Breast cancer,Aromatase inhibitor,1,5,3,No therapeutic similarity; hormonal mechanism for cancer.
+552,Leuprolide,"Prostate cancer, endometriosis",Gonadotropin-releasing hormone (GnRH) agonist,1,6,0,No therapeutic similarity; hormonal mechanism.
+553,Levamisole,"Parasitic infections, cancer (adjuvant)","Anthelmintic, immunomodulator",0,5,0,No therapeutic similarity; diverse and not fully understood mechanisms.
+554,Levetiracetam,Epilepsy,"Anticonvulsant, binds to synaptic vesicle protein 2A (SV2A)",1,7.5,0.4,No therapeutic similarity; novel anticonvulsant mechanism.
+555,Levo-Carnitine,Carnitine deficiency,Amino acid derivative,3,2,0,"Metabolic focus, but as a supplement for a specific deficiency."
+556,Levocetirizine,Allergic rhinitis,"Antihistamine, H1 receptor inverse agonist",1,2.5,0,"No therapeutic similarity; second-generation antihistamine, but same core mechanism."
+557,Levodopa,Parkinson's disease,Dopamine precursor,1,4,0,No therapeutic similarity; established mechanism for Parkinson's.
+558,Levodropropizine,Cough,"Antitussive, peripheral mechanism",1,3,0,No therapeutic similarity; common symptom-relief drug.
+559,Levofloxacin,Bacterial infections,"Fluoroquinolone antibiotic, inhibits DNA gyrase",0,4,0,No therapeutic similarity; established antibiotic class.
+560,Levonorgestrel,Contraception,"Progestin, progesterone receptor agonist",1,3,0.7,No therapeutic similarity; well-established hormonal mechanism.
+561,Levosalbutamol,"Asthma, COPD",Beta-2 adrenergic agonist,1.5,2.5,0,Distant link through adrenergic receptors; well-established mechanism.
+562,Levosimendan,Acute decompensated heart failure,Calcium sensitizer and K-ATP channel opener,2,7,0,Cardiovascular focus; novel mechanism for inotropy.
+563,Levosulpiride,"Dyspepsia, psychosis","Prokinetic and antipsychotic, D2 antagonist",3.5,4,2.8,GI and CNS effects; established mechanism.
+564,Lidocaine,"Local anesthetic, arrhythmias",Sodium channel blocker,1,2,4.3,No therapeutic similarity; very old and common mechanism.
+565,Linagliptin,Type 2 diabetes,DPP-4 inhibitor,9.5,7,8,"Very high therapeutic similarity; part of the incretin system, similar to GLP-1 agonists."
+566,Lincomycin,Bacterial infections,"Lincosamide antibiotic, inhibits protein synthesis",0,3,0,No therapeutic similarity; established antibiotic class.
+567,Lindane,"Scabies, lice","Ectoparasiticide, neurotoxin",0,2,0,No therapeutic similarity; old and now rarely used.
+568,Linezolid,Bacterial infections,"Oxazolidinone antibiotic, inhibits protein synthesis",0,6.5,0,No therapeutic similarity; novel class of antibiotics.
+569,Liposomal Amphotericin B,Fungal infections,"Antifungal, binds to ergosterol",0,4,0,No therapeutic similarity; formulation improvement on an old drug.
+570,Liquid Paraffin,Constipation,Lubricant laxative,3,1,0.2,GI focus; simple physical mechanism.
+571,Lisinopril,"Hypertension, heart failure",ACE inhibitor,3,4,5.8,Cardiovascular/metabolic overlap; very established class.
+572,Lithium Carbonate,Bipolar disorder,"Mood stabilizer, mechanism not fully understood",1,3,3,No therapeutic similarity; old drug with an still un-certain mechanism.
+573,Lomefloxacin,Bacterial infections,Fluoroquinolone antibiotic,0,4,0,No therapeutic similarity; established class.
+574,Lomustine,Cancer,Alkylating agent,0,2,0,No therapeutic similarity; old cytotoxic agent.
+575,Loperamide,Diarrhea,Opioid receptor agonist in the myenteric plexus,3.5,3,0.3,GI focus; well-established mechanism for symptomatic relief.
+576,Loratadine,Allergic rhinitis,"Antihistamine, H1 receptor inverse agonist",1,2.5,0,No therapeutic similarity; second-generation antihistamine.
+577,Lorazepam,"Anxiety, insomnia","Benzodiazepine, GABA-A receptor modulator",1,2,0.5,No therapeutic similarity; very old and well-known mechanism.
+578,Lornoxicam,"Pain, inflammation",NSAID,1,1,4.1,No therapeutic similarity; common mechanism.
+579,Losartan,"Hypertension, diabetic nephropathy",Angiotensin II receptor blocker (ARB),3,5,5.8,Cardiovascular/metabolic overlap; established mechanism.
+580,Loteprednol Etabonate,Eye inflammation,Corticosteroid,1,3,0,Local anti-inflammatory use; well-known mechanism.
+581,Lovastatin,High cholesterol,HMG-CoA reductase inhibitor (statin),6,5,6.8,High therapeutic similarity (metabolic/cardiovascular); very established class.
+582,Loxapine,Schizophrenia,Typical antipsychotic,1,2,1.5,No therapeutic similarity; old mechanism.
+583,Luliconazole,Fungal infections,Antifungal,0,4,0,No therapeutic similarity; established mechanism.
+584,Lurasidone,"Schizophrenia, bipolar depression",Atypical antipsychotic,1,4.5,2,No therapeutic similarity; part of a newer generation of antipsychotics.
+585,Lymecycline,Bacterial infections,Tetracycline antibiotic,0,2,0,No therapeutic similarity; old class of antibiotics.
+586,Lysine,Dietary supplement,Essential amino acid,1.5,1,0.1,Nutritional supplement.
+587,Macitentan,Pulmonary arterial hypertension,Endothelin receptor antagonist,2,7.5,3,Cardiovascular focus; novel mechanism for a specific condition.
+588,Magaldrate,"Acid reflux, ulcers",Antacid,3,1,0.3,GI focus; simple neutralizing mechanism.
+589,Magnesium Bisglycinate,Magnesium supplement,Mineral supplement,1.5,1,0.4,Nutritional supplement.
+590,Magnesium Carbonate,"Magnesium supplement, antacid",Mineral supplement,1.5,1,0.4,Nutritional supplement.
+591,Magnesium Citrate,"Constipation, magnesium supplement","Osmotic laxative, mineral supplement",2.5,1.5,0.3,GI and nutritional use; simple mechanism.
+592,Magnesium Valproate,"Epilepsy, bipolar disorder",Anticonvulsant,1,3,3.7,No therapeutic similarity; salt of an old anticonvulsant.
+593,Mebendazole,Anthelmintic,Inhibits microtubule synthesis in parasitic worms,0.1,0.2,0,Not related to weight management or metabolic disease. The mechanism is highly specific to parasites.
+594,Mebeverine,Irritable Bowel Syndrome (IBS),"Antispasmodic, direct action on smooth muscle of the GI tract",2.5,1.5,0.5,"GI-related, but not for weight loss. The mechanism is not related to appetite or metabolism."
+595,Meclizine,"Antiemetic, Antivertigo",H1 receptor antagonist,1.2,1.8,0.8,"Used for nausea and vertigo, not weight management. The mechanism is not related to metabolic pathways."
+596,Medroxyprogesterone Acetate,"Contraception, Hormone Replacement Therapy","Progestin, inhibits gonadotropin secretion",1.5,1.2,0.7,"Hormone-related, but not in a metabolic context. Weight gain can be a side effect, but it's not the therapeutic goal."
+597,Mefenamic Acid,"Analgesic, Anti-inflammatory","Non-steroidal anti-inflammatory drug (NSAID), inhibits COX-1 and COX-2",0.5,0.5,1,Pain and inflammation are not related to weight loss. Common mechanism of action.
+598,Mefloquine,Antimalarial,"Blood schizonticide, specific mechanism not fully understood",0.1,2.5,0,"Infectious disease treatment, completely unrelated to Wegovy's therapeutic area."
+599,Megestrol,Appetite stimulant in cachexia,"Progestin, appetite-stimulating effects are not fully understood",1.8,4.5,2.9,"Used to increase appetite and weight, the opposite of Wegovy. Some hormonal link, but the mechanism is different."
+600,Melatonin,"Sleep aid, Circadian rhythm disorders",Agonist at melatonin receptors (MT1 and MT2),2.2,3.5,0.6,"Sleep and metabolism are linked, but this is not a primary weight loss drug. The mechanism is distinct from appetite regulation."
+601,Melitracen,Antidepressant,"Tricyclic antidepressant (TCA), inhibits reuptake of norepinephrine and serotonin",1.8,2.2,2.4,Mental health is a different therapeutic area. Weight changes can be a side effect.
+602,Meloxicam,"Analgesic, Anti-inflammatory","NSAID, preferential COX-2 inhibitor",0.5,0.8,4.1,"Pain and inflammation, unrelated to weight management."
+603,Melphalan,Chemotherapy,"Alkylating agent, damages DNA in cancer cells",0.1,0.1,0,Oncology is a completely different field.
+604,Memantine,Alzheimer's Disease,NMDA receptor antagonist,1.5,2.8,0.3,Neurological disorders are not the target area for Wegovy.
+605,Menadione,Vitamin K deficiency,Synthetic Vitamin K analog,0.3,0.3,0.1,"Nutritional supplement, not a weight management drug."
+606,Menthol,"Topical analgesic, Decongestant","Activates TRPM8 receptors, causing a cooling sensation",0.1,0.1,0,"Symptomatic relief, not a systemic metabolic drug."
+607,Mephentermine,Vasopressor,Alpha and Beta-adrenergic agonist,0.2,1.5,0,"Used to treat hypotension, not related to weight management."
+608,Mepolizumab,Severe Eosinophilic Asthma,"Monoclonal antibody, IL-5 antagonist",1.2,8.5,0,"Respiratory disease, unrelated to metabolic disorders. However, it's a biologic with a specific target."
+609,Mercaptopurine,"Chemotherapy, Immunosuppressant","Purine analog, inhibits DNA synthesis",0.1,0.2,0,Oncology and autoimmune diseases are not related to weight loss.
+610,Meropenem,Antibiotic,"Carbapenem antibiotic, inhibits bacterial cell wall synthesis",0.1,0.1,0,Infectious disease treatment.
+611,Mesalazine,Inflammatory Bowel Disease (IBD),"Anti-inflammatory agent, mechanism not fully understood but likely local action in the colon",2.5,3.2,0.8,"GI-related, but for inflammation, not weight management."
+612,Mesna,Chemotherapy adjunct,Reduces the risk of hemorrhagic cystitis from ifosfamide and cyclophosphamide,0.1,0.1,0,Used for supportive care in oncology.
+613,Mesterolone,Androgen deficiency,"Androgen, synthetic derivative of dihydrotestosterone",1.5,2.5,3.3,"Hormone replacement, but for androgens, not related to GLP-1 pathway."
+614,Metadoxine,Alcoholism,"Combination of pyridoxine and pyrrolidone carboxylate, enhances alcohol metabolism",1.2,2.8,0.2,Used for a specific type of substance use disorder.
+615,Metamizole,"Analgesic, Antipyretic","Non-opioid analgesic, mechanism not fully understood",0.5,1.2,0,"Pain and fever, unrelated to weight loss."
+616,Metformin,Type 2 Diabetes,"Biguanide, decreases hepatic glucose production and increases insulin sensitivity",8.5,6.5,9.2,A first-line treatment for type 2 diabetes. Often associated with modest weight loss. Different mechanism than Wegovy.
+617,Methdilazine,"Antihistamine, Antipruritic","Phenothiazine derivative, H1 receptor antagonist",0.8,1.5,0.8,Allergy and itching are not related to weight management.
+618,Methimazole,Hyperthyroidism,"Thionamide, inhibits thyroid hormone synthesis",2.5,2.2,2.5,"Endocrine-related, but for the thyroid, not the GLP-1 system. Can cause weight gain."
+619,Methocarbamol,Muscle relaxant,Central nervous system depressant,0.2,0.8,0,"Musculoskeletal conditions, not metabolic disorders."
+620,Methotrexate,"Chemotherapy, Immunosuppressant","Dihydrofolate reductase inhibitor, inhibits DNA synthesis",0.1,0.2,0.8,Oncology and autoimmune diseases.
+621,Methoxsalen,"Psoriasis, Vitiligo","Photosensitizing agent, used with UV radiation",0.1,1.8,0.2,Dermatological conditions.
+622,Methylcobalamin,Vitamin B12 deficiency,Active form of Vitamin B12,0.3,0.3,0.1,Nutritional supplement.
+623,Methyldopa,Antihypertensive,"Alpha-2 adrenergic agonist, reduces sympathetic outflow from the CNS",3.5,2.5,5.3,"Cardiovascular drug, but the mechanism is not related to weight management."
+624,Methylergometrine,Postpartum hemorrhage,"Ergot alkaloid, causes uterine contractions",0.1,1.2,0,"Obstetric use, unrelated to metabolic disease."
+625,Methylphenidate,"ADHD, Narcolepsy","CNS stimulant, dopamine and norepinephrine reuptake inhibitor",4.5,5.5,3.5,"Can cause weight loss as a side effect due to appetite suppression, but used for a different indication. The mechanism affects neurotransmitters involved in appetite."
+626,Methylprednisolone,"Anti-inflammatory, Immunosuppressant",Corticosteroid,1.2,1.2,3.2,Can cause weight gain as a side effect. Broad anti-inflammatory effects.
+627,Metoclopramide,"Antiemetic, Gastroprokinetic","Dopamine D2 receptor antagonist, 5-HT4 receptor agonist",2.2,3.2,2,"GI motility and nausea, not weight loss."
+628,Metolazone,"Diuretic, Antihypertensive",Thiazide-like diuretic,3.2,1.8,5.5,"Causes fluid loss, not fat loss. Used for hypertension and edema."
+629,Metoprolol Succinate,"Antihypertensive, Antianginal",Beta-blocker (beta-1 selective),3.5,1.5,5.1,"Cardiovascular drug, can cause weight gain."
+630,Metoprolol Tartrate,"Antihypertensive, Antianginal",Beta-blocker (beta-1 selective),3.5,1.5,5.1,"Same as Metoprolol Succinate, just a different salt."
+631,Metronidazole,Antibiotic,"Nitroimidazole antibiotic, disrupts DNA of anaerobic bacteria and protozoa",0.1,0.1,0,Infectious disease treatment.
+632,Mexiletine,Antiarrhythmic,"Class IB antiarrhythmic, sodium channel blocker",0.2,0.5,4.3,Cardiovascular drug for arrhythmias.
+633,Mianserin,Antidepressant,"Tetracyclic antidepressant, antagonist at various serotonin, histamine, and adrenergic receptors",1.8,2.5,2.7,Mental health is a different therapeutic area.
+634,Micafungin,Antifungal,"Echinocandin, inhibits fungal cell wall synthesis",0.1,0.1,0,Infectious disease treatment.
+635,Miconazole,Antifungal,"Imidazole antifungal, inhibits synthesis of ergosterol",0.1,0.1,0,Infectious disease treatment.
+636,Midazolam,"Sedative, Anxiolytic, Anticonvulsant","Benzodiazepine, enhances the effect of GABA",0.2,0.5,0.4,"Used for sedation and anxiety, not metabolic disorders."
+637,Midodrine,Orthostatic hypotension,"Alpha-1 adrenergic agonist, vasopressor",0.2,1.5,0,Cardiovascular drug for low blood pressure.
+638,Mifepristone,"Abortifacient, Cushing's syndrome",Progesterone and glucocorticoid receptor antagonist,1.5,4.8,3.9,"Can be used for a specific endocrine disorder (Cushing's), but its primary use is unrelated. The mechanism involves hormone receptors."
+639,Miglitol,Type 2 Diabetes,"Alpha-glucosidase inhibitor, delays carbohydrate absorption",8.2,5.8,7.8,"Used for diabetes, but the mechanism is different from Wegovy, focusing on carb absorption in the gut."
+640,Milk Of Magnesia,"Laxative, Antacid","Magnesium hydroxide, osmotic laxative and antacid",1.5,0.2,0.3,"GI-related, but for constipation and heartburn, not weight loss."
+641,Milnacipran,"Fibromyalgia, Depression","SNRI, inhibits reuptake of serotonin and norepinephrine",2.2,3.5,2,Pain and mental health are the primary indications.
+642,Milrinone,Heart failure,"PDE3 inhibitor, increases cardiac contractility and causes vasodilation",0.2,1.8,0,Cardiovascular drug for acute heart failure.
+643,Minocycline,Antibiotic,"Tetracycline antibiotic, inhibits bacterial protein synthesis",0.1,0.1,0,Infectious disease treatment.
+644,Minodronic Acid,Osteoporosis,"Bisphosphonate, inhibits osteoclast activity",0.1,0.2,0,"Bone disease, not a metabolic disorder in the same sense as obesity."
+645,Minoxidil,"Antihypertensive, Hair loss treatment","Vasodilator, mechanism for hair growth not fully understood",3.2,1.5,5.3,Used for high blood pressure and hair loss.
+646,Mirabegron,Overactive bladder,Beta-3 adrenergic agonist,1.2,3.5,2.5,Urological condition.
+647,Mirtazapine,Antidepressant,Noradrenergic and specific serotonergic antidepressant (NaSSA),1.8,2.5,2.8,Can cause significant weight gain.
+648,Mitomycin,Chemotherapy,"Antitumor antibiotic, alkylating agent",0.1,0.1,0,Oncology.
+649,Mitoxantrone,"Chemotherapy, Multiple Sclerosis",Topoisomerase II inhibitor,0.1,0.2,0,Oncology and neurology.
+650,Mizolastine,Antihistamine,H1 receptor antagonist,0.8,1.5,0,Allergy treatment.
+651,Moclobemide,"Antidepressant, Social anxiety",Reversible inhibitor of monoamine oxidase A (RIMA),1.8,2.2,1,Mental health.
+652,Modafinil,"Narcolepsy, Sleep apnea","CNS stimulant, mechanism not fully understood but affects dopamine",4.2,5.2,3,Can cause appetite suppression and weight loss.
+653,Molgramostim,Neutropenia,Granulocyte-macrophage colony-stimulating factor (GM-CSF) analog,0.1,7.5,0,Hematology/oncology.
+654,Molnupiravir,Antiviral (COVID-19),"Nucleoside analog, causes viral mutagenesis",0.1,0.2,0,Infectious disease.
+655,Mometasone,Anti-inflammatory,Corticosteroid,0.5,0.5,0.2,"Used for skin conditions, allergies, and asthma."
+656,Montelukast,"Asthma, Allergic rhinitis",Leukotriene receptor antagonist,0.8,2.2,0,Respiratory and allergy.
+657,Morphine,Analgesic,Opioid receptor agonist,0.2,1.2,0.3,Pain management.
+658,Mosapride,Gastroprokinetic,5-HT4 receptor agonist,2.2,3.2,2.2,GI motility.
+659,Moxifloxacin,Antibiotic,"Fluoroquinolone antibiotic, inhibits DNA gyrase and topoisomerase IV",0.1,0.1,0,Infectious disease.
+660,Moxonidine,Antihypertensive,Imidazoline receptor agonist,3.5,2.5,5.2,Cardiovascular.
+661,Mupirocin,Antibiotic,"Topical antibiotic, inhibits bacterial protein synthesis",0.1,0.1,0,Infectious disease.
+662,Mycophenolate Mofetil,Immunosuppressant,"Inhibits inosine monophosphate dehydrogenase, blocking purine synthesis in lymphocytes",0.1,0.5,3.3,Autoimmune disease and transplant rejection.
+663,Mycophenolate Sodium,Immunosuppressant,Same as Mycophenolate Mofetil,0.1,0.5,3.3,Autoimmune disease and transplant rejection.
+664,Myo-Inositol,"Dietary supplement (PCOS, metabolic syndrome)",Part of the vitamin B complex,6.5,4.5,4.5,Often used for conditions with insulin resistance. The mechanism is different from Wegovy but targets a related area.
+665,N-Butyl-2-Cyanoacrylate,Tissue adhesive,Medical glue,0,0,0,Not a drug in the traditional sense.
+666,Nabumetone,"Analgesic, Anti-inflammatory",NSAID,0.5,0.5,4.1,Pain and inflammation.
+667,Nadifloxacin,Antibiotic,Fluoroquinolone antibiotic,0.1,0.1,0,Infectious disease.
+668,Naftopidil,Benign prostatic hyperplasia (BPH),Alpha-1 adrenoceptor antagonist,0.2,1.2,5,Urological condition.
+669,Nalbuphine,Analgesic,Opioid agonist-antagonist,0.2,1.5,0.3,Pain management.
+670,Nalidixic Acid,Antibiotic,Quinolone antibiotic,0.1,0.1,0,Infectious disease.
+671,Naltrexone,Opioid and alcohol dependence,Opioid receptor antagonist,7.5,7.2,7,Used in combination with bupropion for weight management (Contrave). Different mechanism from Wegovy but also targets appetite regulation in the brain.
+672,Nandrolone Decanoate,Anabolic steroid,Androgen receptor agonist,1.2,2.8,3.4,"Used for cachexia and anemia, not weight loss in the obese."
+673,Naphazoline,Decongestant,"Alpha-adrenergic agonist, vasoconstrictor",0.1,0.2,0,Symptomatic relief for eye and nasal congestion.
+674,Naproxen,"Analgesic, Anti-inflammatory",NSAID,0.5,0.5,4.1,Pain and inflammation.
+675,Nateglinide,Type 2 Diabetes,"Meglitinide, stimulates insulin secretion from the pancreas",8.2,6.2,7.2,"Diabetes drug, but can cause weight gain. The mechanism is different from Wegovy."
+676,Nebivolol,Antihypertensive,Beta-blocker (beta-1 selective) with vasodilating properties,3.5,1.8,5.2,Cardiovascular.
+677,Nefopam,Analgesic,"Non-opioid analgesic, inhibits reuptake of serotonin, norepinephrine, and dopamine",0.5,2.5,0,Pain management.
+678,Nelfinavir,Antiviral (HIV),Protease inhibitor,0.1,0.5,3.5,Infectious disease. Can cause metabolic side effects.
+679,Neomycin,Antibiotic,"Aminoglycoside antibiotic, inhibits bacterial protein synthesis",0.1,0.1,0,Infectious disease.
+680,Neostigmine,"Myasthenia gravis, Reversal of neuromuscular blockade",Cholinesterase inhibitor,0.2,0.8,0,Neuromuscular disorder.
+681,Netilmicin,Antibiotic,Aminoglycoside antibiotic,0.1,0.1,0,Infectious disease.
+682,Nevirapine,Antiviral (HIV),Non-nucleoside reverse transcriptase inhibitor (NNRTI),0.1,0.2,0.5,Infectious disease.
+683,Niacinamide,"Vitamin B3 deficiency, Acne",Form of Vitamin B3,0.3,0.3,0.1,Nutritional supplement and dermatological use.
+684,Nicergoline,"Senile dementia, Vascular disorders","Ergot derivative, alpha-1 adrenergic blocker and vasodilator",1.5,2.2,1,Neurological and vascular conditions.
+685,Nicorandil,Antianginal,Potassium channel activator and nitric oxide donor,0.2,2.5,5,Cardiovascular.
+686,Nicotinamide,"Vitamin B3 deficiency, Acne",Form of Vitamin B3,0.3,0.3,0.1,Nutritional supplement and dermatological use.
+687,Nicotine,Smoking cessation,Nicotinic acetylcholine receptor agonist,3.5,4.5,2.5,"Can suppress appetite and increase metabolism, but not used for weight loss."
+688,Nicotinic Acid,Dyslipidemia,"Vitamin B3, lowers LDL and triglycerides and raises HDL",5.5,3.8,6.2,"Metabolic disorder, but not primarily for weight loss."
+689,Nifedipine,"Antihypertensive, Antianginal",Calcium channel blocker,3.5,1.2,5.6,Cardiovascular.
+690,Nimesulide,"Analgesic, Anti-inflammatory","NSAID, preferential COX-2 inhibitor",0.5,0.8,4.1,Pain and inflammation.
+691,Nimodipine,Subarachnoid hemorrhage,Calcium channel blocker,0.2,1.2,1,Neurological.
+692,Nimorazole,Radiotherapy sensitizer in head and neck cancer,Nitroimidazole,0.1,0.1,0,Oncology.
+693,Nimotuzumab,Head and neck cancer,"Monoclonal antibody, EGFR inhibitor",0.1,8.2,0,Oncology. Biologic with a specific target.
+694,Nintedanib,"Idiopathic pulmonary fibrosis, Cancer",Tyrosine kinase inhibitor,0.1,7.8,0,Respiratory and oncology.
+695,Nitazoxanide,"Antiprotozoal, Antiviral","Thiazolide, inhibits pyruvate-ferredoxin oxidoreductase pathway",0.1,0.2,0,Infectious disease.
+696,Nitrazepam,"Hypnotic, Anxiolytic, Anticonvulsant",Benzodiazepine,0.2,0.5,0.5,Sleep and anxiety disorders.
+697,Nitrendipine,Antihypertensive,Calcium channel blocker,3.5,1.2,5.4,Cardiovascular.
+698,Nitrofurantoin,Antibiotic,Urinary tract antiseptic,0.1,0.1,0,Infectious disease.
+699,Nitroglycerin,Antianginal,"Vasodilator, converted to nitric oxide",0.2,0.8,5,Cardiovascular.
+700,Nitroprusside,Hypertensive emergencies; acute heart failure,Nitric oxide (NO) donor causing vasodilation,3,0,0,"Therapeutic area is cardiovascular, a comorbidity of obesity, but not weight management itself. Mechanism is completely unrelated to GLP-1 agonism."
+701,Norepinephrine,Severe hypotension; shock,Alpha- and beta-adrenergic receptor agonist,1,0,0,"Used to raise blood pressure, which is distant from weight management goals. Adrenergic mechanism is unrelated to Wegovy's."
+702,Norethisterone,Contraception; abnormal uterine bleeding; endometriosis,Progestin; inhibits ovulation and alters endometrium,0,0,0.7,Gynecological indications are unrelated to weight management. Hormonal mechanism is completely different.
+703,Norfloxacin,"Bacterial infections (e.g., UTIs)",Fluoroquinolone antibiotic; inhibits bacterial DNA gyrase,0,0,0,Therapeutic area (infectious disease) and mechanism (antibiotic) are completely unrelated to weight management and GLP-1 agonism.
+704,Norgestrel,Contraception,Progestin; suppresses ovulation,0,0,0.7,Contraception is unrelated to weight management. Hormonal mechanism is completely different.
+705,Nortriptyline,Depression,Tricyclic antidepressant; inhibits reuptake of norepinephrine and serotonin,2,1,2.5,Therapeutic area (depression) has links to appetite but is not weight management. Neurotransmitter mechanism is distinct from GLP-1 agonism.
+706,Noscapine,Dry cough,Sigma receptor agonist; cough suppressant,0,0,0,Cough suppression is completely unrelated to weight management and its mechanism is different.
+707,Obeticholic Acid,Primary biliary cholangitis (PBC),Farnesoid X receptor (FXR) agonist,2.5,2,7.5,"Used for a liver disease. While FXR agonism affects metabolic pathways, it is not directly related to the GLP-1 pathway or weight management."
+708,Octreotide Acetate,Acromegaly; carcinoid tumors,Somatostatin analog; inhibits hormone release,1.5,4,3,"Used for specific endocrine tumors. While it's a hormone analog affecting metabolic hormones, its mechanism and purpose are very different from a GLP-1 agonist."
+709,Ofloxacin,Bacterial infections,Fluoroquinolone antibiotic; inhibits bacterial DNA gyrase,0,0,0,Therapeutic area (infectious disease) and mechanism (antibiotic) are completely unrelated to weight management and GLP-1 agonism.
+710,Olanzapine,Schizophrenia; bipolar disorder,Atypical antipsychotic; dopamine D2 and serotonin 5-HT2A antagonist,1.5,1,3.9,"Psychiatric indication. Known to cause weight gain as a side effect, making its therapeutic effect opposite to Wegovy's goal. Mechanism is unrelated."
+711,Olmesartan Medoxomil,Hypertension,Angiotensin II receptor blocker (ARB),3,0,5.8,"Cardiovascular comorbidity of obesity, but not weight management. Mechanism is completely unrelated."
+712,Olopatadine,Allergic conjunctivitis/rhinitis,Histamine H1 receptor antagonist,0,0,0,Allergy treatment is completely unrelated to weight management and its mechanism is different.
+713,Omalizumab,Allergic asthma; chronic urticaria,Monoclonal antibody; inhibits immunoglobulin E (IgE),0,0,0,Allergic/inflammatory conditions are unrelated to weight management. Mechanism as a monoclonal antibody is completely different.
+714,Omeprazole,GERD; peptic ulcers,Proton pump inhibitor (PPI),1,0,1.6,"Targets the GI system for acid reduction, not weight management. Mechanism is completely unrelated."
+715,Ondansetron,Nausea and vomiting,Serotonin 5-HT3 receptor antagonist,1,1,0,"Antiemetic. While it affects the GI system, its purpose and mechanism are very different from Wegovy's."
+716,Opipramol,Generalized anxiety disorder,Sigma-1 receptor agonist,1.5,1,2,Psychiatric indication. Mechanism is unrelated to the GLP-1 pathway.
+717,Orciprenaline,Asthma; COPD,Beta-2 adrenergic receptor agonist (bronchodilator),0,0,0,Respiratory conditions are unrelated to weight management. Mechanism is different.
+718,Orlistat,Obesity management,Gastric and pancreatic lipase inhibitor,9.5,5,9.8,Therapeutic area is highly similar (obesity management). Mechanism is different (inhibits fat absorption) but achieves a similar goal.
+719,Ornidazole,Protozoal and anaerobic bacterial infections,5-nitroimidazole antimicrobial,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+720,Oseltamivir Phosphate,Influenza treatment and prevention,Neuraminidase inhibitor,0,0,0,Antiviral for influenza is completely unrelated to weight management.
+721,Otilonium Bromide,Irritable bowel syndrome (IBS),Antispasmodic; blocks L-type calcium channels in the gut,1.5,0,0.5,"GI indication, but for spasms, not weight. Mechanism is unrelated."
+722,Oxaceprol,Osteoarthritis,Anti-inflammatory; inhibits leukocyte migration,2,0,4,"Treats a common comorbidity of obesity (osteoarthritis), but is not a weight management drug. Mechanism is unrelated."
+723,Oxaliplatin,Colorectal cancer,Platinum-based chemotherapy agent,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+724,Oxazepam,Anxiety; alcohol withdrawal,Benzodiazepine; enhances GABA effects,1.5,1,0.5,Psychiatric indication. Mechanism is unrelated to the GLP-1 pathway.
+725,Oxcarbazepine,Epilepsy (seizures),Anticonvulsant; blocks voltage-gated sodium channels,0,0,0,Neurological indication and mechanism are unrelated to weight management.
+726,Oxetacaine,Local anesthetic for oral/esophageal pain,Topical anesthetic; blocks sodium channels,0,0,0,Local anesthetic use is completely unrelated to weight management.
+727,Oxiconazole,Fungal skin infections,Azole antifungal,0,0,0,Dermatological anti-infective is an unrelated area and mechanism.
+728,Oxybutynin,Overactive bladder,Anticholinergic/antimuscarinic agent,0,0,0,Urological indication and mechanism are unrelated.
+729,Oxymetazoline,Nasal congestion; rosacea,Alpha-adrenergic agonist (vasoconstrictor),0,0,0,Decongestant/dermatological use and mechanism are unrelated.
+730,Oxyphenbutazone,Gout; rheumatoid arthritis,NSAID; inhibits COX enzymes,1,0,4.1,Anti-inflammatory for rheumatic conditions. Unrelated area and mechanism.
+731,Oxytetracycline,Bacterial infections,Tetracycline antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+732,Ozagrel,Cerebral vasospasm,Thromboxane A2 synthase inhibitor,0,0,4.5,Specific cerebrovascular condition is an unrelated area and mechanism.
+733,Paclitaxel,Various cancers,Chemotherapy agent; stabilizes microtubules,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+734,Paliperidone,Schizophrenia; schizoaffective disorder,Atypical antipsychotic; dopamine D2 and serotonin 5-HT2A antagonist,1.5,1,3.8,"Psychiatric indication. Known to cause weight gain, making its effect opposite to Wegovy's goal. Mechanism is unrelated."
+735,Palonosetron,Nausea and vomiting,Serotonin 5-HT3 receptor antagonist,1,1,0,"Antiemetic. While it affects the GI system, its purpose and mechanism are very different from Wegovy's."
+736,Pamidronate,Hypercalcemia of malignancy; bone metastases,Bisphosphonate; inhibits osteoclast activity,0,0,0,Bone metabolism disorders are an unrelated area and mechanism.
+737,Pancreatin,Pancreatic insufficiency,"Enzyme replacement therapy (lipase, amylase, protease)",4,2,0.6,"Related to digestion and weight, but for malabsorption (opposite problem). Mechanism is very different."
+738,Pancuronium,Skeletal muscle relaxation (anesthesia),Neuromuscular blocking agent,0,0,0,Use in anesthesia is completely unrelated to weight management.
+739,Pantoprazole,GERD; peptic ulcers,Proton pump inhibitor (PPI),1,0,1.6,"Targets the GI system for acid reduction, not weight management. Mechanism is completely unrelated."
+740,Papaverine,Erectile dysfunction; circulation problems,Vasodilator; phosphodiesterase inhibitor,1,0,0,Vasodilator use is unrelated to weight management.
+741,Paracetamol,Pain and fever,Analgesic and antipyretic,0,0,0,Pain/fever management is unrelated to weight management.
+742,Paracetamol/Acetaminophen,Pain and fever,Analgesic and antipyretic,0,0,0,Pain/fever management is unrelated to weight management.
+743,Parecoxib,Postoperative pain,Selective COX-2 inhibitor,0,0,1,Pain management is unrelated to weight management.
+744,Paroxetine,Depression; anxiety disorders,Selective serotonin reuptake inhibitor (SSRI),2,1,1.8,"Psychiatric indication. Can affect appetite, but not its primary purpose. Mechanism is distinct from GLP-1 agonism."
+745,Pazopanib,Renal cell carcinoma; soft tissue sarcoma,Multi-targeted tyrosine kinase inhibitor,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+746,Pefloxacin,Bacterial infections,Fluoroquinolone antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+747,Pegfilgrastim,Chemotherapy-induced neutropenia,Granulocyte colony-stimulating factor (G-CSF) analog,0,0,0,Supportive care in oncology is an unrelated area and mechanism.
+748,Pemetrexed,Mesothelioma; non-small cell lung cancer,Antifolate chemotherapy agent,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+749,Penfluridol,Schizophrenia,Typical antipsychotic; dopamine D2 receptor antagonist,1.5,1,3.4,Psychiatric indication. Mechanism is unrelated to the GLP-1 pathway.
+750,Penicillamine,Wilson's disease; rheumatoid arthritis,Chelating agent,0,0,0.8,Specific metabolic and autoimmune disorders are unrelated to weight management.
+751,Pentazocine,Moderate to severe pain,Opioid analgesic,0,1,0.3,Pain management is an unrelated area. Mechanism is unrelated to GLP-1.
+752,Pentosan Polysulfate Sodium,Interstitial cystitis,Bladder protectant,0,0,0,Urological indication and mechanism are unrelated.
+753,Pentoxifylline,Peripheral vascular disease,Hemorheologic agent; improves blood flow,2,1,4.5,"Cardiovascular indication, but not weight management. Mechanism is unrelated."
+754,Perampanel,Epilepsy,AMPA receptor antagonist,0,0,0,Neurological indication and mechanism are unrelated to weight management.
+755,Perindopril Erbumine,Hypertension; heart failure,Angiotensin-converting enzyme (ACE) inhibitor,3,0,5.8,"Cardiovascular comorbidity of obesity, but not weight management. Mechanism is completely unrelated."
+756,Permethrin,Scabies; lice,Neurotoxin for arthropods,0,0,0,Topical anti-parasitic is an unrelated area and mechanism.
+757,Pethidine,Moderate to severe pain,Opioid analgesic,0,1,0.3,Pain management is an unrelated area. Mechanism is unrelated to GLP-1.
+758,Phenazopyridine,Urinary tract pain,Urinary tract analgesic,0,0,0,Urological indication and mechanism are unrelated.
+759,Pheniramine,Allergic reactions,First-generation antihistamine,0,0,0.8,Allergy treatment is completely unrelated to weight management.
+760,Phenobarbitone,Seizures; anxiety,Barbiturate; enhances GABA effects,0,1,0,Neurological/psychiatric indications and mechanism are unrelated.
+761,Phenoxybenzamine,Hypertension due to pheochromocytoma,Alpha-adrenergic blocker,1.5,0,5,Specific cardiovascular indication. Mechanism is unrelated.
+762,Phenylephrine,Nasal congestion; hypotension,Alpha-1 adrenergic receptor agonist,0,0,0,Decongestant/vasopressor use and mechanism are unrelated.
+763,Phenylpropanolamine,Nasal congestion; appetite suppression (historical),Sympathomimetic agent,6,4,7,"Historically used for appetite suppression (related area), but withdrawn for safety. Sympathomimetic mechanism is different from GLP-1."
+764,Phenyramidol,Musculoskeletal pain,Centrally acting muscle relaxant,0,0,0,Pain management is an unrelated area and mechanism.
+765,Phenytoin,Seizures (epilepsy),Anticonvulsant; blocks voltage-gated sodium channels,0,0,0,Neurological indication and mechanism are unrelated.
+766,Phytomenadione,Vitamin K deficiency,Promotes synthesis of clotting factors,0,0,0,Hematological indication (coagulation) is unrelated.
+767,Pidotimod,Recurrent respiratory/urinary infections,Immunomodulatory agent,0,0,0,Immunomodulation for infection prevention is unrelated.
+768,Pilocarpine,Glaucoma; dry mouth,Muscarinic acetylcholine receptor agonist,0,0,0,Ophthalmic/oral indications and mechanism are unrelated.
+769,Pimozide,Tourette's syndrome; schizophrenia,Typical antipsychotic; dopamine D2 receptor antagonist,1.5,1,0.5,Psychiatric indication. Mechanism is unrelated to the GLP-1 pathway.
+770,Pioglitazone,Type 2 diabetes,PPAR-gamma agonist,8.5,6,8.5,"Therapeutic area (T2D) is highly related to weight management. Mechanism targets insulin sensitivity, a core metabolic issue, but is different from GLP-1."
+771,Piperacillin,Bacterial infections,Penicillin antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+772,Piperazine,Intestinal worm infections,Anthelmintic; paralyzes parasites,0,0,0,Anti-parasitic is an unrelated area and mechanism.
+773,Piracetam,Cognitive disorders,Nootropic agent,0,0,0,Cognitive enhancement is an unrelated area and mechanism.
+774,Pirfenidone,Idiopathic pulmonary fibrosis (IPF),Antifibrotic and anti-inflammatory agent,0,0,0,Respiratory disease is an unrelated area and mechanism.
+775,Piroxicam,Osteoarthritis; rheumatoid arthritis,NSAID; inhibits COX enzymes,2,0,4.1,"Treats a common comorbidity of obesity (osteoarthritis), but is not a weight management drug. Mechanism is unrelated."
+776,Pitavastatin,Hyperlipidemia,HMG-CoA reductase inhibitor (statin),8,5,6.8,Therapeutic area (high cholesterol) is a key comorbidity of obesity. Mechanism targets a related metabolic pathway but is different from GLP-1.
+777,Placenta Extracts,Wound healing; cosmetic uses,Mixture of biologically active substances,0,0,0.1,Unproven/cosmetic uses are unrelated to weight management.
+778,Plerixafor,Hematopoietic stem cell mobilization,CXCR4 chemokine receptor antagonist,0,0,0,Supportive care in oncology is an unrelated area and mechanism.
+779,Policosanol,Lowering cholesterol (supplement),Thought to inhibit cholesterol synthesis,8,5,0.8,Therapeutic goal (lower cholesterol) is highly related. Mechanism is different but targets a related metabolic pathway.
+780,Polidocanol,Sclerotherapy for varicose veins,Sclerosant,0,0,2,Vascular procedure agent is an unrelated use and mechanism.
+781,Polycarbophil,Constipation; diarrhea,Bulk-forming laxative,1,0,0.2,"GI indication, but for bowel regulation, not weight management."
+782,Polyethylene Glycol,Constipation; bowel prep,Osmotic laxative,1,0,0.2,"GI indication, but for bowel regulation, not weight management."
+783,Polystyrene Sulfonate,Hyperkalemia,Cation-exchange resin,0,0,0,Electrolyte imbalance treatment is an unrelated area and mechanism.
+784,Polyvinyl Alcohol,Dry eyes,Ocular lubricant,0,0,0,Ophthalmic use is completely unrelated.
+785,Pomalidomide,Multiple myeloma,Immunomodulatory drug (IMiD),0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+786,Posaconazole,Fungal infections,Azole antifungal,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+787,Potassium Chloride,Hypokalemia,Electrolyte replenishment,0,0,0,Electrolyte imbalance treatment is an unrelated area and mechanism.
+788,Potassium Citrate,Kidney stones,Urinary alkalinizer,0,0,4.7,Urological indication and mechanism are unrelated.
+789,Potassium Magnesium Citrate,Nutritional supplement; kidney stones,Mineral supplement; urinary alkalinizer,0,0,4.7,Nutritional/urological indications are unrelated.
+790,Povidone Iodine,Topical antiseptic,Topical microbicidal agent,0,0,0,Topical antiseptic use is completely unrelated.
+791,Pralidoxime,Organophosphate poisoning antidote,Cholinesterase reactivator,0,0,0,Toxicology antidote is an unrelated use and mechanism.
+792,Pramipexole,Parkinson's disease; restless legs syndrome,Dopamine agonist,1,2,1,Neurological indication. Mechanism is unrelated to GLP-1.
+793,Prasugrel,Acute coronary syndrome,P2Y12 platelet inhibitor,3,0,6.9,"Cardiovascular indication, but not weight management. Mechanism is unrelated."
+794,Pravastatin,Hypercholesterolemia,HMG-CoA reductase inhibitor (statin),8,5,6.8,Therapeutic area (high cholesterol) is a key comorbidity of obesity. Mechanism targets a related metabolic pathway but is different from GLP-1.
+795,Praziquantel,Schistosomiasis (fluke infections),Anthelmintic,0,0,0,Anti-parasitic is an unrelated area and mechanism.
+796,Prazosin,Hypertension; PTSD nightmares,Alpha-1 adrenergic blocker,3,0,5.7,"Cardiovascular comorbidity of obesity, but not weight management. Mechanism is completely unrelated."
+797,Prednisolone,Inflammatory and autoimmune conditions,Glucocorticoid,1.5,1,3.2,Anti-inflammatory/immunosuppressant. Often causes weight gain. Unrelated mechanism.
+798,Pregabalin,Neuropathic pain; fibromyalgia; epilepsy,Binds to alpha-2-delta subunit of calcium channels,1,0,4.8,Neurological/pain indications are unrelated to weight management.
+799,Prilocaine,Local anesthesia,Amide-type local anesthetic,0,0,0,Local anesthetic use is completely unrelated.
+800,Primaquine,Malaria,Antimalarial,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+801,Primidone,Seizures (epilepsy),Anticonvulsant (metabolized to phenobarbital),0,1,0,Neurological indication and mechanism are unrelated.
+802,Proanthocyanidin,Dietary supplement (antioxidant),Polyphenol with antioxidant/anti-inflammatory properties,5,4,0.1,"Supplement with potential effects on appetite suppression, which is related to weight management. Proposed mechanisms are different from Wegovy's."
+803,Procarbazine,Hodgkin's lymphoma,Alkylating-like chemotherapy agent,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+804,Prochlorperazine,Severe nausea and vomiting; schizophrenia,Dopamine D2 receptor antagonist,1.5,1,3.4,Antiemetic/antipsychotic. Not for weight management. Mechanism is unrelated.
+805,Procyclidine,Parkinson's disease; drug-induced extrapyramidal disorders,Anticholinergic,0,0,0,Neurological indication and mechanism are unrelated.
+806,Progesterone,Hormone replacement therapy; menstrual disorders,Progesterone receptor agonist,0,0,0.7,Gynecological indications are unrelated to weight management. Hormonal mechanism is completely different.
+807,Proguanil,Malaria,Antimalarial; inhibits parasitic dihydrofolate reductase,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+808,Promethazine,Allergies; nausea; motion sickness,First-generation antihistamine,1,1,0.9,"Multiple indications, none of which are weight management. Mechanism is unrelated."
+809,Propofol,Anesthesia; sedation,Positive modulator of GABA-A receptor,0,1,0,Anesthetic use is completely unrelated.
+810,Propranolol,Hypertension; angina; migraine,Non-selective beta-blocker,3,0,5,"Cardiovascular indications are comorbidities of obesity, but it's not a weight management drug. Mechanism is unrelated."
+811,Protamine Sulfate,Heparin overdose antidote,Binds to heparin,0,0,0,Toxicology antidote is an unrelated use and mechanism.
+812,Prothionamide,Tuberculosis,Inhibits mycolic acid synthesis,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+813,Prucalopride,Chronic idiopathic constipation,Selective serotonin 5-HT4 receptor agonist,2,2.5,2,"GI indication, but for motility, not weight management. Mechanism is different but also targets a GI receptor."
+814,Prulifloxacin,Bacterial infections,Fluoroquinolone antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+815,Pseudoephedrine,Nasal congestion,Alpha- and beta-adrenergic agonist,0,0,0,Decongestant use and mechanism are unrelated.
+816,Pyrantel Pamoate,Intestinal worm infections,Anthelmintic,0,0,0,Anti-parasitic is an unrelated area and mechanism.
+817,Pyrazinamide,Tuberculosis,Antitubercular agent,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+818,Pyridostigmine,Myasthenia gravis,Cholinesterase inhibitor,0,0,0,Neuromuscular disorder is an unrelated area and mechanism.
+819,Pyrimethamine,Malaria; toxoplasmosis,Folic acid antagonist (antiprotozoal),0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+820,Pyritinol,Cognitive disorders,Nootropic agent,0,0,0.1,Cognitive enhancement is an unrelated area and mechanism.
+821,Quetiapine,Schizophrenia; bipolar disorder,Atypical antipsychotic; dopamine D2 and serotonin 5-HT2A antagonist,1.5,1,3.9,Psychiatric indication. Known to cause weight gain. Mechanism is unrelated.
+822,Quinapril,Hypertension; heart failure,Angiotensin-converting enzyme (ACE) inhibitor,3,0,5.8,"Cardiovascular comorbidity of obesity, but not weight management. Mechanism is completely unrelated."
+823,Quinine,Malaria,Antimalarial,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+824,Rabeprazole,GERD; peptic ulcers,Proton pump inhibitor (PPI),1,0,1.6,"Targets the GI system for acid reduction, not weight management. Mechanism is completely unrelated."
+825,Racecadotril,Diarrhea,Enkephalinase inhibitor,0,0,0.3,Antidiarrheal use and mechanism are unrelated to weight management.
+826,Raloxifene,Osteoporosis,Selective estrogen receptor modulator (SERM),0,0,3,Bone metabolism disorder is an unrelated area and mechanism.
+827,Raltegravir,HIV infection,Antiretroviral; integrase inhibitor,0,0,0.4,Infectious disease is an unrelated therapeutic area and mechanism.
+828,Ramipril,Hypertension; heart failure,Angiotensin-converting enzyme (ACE) inhibitor,3,0,5.8,"Cardiovascular comorbidity of obesity, but not weight management. Mechanism is completely unrelated."
+829,Ranitidine,GERD; peptic ulcers,Histamine H2 receptor antagonist,1,0,1.5,"Targets the GI system for acid reduction, not weight management. Mechanism is completely unrelated."
+830,Ranolazine,Chronic angina,Late sodium current inhibitor,2.5,0,5,"Cardiovascular indication, but not weight management. Mechanism is unrelated."
+831,Rasagiline,Parkinson's disease,MAO-B inhibitor,1,1,0,Neurological indication. Mechanism is unrelated to GLP-1.
+832,Rasburicase,Tumor lysis syndrome,Urate oxidase enzyme,0,0,0.2,Supportive care in oncology is an unrelated area and mechanism.
+833,Rebamipide,Gastric ulcers,Mucoprotective agent,1,0,1,"GI indication, but not for weight management. Mechanism is unrelated."
+834,Reboxetine,Depression,Norepinephrine reuptake inhibitor (NRI),2,1,1.5,Psychiatric indication. Mechanism is distinct from GLP-1 agonism.
+835,Recombinant Follicle Stimulating Hormone,Infertility treatment,Hormone therapy,0,0,0.6,Fertility treatment is an unrelated area and mechanism.
+836,Regorafenib,Colorectal cancer; GIST,Multi-kinase inhibitor,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+837,Remdesivir,COVID-19,Antiviral; RNA polymerase inhibitor,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+838,Remogliflozin Etabonate,Type 2 diabetes,SGLT2 inhibitor,9,7,9.4,Therapeutic area (T2D) is highly related. Mechanism is different but also targets glucose metabolism and promotes weight loss.
+839,Repaglinide,Type 2 diabetes,Meglitinide; stimulates insulin secretion,8.5,6.5,7.2,"Therapeutic area (T2D) is highly related. Mechanism is different but targets insulin secretion, a related pathway."
+840,Reserpine,Hypertension,Vesicular monoamine transporter (VMAT) inhibitor,3,0,5,"Cardiovascular indication, but not weight management. Mechanism is completely unrelated."
+841,Reteplase,Myocardial infarction,Thrombolytic agent,0,0,4,Acute cardiovascular event treatment is unrelated.
+842,Ribavirin,Hepatitis C; viral hemorrhagic fevers,Antiviral,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+843,Rifampicin,Tuberculosis; leprosy,Rifamycin antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+844,Rifaximin,Traveler's diarrhea; IBS-D; hepatic encephalopathy,Antibiotic,1.5,0,0.5,"GI indications, but as an antibiotic, not for weight management."
+845,Rimonabant,Obesity (withdrawn),Cannabinoid (CB1) receptor antagonist,9.5,5,9.9,Indicated for obesity (highly similar area) but withdrawn for safety. Mechanism is different but also targets central appetite regulation.
+846,Riociguat,Pulmonary hypertension,Soluble guanylate cyclase (sGC) stimulator,0,0,0,"Specific cardiovascular indication, unrelated to weight management."
+847,Risedronate,Osteoporosis,Bisphosphonate,0,0,0,Bone metabolism disorder is an unrelated area and mechanism.
+848,Risperidone,Schizophrenia; bipolar disorder,Atypical antipsychotic,1.5,1,3.8,Psychiatric indication. Known to cause weight gain. Mechanism is unrelated.
+849,Ritodrine,Preterm labor (tocolytic),Beta-2 adrenergic agonist,0,0,0,Obstetric use is unrelated to weight management.
+850,Ritonavir,HIV infection,Protease inhibitor; CYP3A4 inhibitor,0,0,3.5,Infectious disease is an unrelated therapeutic area and mechanism.
+851,Rituximab,Lymphomas; leukemias; rheumatoid arthritis,Monoclonal antibody; targets CD20,0,0,0,Oncology/autoimmune indications are unrelated. Mechanism is different.
+852,Rivaroxaban,Thromboembolic disorders,Direct Factor Xa inhibitor,2.5,0,6.7,Anticoagulant for cardiovascular conditions. Unrelated mechanism.
+853,Rivastigmine,Alzheimer's and Parkinson's dementia,Cholinesterase inhibitor,0,0,0.3,Neurological (cognitive) indication and mechanism are unrelated.
+854,Rizatriptan,Migraine,Serotonin 5-HT1B/1D receptor agonist,0,1,0,Pain management is an unrelated area. Mechanism is unrelated to GLP-1.
+855,Rocuronium,Skeletal muscle relaxation (anesthesia),Neuromuscular blocking agent,0,0,0,Use in anesthesia is completely unrelated.
+856,Rofecoxib,Osteoarthritis; acute pain (withdrawn),Selective COX-2 inhibitor,2,0,4,Pain/inflammation management. Withdrawn for safety. Mechanism is unrelated.
+857,Ropinirole,Parkinson's disease; restless legs syndrome,Dopamine agonist,1,2,1,Neurological indication. Mechanism is unrelated to GLP-1.
+858,Ropivacaine,Local and regional anesthesia,Amide-type local anesthetic,0,0,0,Local anesthetic use is completely unrelated.
+859,Rosehip,Dietary supplement for arthritis,Anti-inflammatory and antioxidant properties,2,1,1,Used for a comorbidity (arthritis). Mechanism is non-specific and unrelated.
+860,Rosiglitazone,Type 2 diabetes,PPAR-gamma agonist,8.5,6,8.4,"Therapeutic area (T2D) is highly related. Mechanism targets insulin sensitivity, a core metabolic issue, but is different from GLP-1."
+861,Rosuvastatin,Hyperlipidemia,HMG-CoA reductase inhibitor (statin),8,5,6.9,Therapeutic area (high cholesterol) is a key comorbidity of obesity. Mechanism targets a related metabolic pathway but is different from GLP-1.
+862,Roxatidine,Peptic ulcers,Histamine H2 receptor antagonist,1,0,1.5,"Targets the GI system for acid reduction, not weight management."
+863,Roxithromycin,Bacterial infections,Macrolide antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+864,Rucaparib,Ovarian and prostate cancer,PARP inhibitor,0,0,0,Oncology is an unrelated therapeutic area and mechanism.
+865,Rupatadine,Allergic rhinitis and urticaria,Antihistamine and PAF antagonist,0,0,0,Allergy treatment is completely unrelated.
+866,Ruxolitinib,Myelofibrosis; polycythemia vera,Janus kinase (JAK) inhibitor,0,0,0,Oncology/hematology indications are unrelated.
+867,S-Adenosyl L-Methoinine Disulfate Tosylate,Depression; osteoarthritis; liver disease,Dietary supplement,2,1,1,"Multiple indications, none of which are weight management."
+868,S-Amlodipine,Hypertension,Calcium channel blocker,3,0,5.6,"Cardiovascular comorbidity of obesity, but not weight management."
+869,S-Metoprolol Succinate,Hypertension; angina; heart failure,Selective beta-1 blocker,3,0,5.1,"Cardiovascular comorbidity of obesity, but not weight management."
+870,Saccharomyces Boulardii,Diarrhea,Probiotic yeast,1,0,0.2,"GI indication, but as a probiotic for diarrhea, not weight management."
+871,Sacubitril,Heart failure (in combination with valsartan),Neprilysin inhibitor,3,0,5.9,"Cardiovascular indication, not weight management."
+872,Safinamide,Parkinson's disease,MAO-B inhibitor,1,1,0,Neurological indication. Mechanism is unrelated to GLP-1.
+873,Salbutamol,Asthma; COPD,Beta-2 adrenergic agonist (bronchodilator),0,0,0,Respiratory conditions are unrelated to weight management.
+874,Saquinavir,HIV infection,Protease inhibitor,0,0,3.5,Infectious disease is an unrelated therapeutic area and mechanism.
+875,Saroglitazar,Diabetic dyslipidemia; NAFLD/NASH,Dual PPAR-alpha/gamma agonist,8.5,6.5,9,Therapeutic area (metabolic disorders) is highly related. Mechanism targets related pathways but is different from GLP-1.
+876,Satranidazole,Amebiasis and giardiasis,Nitroimidazole antimicrobial,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+877,Saxagliptin,Type 2 diabetes,DPP-4 inhibitor,9,8.5,8,"Therapeutic area (T2D) is highly related. Mechanism is very similar, as it increases endogenous GLP-1 levels."
+878,Secnidazole,Bacterial vaginosis; trichomoniasis,Nitroimidazole antimicrobial,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+879,Selegiline,Parkinson's disease; depression,MAO-B inhibitor,1.5,1,0,Neurological/psychiatric indications. Mechanism is unrelated to GLP-1.
+880,Seratrodast,Asthma,Thromboxane A2 receptor antagonist,0,0,0,Respiratory conditions are unrelated to weight management.
+881,Serratiopeptidase,Pain and inflammation (supplement),Proteolytic enzyme,1,0,0.1,Anti-inflammatory use is unrelated.
+882,Sertaconazole,Fungal skin infections,Azole antifungal,0,0,0,Dermatological anti-infective is an unrelated area and mechanism.
+883,Sertraline,Depression; anxiety disorders,Selective serotonin reuptake inhibitor (SSRI),2,1,1.2,"Psychiatric indication. Can affect appetite, but not its primary purpose. Mechanism is distinct from GLP-1 agonism."
+884,Sevelamer,Hyperphosphatemia in chronic kidney disease,Phosphate binder,0,0,0,"Metabolic indication for CKD, unrelated to weight management."
+885,Sevoflurane,General anesthesia,Inhaled anesthetic,0,0,0,Anesthetic use is completely unrelated.
+886,Sildenafil,Erectile dysfunction; pulmonary hypertension,PDE5 inhibitor,1,0,2.5,Urological/cardiovascular indications are unrelated to weight management.
+887,Silodosin,Benign prostatic hyperplasia (BPH),Alpha-1a adrenergic blocker,0,0,1,Urological indication is unrelated.
+888,Silymarin,Liver disorders (supplement),Antioxidant; from milk thistle,2,1,1.5,"Used for liver health, a related metabolic organ, but not for weight management."
+889,Simethicone,Gas and bloating,Anti-foaming agent,0.5,0,0,"GI indication for symptom relief, not weight management."
+890,Simvastatin,Hyperlipidemia,HMG-CoA reductase inhibitor (statin),8,5,6.8,Therapeutic area (high cholesterol) is a key comorbidity of obesity. Mechanism targets a related metabolic pathway but is different from GLP-1.
+891,Sirolimus,Organ transplant rejection prophylaxis,mTOR inhibitor,0,0,3.4,Immunosuppressant use is unrelated.
+892,Sitagliptin,Type 2 diabetes,DPP-4 inhibitor,9,8.5,8,"Therapeutic area (T2D) is highly related. Mechanism is very similar, as it increases endogenous GLP-1 levels."
+893,Sodium Bicarbonate,Acidosis; heartburn,Alkalinizing agent,0.5,0,0.1,Symptomatic relief/metabolic acidosis treatment is unrelated.
+894,Sodium Chloride,Electrolyte imbalance; diluent,Electrolyte replenishment,0,0,0,Electrolyte replenishment is unrelated.
+895,Sodium Feredetate,Iron deficiency anemia,Iron supplement,0,0,0.1,Anemia treatment is unrelated.
+896,Sodium Fluoride,Dental caries prevention,Promotes remineralization of tooth enamel,0,0,0,Dental health is unrelated.
+897,Sodium Fusidate,Bacterial skin infections,Antibiotic,0,0,0,Infectious disease is an unrelated therapeutic area and mechanism.
+898,Sodium Hyaluronate,Osteoarthritis; dry eyes,Viscosupplement; ocular lubricant,2,0,4,"Treats a common comorbidity (osteoarthritis) and dry eye, but is not a weight management drug."
+899,Sodium Picosulfate,Constipation,Stimulant laxative,1,0,0.2,"GI indication, but for bowel regulation, not weight management."
+900,Sodium Sulphate,Laxative,Osmotic laxative,1,2,0.2,"TASS: No similarity to Wegovy's weight management focus. MANS: Common, well-understood mechanism."
+901,Sodium Valproate,"Epilepsy, bipolar disorder",Increases GABA levels in the brain,0.5,4,3.7,TASS: Completely unrelated to metabolic disorders. MANS: Established but specific neurological mechanism.
+902,Sofosbuvir,Hepatitis C,NS5B polymerase inhibitor,1.5,8.5,0,TASS: Unrelated to weight management. MANS: Highly specific and novel antiviral mechanism.
+903,Solifenacin,Overactive bladder,Muscarinic receptor antagonist,0,3.5,0,TASS: No overlap with Wegovy's indications. MANS: Common mechanism for anticholinergic drugs.
+904,Somatropin,Growth hormone deficiency,Recombinant human growth hormone,6.5,7,4.5,"TASS: Affects metabolism and body composition, some overlap. MANS: Hormone replacement is a specific and distinct mechanism."
+905,Sorafenib,"Cancer (kidney, liver, thyroid)",Multikinase inhibitor,0,8,0,TASS: Unrelated to metabolic diseases. MANS: Targeted cancer therapy represents a novel approach.
+906,Sotalol,Cardiac arrhythmias,Beta-blocker and potassium channel blocker,2.5,4.5,4.5,"TASS: Cardiovascular, but not directly for weight management. MANS: Combination of two well-known antiarrhythmic mechanisms."
+907,Sparfloxacin,Bacterial infections,Fluoroquinolone antibiotic,0,3,0,TASS: Unrelated to metabolic disorders. MANS: Standard antibiotic mechanism.
+908,Spironolactone,"Heart failure, high blood pressure",Aldosterone antagonist,2.5,5,5.9,"TASS: Cardiovascular focus, distantly related to metabolic syndrome. MANS: Specific hormonal antagonist action."
+909,Standard Cobra Venom,Not a standard therapeutic agent,N/A,0,0,0,"TASS/MANS: Not a recognized, standardized drug with a therapeutic area or mechanism."
+910,Stanozolol,"Anemia, hereditary angioedema",Anabolic steroid,5.5,4,3.5,"TASS: Affects body mass, but for gaining, not losing weight. MANS: Standard anabolic steroid mechanism."
+911,Stavudine,HIV/AIDS,Nucleoside reverse transcriptase inhibitor,0,7.5,1.5,TASS: Unrelated. MANS: Key mechanism in antiretroviral therapy.
+912,Streptomycin,Bacterial infections,Aminoglycoside antibiotic,0,3,0,TASS: Unrelated. MANS: Well-established antibiotic mechanism.
+913,Succinyl Choline Chloride,Anesthesia,Depolarizing neuromuscular blocker,0,5.5,0,TASS: No therapeutic overlap. MANS: Specific and unique mechanism for muscle relaxation.
+914,Sucralfate,"Ulcers, GI protection",Forms a protective barrier over ulcers,1,6,1,"TASS: GI-related, but not for weight management. MANS: Unique physical mechanism of action."
+915,Sugammadex,Reversal of neuromuscular blockade,Selective relaxant binding agent,0,9,0,TASS: No therapeutic overlap. MANS: Highly specific and novel mechanism for reversing anesthesia.
+916,Sulbactam,Bacterial infections,Beta-lactamase inhibitor,0,6.5,0,"TASS: Unrelated. MANS: Complements other antibiotics, a clever mechanism."
+917,Sulfadiazine,Bacterial infections,Dihydropteroate synthase inhibitor,0,3,0,TASS: Unrelated. MANS: Classic sulfonamide antibiotic mechanism.
+918,Sulfamethoxazole,Bacterial infections,Dihydropteroate synthase inhibitor,0,3,0,TASS: Unrelated. MANS: Classic sulfonamide antibiotic mechanism.
+919,Sulfasalazine,"Rheumatoid arthritis, ulcerative colitis",Anti-inflammatory and immunomodulatory,1.5,5.5,4.3,TASS: Unrelated. MANS: Mechanism is not fully understood but is distinct.
+920,Sulphacetamide,Bacterial eye infections,Dihydropteroate synthase inhibitor,0,3,0,TASS: Unrelated. MANS: Classic sulfonamide antibiotic mechanism.
+921,Sultamicillin Tosilate,Bacterial infections,Combination of ampicillin and sulbactam,0,5,0,TASS: Unrelated. MANS: Combination of a standard antibiotic and a beta-lactamase inhibitor.
+922,Sumatriptan,Migraine,5-HT1B/1D receptor agonist,0.5,7,0,TASS: Unrelated. MANS: Specific and targeted mechanism for migraine.
+923,Sunitinib,"Cancer (kidney, GIST)",Multikinase inhibitor,0,8,0,TASS: Unrelated. MANS: Targeted cancer therapy represents a novel approach.
+924,Suxamethonium,Anesthesia,Depolarizing neuromuscular blocker,0,5.5,0,TASS: No therapeutic overlap. MANS: Specific and unique mechanism for muscle relaxation.
+925,Tacrolimus,Organ transplant rejection,Calcineurin inhibitor,0,8.5,3.4,TASS: Unrelated. MANS: Potent and specific immunosuppressive mechanism.
+926,Tadalafil,"Erectile dysfunction, BPH",PDE5 inhibitor,1,6,2.5,"TASS: Lifestyle-related, but not for weight management. MANS: Well-known but specific mechanism of action."
+927,Tadalafil Ip,"Erectile dysfunction, BPH",PDE5 inhibitor,1,6,2.5,"TASS: Lifestyle-related, but not for weight management. MANS: Well-known but specific mechanism of action."
+928,Tamoxifen,Breast cancer,Selective estrogen receptor modulator (SERM),0,7.5,3.1,TASS: Unrelated. MANS: Specific hormonal modulation for cancer treatment.
+929,Tamsulosin,Benign prostatic hyperplasia (BPH),Alpha-1A adrenergic receptor antagonist,0,5,1,TASS: Unrelated. MANS: Selective antagonist action is a refinement of a known mechanism.
+930,Tapentadol,Pain,Mu-opioid receptor agonist and norepinephrine reuptake inhibitor,0,6.5,0.3,TASS: Unrelated. MANS: Dual mechanism is a novel approach to pain management.
+931,Taurine,Dietary supplement,Various proposed mechanisms,2,2.5,0.4,"TASS: Some evidence for metabolic benefits, but not a primary indication. MANS: Not a specific, targeted drug mechanism."
+932,Tegafur,Cancer,Prodrug of 5-fluorouracil,0,5,0,TASS: Unrelated. MANS: Prodrug approach is a common strategy in chemotherapy.
+933,Tegaserod,Irritable bowel syndrome,5-HT4 receptor agonist,1,7,2.2,"TASS: GI-related, but not for weight management. MANS: Specific and targeted mechanism for IBS."
+934,Teicoplanin,Bacterial infections,Glycopeptide antibiotic,0,4,0,TASS: Unrelated. MANS: Established class of antibiotics for serious infections.
+935,Telbivudine,Hepatitis B,Nucleoside analog reverse transcriptase inhibitor,0,7,0,TASS: Unrelated. MANS: Specific antiviral mechanism.
+936,Telmisartan,High blood pressure,Angiotensin II receptor blocker (ARB),2.5,3.5,6,"TASS: Cardiovascular, distantly related to metabolic syndrome. MANS: Very common and well-established antihypertensive mechanism."
+937,Temozolomide,Brain tumors,Alkylating agent,0,6,0,"TASS: Unrelated. MANS: Standard chemotherapy mechanism, but with specific properties for crossing the blood-brain barrier."
+938,Temsirolimus,Kidney cancer,mTOR inhibitor,0,8.5,3.3,TASS: Unrelated. MANS: Highly specific and targeted cancer therapy mechanism.
+939,Tenecteplase,Heart attack,Fibrinolytic agent,0,7,4,"TASS: Unrelated. MANS: Genetically engineered version of a natural enzyme, a novel approach to clot busting."
+940,Teneligliptin,Type 2 diabetes,DPP-4 inhibitor,8.5,6.5,8,"TASS: Very similar, treats a key comorbidity of obesity. MANS: Established class of oral diabetes drugs, but a different mechanism than GLP-1 agonists."
+941,Tenofovir Alafenamide,"HIV/AIDS, Hepatitis B",Nucleoside reverse transcriptase inhibitor (NRTI),0,8,1,"TASS: Unrelated. MANS: A newer, targeted prodrug of tenofovir with an improved safety profile."
+942,Tenofovir Disoproxil Fumarate,"HIV/AIDS, Hepatitis B",Nucleoside reverse transcriptase inhibitor (NRTI),0,7.5,0.5,TASS: Unrelated. MANS: A key drug in antiretroviral therapy.
+943,Terazosin,"High blood pressure, BPH",Alpha-1 adrenergic blocker,2.5,3,5.7,"TASS: Cardiovascular, distantly related to metabolic syndrome. MANS: Common and well-established antihypertensive mechanism."
+944,Terbinafine,Fungal infections,Squalene epoxidase inhibitor,0,7,0,TASS: Unrelated. MANS: Specific and targeted mechanism for fungal infections.
+945,Terbutaline,"Asthma, COPD",Beta-2 adrenergic agonist,0,4,0,TASS: Unrelated. MANS: Common and well-established mechanism for bronchodilation.
+946,Terfenadine,Allergies,Antihistamine,0,2.5,0,TASS: Unrelated. MANS: Standard antihistamine mechanism (largely replaced due to side effects).
+947,Teriflunomide,Multiple sclerosis,Dihydroorotate dehydrogenase inhibitor,0,8,0,TASS: Unrelated. MANS: Specific immunomodulatory mechanism for MS.
+948,Terlipressin,Esophageal varices bleeding,Vasopressin receptor agonist,0,6.5,0,TASS: Unrelated. MANS: Specific hormonal action for a critical care indication.
+949,Testosterone,Hypogonadism,Androgen receptor agonist,5.5,4,4.6,TASS: Affects body composition and metabolism. MANS: Standard hormone replacement therapy.
+950,Testosterone Propionate,Hypogonadism,Androgen receptor agonist,5.5,4,4.6,TASS: Affects body composition and metabolism. MANS: Standard hormone replacement therapy.
+951,Tetrabenazine,Huntington's disease,Vesicular monoamine transporter 2 (VMAT2) inhibitor,0,8.5,0,TASS: Unrelated. MANS: Highly specific and novel mechanism for a neurological disorder.
+952,Tetracycline,Bacterial infections,Tetracycline antibiotic,0,3,0,TASS: Unrelated. MANS: Classic and well-established antibiotic mechanism.
+953,Thalidomide,"Multiple myeloma, leprosy",Immunomodulatory agent,0,9,0,"TASS: Unrelated. MANS: Complex and unique mechanism of action, repurposed for new indications."
+954,Theophylline,"Asthma, COPD","Phosphodiesterase inhibitor, adenosine receptor antagonist",0,4,0,"TASS: Unrelated. MANS: Older, less specific mechanism for bronchodilation."
+955,Thiamine,Thiamine deficiency,Vitamin B1,1.5,1,0.1,"TASS: Unrelated, though metabolic processes are involved. MANS: Vitamin supplement, not a specific drug mechanism."
+956,Thiamine Nitrate,Thiamine deficiency,Vitamin B1,1.5,1,0.1,"TASS: Unrelated, though metabolic processes are involved. MANS: Vitamin supplement, not a specific drug mechanism."
+957,Thiocolchicoside,Muscle relaxant,GABA-A receptor antagonist,0,5,0,TASS: Unrelated. MANS: A specific mechanism for muscle relaxation.
+958,Thiopental Sodium,Anesthesia,Barbiturate,0,3.5,0,TASS: Unrelated. MANS: Classic and well-established anesthetic mechanism.
+959,Thioridazine,Schizophrenia,Antipsychotic,0,3,3.5,"TASS: Unrelated. MANS: Older, typical antipsychotic mechanism."
+960,Thiotepa,Cancer,Alkylating agent,0,5.5,0,TASS: Unrelated. MANS: Standard chemotherapy mechanism.
+961,Thymosin Alpha,Immunomodulator,Immunomodulator,0,6.5,0,TASS: Unrelated. MANS: Biological response modifier with a complex mechanism.
+962,Tianeptine,Depression,Atypical antidepressant,0,7.5,1,"TASS: Unrelated. MANS: Novel mechanism, not a typical SSRI."
+963,Tibolone,Menopause symptoms,"Synthetic steroid with estrogenic, progestogenic, and androgenic activity",4.5,6,3.5,"TASS: Hormonal, affects metabolism. MANS: Tissue-selective hormonal activity is a novel approach."
+964,Ticagrelor,Acute coronary syndrome,P2Y12 receptor antagonist,2.5,7,6.9,"TASS: Cardiovascular, but not for weight management. MANS: Reversible P2Y12 inhibitor, a newer class of antiplatelet drugs."
+965,Ticarcillin,Bacterial infections,Penicillin antibiotic,0,3,0,TASS: Unrelated. MANS: Classic and well-established antibiotic mechanism.
+966,Ticlopidine,Stroke prevention,P2Y12 receptor antagonist,2.5,5,6.8,"TASS: Cardiovascular, but not for weight management. MANS: Older, irreversible P2Y12 inhibitor."
+967,Tigecycline,Bacterial infections,Glycylcycline antibiotic,0,6,0,TASS: Unrelated. MANS: A newer class of antibiotics designed to overcome resistance.
+968,Timolol,"Glaucoma, high blood pressure",Beta-blocker,2.5,3,5,"TASS: Cardiovascular, but not for weight management. MANS: Common and well-established mechanism."
+969,Tinidazole,Protozoal infections,Nitroimidazole antimicrobial,0,3.5,0,TASS: Unrelated. MANS: Standard antimicrobial mechanism.
+970,Tirofiban,Acute coronary syndrome,Glycoprotein IIb/IIIa inhibitor,0,7.5,6.9,TASS: Unrelated. MANS: Specific and potent antiplatelet mechanism.
+971,Tizanidine,Muscle spasticity,Alpha-2 adrenergic agonist,0,5.5,0,TASS: Unrelated. MANS: Specific mechanism for muscle relaxation.
+972,Tobramycin,Bacterial infections,Aminoglycoside antibiotic,0,3,0,TASS: Unrelated. MANS: Well-established antibiotic mechanism.
+973,Tofacitinib,Rheumatoid arthritis,Janus kinase (JAK) inhibitor,0,9,4.3,"TASS: Unrelated. MANS: A new class of oral drugs for autoimmune diseases, a significant innovation."
+974,Tofisopam,Anxiety,Atypical benzodiazepine,0,6,0.5,TASS: Unrelated. MANS: A benzodiazepine with a unique mechanism of action.
+975,Tolbutamide,Type 2 diabetes,Sulfonylurea,8,3.5,7.4,"TASS: Very similar, treats a key comorbidity of obesity. MANS: Older class of oral diabetes drugs with a well-known mechanism."
+976,Tolmetin,"Pain, arthritis",NSAID,0,2.5,4.1,TASS: Unrelated. MANS: Standard and very common anti-inflammatory mechanism.
+977,Tolnaftate,Fungal infections,Antifungal,0,3,0,TASS: Unrelated. MANS: Common over-the-counter antifungal mechanism.
+978,Tolperisone,Muscle spasticity,Muscle relaxant,0,5,0,"TASS: Unrelated. MANS: Mechanism is not fully understood, but it is a centrally acting muscle relaxant."
+979,Tolterodine,Overactive bladder,Muscarinic receptor antagonist,0,3.5,0,TASS: No overlap with Wegovy's indications. MANS: Common mechanism for anticholinergic drugs.
+980,Tolvaptan,Hyponatremia,Vasopressin receptor antagonist,0,8.5,0,TASS: Unrelated. MANS: A highly specific and novel mechanism for treating low sodium levels.
+981,Topiramate,"Epilepsy, migraines, weight loss",Multiple mechanisms,9,7,5,"TASS: Also used for weight loss, often in combination. MANS: Complex and not fully understood, but its use in weight loss is a novel application."
+982,Topiroxostat,Gout,Xanthine oxidase inhibitor,1.5,6.5,4.7,"TASS: Gout is a metabolic disease, but not directly related to weight management. MANS: A newer non-purine selective inhibitor of xanthine oxidase."
+983,Topotecan,Cancer,Topoisomerase I inhibitor,0,6.5,0,TASS: Unrelated. MANS: Specific chemotherapy mechanism.
+984,Torasemide,"Heart failure, edema",Loop diuretic,2,3,5.6,"TASS: Cardiovascular, but not for weight management. MANS: Common and well-established diuretic mechanism."
+985,Tramadol,Pain,Opioid agonist and serotonin/norepinephrine reuptake inhibitor,0,6,0.3,TASS: Unrelated. MANS: Dual mechanism provides a different approach to pain management compared to traditional opioids.
+986,Tranexamic Acid,"Heavy menstrual bleeding, bleeding",Antifibrinolytic,0,5.5,0,TASS: Unrelated. MANS: Specific mechanism to prevent blood clot breakdown.
+987,Trastuzumab,Breast cancer,HER2 receptor antagonist,0,9.5,0,TASS: Unrelated. MANS: A landmark monoclonal antibody for targeted cancer therapy.
+988,Trazodone,Depression,Antidepressant,0,4.5,2.3,TASS: Unrelated. MANS: Atypical antidepressant with a complex and varied mechanism of action.
+989,Tretinoin,"Acne, leukemia",Retinoid,0.5,6,0,"TASS: Unrelated to systemic weight management. MANS: Affects cell differentiation and proliferation, a unique mechanism."
+990,Triamcinolone,"Inflammation, allergies",Corticosteroid,1,3,3.2,"TASS: Unrelated, can cause weight gain. MANS: Very common and well-established anti-inflammatory mechanism."
+991,Triamcinolone Acetonide,"Inflammation, allergies",Corticosteroid,1,3,3.2,"TASS: Unrelated, can cause weight gain. MANS: Very common and well-established anti-inflammatory mechanism."
+992,Tricholine Citrate,Liver disorders,Lipotropic agent,1.5,2.5,1.5,TASS: Vaguely related to metabolism. MANS: Not a well-defined or specific mechanism.
+993,Triclofos,Insomnia,Sedative/hypnotic,0,3,0.5,"TASS: Unrelated. MANS: Older, less common sedative."
+994,Triclosan,Antibacterial,Antibacterial,0,2,0,TASS: Unrelated. MANS: Common antibacterial agent in consumer products.
+995,Trifluoperazine,"Schizophrenia, anxiety",Typical antipsychotic,0,3,3.5,"TASS: Unrelated. MANS: Older, typical antipsychotic mechanism."
+996,Trihexyphenidyl,Parkinson's disease,Anticholinergic,0,3.5,0,TASS: Unrelated. MANS: Common anticholinergic mechanism.
+997,Trimetazidine,Angina,Metabolic agent,3,7,6.2,"TASS: Affects cellular metabolism, but for heart conditions. MANS: A unique mechanism that shifts cardiac metabolism from fatty acids to glucose."
+998,Trimethoprim,Bacterial infections,Dihydrofolate reductase inhibitor,0,4,0,"TASS: Unrelated. MANS: A specific antibiotic mechanism, often used in combination."
+999,Trimipramine,Depression,Tricyclic antidepressant,0,3.5,2.5,"TASS: Unrelated. MANS: Older, less specific class of antidepressants."
+1000,Trioxasalen,"Psoriasis, vitiligo",Photosensitizer,0,6.5,0,TASS: Unrelated. MANS: Unique mechanism that requires UV light activation.
+1001,Triptorelin,"Prostate cancer, endometriosis",GnRH agonist,0,6,3,TASS: Unrelated. MANS: Specific hormonal manipulation for cancer and other conditions.
+1002,Trospium,Overactive bladder,Muscarinic receptor antagonist,0,3.5,0,TASS: No overlap with Wegovy's indications. MANS: Common mechanism for anticholinergic drugs.
+1003,Troxipide,"Gastritis, ulcers",Anti-ulcer agent,1,5.5,1,"TASS: GI-related, but not for weight management. MANS: A unique mechanism that increases gastric mucosal blood flow."
+1004,Trypsin,"Digestive aid, anti-inflammatory",Proteolytic enzyme,1.5,4,0.6,"TASS: Related to digestion, but not weight management. MANS: Enzyme replacement is a straightforward mechanism."
+1005,Tulobuterol,Asthma,Beta-2 adrenergic agonist,0,4,0,TASS: Unrelated. MANS: Common and well-established mechanism for bronchodilation.
+1006,Ulipristal Acetate,"Emergency contraception, uterine fibroids",Selective progesterone receptor modulator (SPRM),0,8,0.6,TASS: Unrelated. MANS: A newer and highly specific hormonal modulator.
+1007,Uniflexin,Not a standard drug name,N/A,0,0,4,TASS/MANS: Cannot be scored.
+1008,Univestin,Osteoarthritis,Botanical extract,0.5,3,4,"TASS: Unrelated. MANS: A proprietary blend of plant extracts, mechanism is not well-defined."
+1009,Ursodeoxycholic Acid,"Gallstones, primary biliary cholangitis",Bile acid,2,5,4.5,"TASS: Related to digestion and liver function, which can be affected by obesity. MANS: A naturally occurring substance with a specific physiological role."
+1010,Valacyclovir,Herpes infections,Antiviral,0,6,0,"TASS: Unrelated. MANS: Prodrug of acyclovir, a standard antiviral mechanism."
+1011,Valdecoxib,"Pain, arthritis",COX-2 inhibitor,0,5,4,TASS: Unrelated. MANS: A more selective version of NSAIDs (largely withdrawn from the market).
+1012,Valethamate,Antispasmodic,Anticholinergic,0,3.5,0,TASS: Unrelated. MANS: Common anticholinergic mechanism.
+1013,Valganciclovir,CMV retinitis,Antiviral,0,6,0,"TASS: Unrelated. MANS: Prodrug of ganciclovir, a standard antiviral mechanism."
+1014,Valproic Acid,"Epilepsy, bipolar disorder",Increases GABA levels in the brain,0.5,4,3.7,TASS: Completely unrelated to metabolic disorders. MANS: Established but specific neurological mechanism.
+1015,Valsartan,High blood pressure,Angiotensin II receptor blocker (ARB),2.5,3.5,5.8,"TASS: Cardiovascular, distantly related to metabolic syndrome. MANS: Very common and well-established antihypertensive mechanism."
+1016,Vancomycin,Bacterial infections,Glycopeptide antibiotic,0,4,0,TASS: Unrelated. MANS: Established class of antibiotics for serious infections.
+1017,Vardenafil,Erectile dysfunction,PDE5 inhibitor,1,6,2.5,"TASS: Lifestyle-related, but not for weight management. MANS: Well-known but specific mechanism of action."
+1018,Vecuronium,Anesthesia,Non-depolarizing neuromuscular blocker,0,5,0,TASS: No therapeutic overlap. MANS: Standard mechanism for muscle relaxation during surgery.
+1019,Venlafaxine,"Depression, anxiety",Serotonin-norepinephrine reuptake inhibitor (SNRI),0,5.5,1.4,TASS: Unrelated. MANS: A common and well-established antidepressant mechanism.
+1020,Verapamil,"High blood pressure, angina, arrhythmias",Calcium channel blocker,2.5,3,5.6,"TASS: Cardiovascular, but not for weight management. MANS: Common and well-established antihypertensive mechanism."
+1021,Vigabatrin,Epilepsy,GABA transaminase inhibitor,0.5,7,0,TASS: Unrelated. MANS: A specific and irreversible enzyme inhibitor for treating seizures.
+1022,Vilazodone,Depression,SSRI and 5-HT1A receptor partial agonist,0,6.5,1.3,TASS: Unrelated. MANS: A newer antidepressant with a dual mechanism of action.
+1023,Vildagliptin,Type 2 diabetes,DPP-4 inhibitor,8.5,6.5,8,"TASS: Very similar, treats a key comorbidity of obesity. MANS: Established class of oral diabetes drugs, but a different mechanism than GLP-1 agonists."
+1024,Vinblastine,Cancer,Vinca alkaloid,0,4.5,0,TASS: Unrelated. MANS: Classic chemotherapy agent that disrupts microtubule formation.
+1025,Vincristine,Cancer,Vinca alkaloid,0,4.5,0,TASS: Unrelated. MANS: Classic chemotherapy agent that disrupts microtubule formation.
+1026,Vinorelbine,Cancer,Vinca alkaloid,0,4.5,0,TASS: Unrelated. MANS: Classic chemotherapy agent that disrupts microtubule formation.
+1027,Vinpocetine,Dietary supplement,Various proposed mechanisms,0.5,2.5,0.1,TASS: Unrelated. MANS: Not a well-defined or specific mechanism.
+1028,Vitamin B,Vitamin B deficiency,Vitamin supplement,1.5,1,0.1,"TASS: Unrelated, though metabolic processes are involved. MANS: Vitamin supplement, not a specific drug mechanism."
+1029,Vitamin C,Vitamin C deficiency,Vitamin supplement,1.5,1,0.1,"TASS: Unrelated, though metabolic processes are involved. MANS: Vitamin supplement, not a specific drug mechanism."
+1030,Vitamin E,Vitamin E deficiency,Vitamin supplement,1.5,1,0.1,"TASS: Unrelated, though metabolic processes are involved. MANS: Vitamin supplement, not a specific drug mechanism."
+1031,Vitamin K,"Vitamin K deficiency, bleeding",Vitamin supplement,1.5,1,0,"TASS: Unrelated, though metabolic processes are involved. MANS: Vitamin supplement, not a specific drug mechanism."
+1032,Voglibose,Type 2 diabetes,Alpha-glucosidase inhibitor,8,5.5,7.9,"TASS: Very similar, treats a key comorbidity of obesity. MANS: An established mechanism for controlling blood sugar, but different from Wegovy."
+1033,Voriconazole,Fungal infections,Triazole antifungal,0,6,0,TASS: Unrelated. MANS: A potent and broad-spectrum antifungal agent.
+1034,Vortioxetine,Depression,Atypical antidepressant,0,7,1.2,TASS: Unrelated. MANS: A newer antidepressant with a multimodal mechanism of action.
+1035,Warfarin,Blood clots,Vitamin K antagonist,2,4,6.7,"TASS: Cardiovascular, but not for weight management. MANS: An old and well-established anticoagulant mechanism."
+1036,Xantinol Nicotinate,Peripheral vascular disease,Vasodilator,2,3.5,4.4,"TASS: Cardiovascular, but not for weight management. MANS: A combination of two substances with vasodilating properties."
+1037,Xylitol,Sugar substitute,Sugar alcohol,3,1.5,0.8,"TASS: Used in food for calorie reduction, so related to weight management in a broad sense. MANS: Not a drug, a simple sugar substitute."
+1038,Xylometazoline,Nasal congestion,Alpha-adrenergic agonist,0,2.5,0,TASS: Unrelated. MANS: A very common and well-established decongestant mechanism.
+1039,Zaleplon,Insomnia,Non-benzodiazepine hypnotic,0,5,0.5,"TASS: Unrelated. MANS: A ""Z-drug"" with a more selective mechanism than benzodiazepines."
+1040,Zaltoprofen,"Pain, inflammation",NSAID,0,2.5,4.1,TASS: Unrelated. MANS: Standard and very common anti-inflammatory mechanism.
+1041,Zidovudine,HIV/AIDS,Nucleoside reverse transcriptase inhibitor (NRTI),0,7.5,1.5,"TASS: Unrelated. MANS: The first approved drug for HIV, a landmark in antiretroviral therapy."
+1042,Zinc Acetate,"Wilson's disease, zinc deficiency",Zinc supplement,1,1.5,0.1,"TASS: Unrelated. MANS: Mineral supplement, not a specific drug mechanism."
+1043,Zinc Carnosine,Gastric ulcers,Anti-ulcer agent,1,5,1,"TASS: GI-related, but not for weight management. MANS: A chelated compound with a unique mucosal protective mechanism."
+1044,Zinc Gluconate,Zinc deficiency,Zinc supplement,1,1.5,0.1,"TASS: Unrelated. MANS: Mineral supplement, not a specific drug mechanism."
+1045,Ziprasidone,"Schizophrenia, bipolar disorder",Atypical antipsychotic,0,5,3.6,"TASS: Unrelated. MANS: A newer, atypical antipsychotic mechanism."
+1046,Zoledronic Acid,"Osteoporosis, hypercalcemia of malignancy",Bisphosphonate,0,6.5,0,TASS: Unrelated. MANS: A potent and long-acting bisphosphonate with a specific mechanism for bone resorption.
+1047,Zolmitriptan,Migraine,5-HT1B/1D receptor agonist,0.5,7,0,TASS: Unrelated. MANS: Specific and targeted mechanism for migraine.
+1048,Zolpidem,Insomnia,Non-benzodiazepine hypnotic,0,5,0.5,"TASS: Unrelated. MANS: A ""Z-drug"" with a more selective mechanism than benzodiazepines."
+1049,Zonisamide,Epilepsy,Anticonvulsant,0.5,6,4.9,TASS: Unrelated. MANS: A sulfonamide anticonvulsant with a unique and broad mechanism of action.
+1050,Zopiclone,Insomnia,Non-benzodiazepine hypnotic,0,5,0.5,"TASS: Unrelated. MANS: A ""Z-drug"" with a more selective mechanism than benzodiazepines."
+1051,Zotepine,Schizophrenia,Atypical antipsychotic,0,5,3.8,"TASS: Unrelated. MANS: A newer, atypical antipsychotic mechanism."
