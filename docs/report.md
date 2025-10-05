@@ -355,7 +355,7 @@ $S_\text{final} = 0.7 \times S_\text{disease} + 0.2 \times S_\text{tass} + 0.1 \
 
 ##### Prediction Formula
 
-$\text{Predicted\_Undercut} = \frac{\sum \left( \text{price difference pct} \times S_{\text{final}} \right)}{\sum S_{\text{final}}}$
+$\text{Predicted Undercut} = \frac{\sum \left( \text{price difference pct} \times S_{\text{final}} \right)}{\sum S_{\text{final}}}$
 
 #### Top Similar Drugs Analysis 
 
