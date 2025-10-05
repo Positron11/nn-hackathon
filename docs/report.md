@@ -66,6 +66,7 @@
 	- [Visualisation Module: Data Flow](#visualisation-module-data-flow)
 		- [Data Assets](#data-assets-1)
 		- [GeoJSON Augmentation and Layer Styling](#geojson-augmentation-and-layer-styling)
+	- [Conclusion](#conclusion)
 
 ## Anti-Obesity Medication Market Sizing
 
@@ -531,3 +532,13 @@ This module utilizes geospatial assets in `subphenotype/data/assets/districts.ge
 ### GeoJSON Augmentation and Layer Styling
 
 After preparing lookups, the visualisation pipeline iterates through every GeoJSON feature, augmenting its `properties` with four new keys: `glp1_score`, `genetic_risk`, `adoption_score`, and `insurance_score`. Values that cannot be matched remain `None`, which downstream folium components treat as gaps instead of zero.
+
+## Conclusion
+
+Our findings indicate that the Indian population faces a rising trend in obesity prevalence showing a 600% rise in obesity from 1990 till 2022. We estimate that the Indian semaglutide market size will rise up to $357 million by 2035.
+
+We also found out that the ethnic Indian population faces a higher risk of obesity, diabetes, and hypertension. Accounting for the socioeconomic differences in addition to the genetic propensity towards obesity, we created a list of states with should take high priority in our Wegovy market entry strategy. These states see a rising trend and tendancy of obesity and at the same time they show suitable financials requires for wegovy adoption.
+
+Accounting for the fact that the Wegovy patent expires in 2026, we accounted for the fact that the generic drug manufacturers will be selling the drug at a significantly cheaper price. The estimated undercut to be faced is 51% and we also expect a 7.3% decline in market share of Wegovy when generic manufacturers enter the picture.
+
+We strongly recommend that Novo Nordisk collaborate with insurance providers to get Wegovy treatment covered in their policies. Our monte carlo simulations indicate that on covering Wegovy for obese customers, the insurance provider on average saves INR 2 crore. The savings result from the fact that Wegovy significantly reduces the risk of obesity related comorbidities and surgeries.
