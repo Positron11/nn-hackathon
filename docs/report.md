@@ -1,7 +1,7 @@
 # Project Report
 
 - [Project Report](#project-report)
-	- [Diabetes Subphenotype \& Visualisation Modules Technical Report](#diabetes-subphenotype--visualisation-modules-technical-report)
+	- [Diabetes Subphenotype-Based Market Identification](#diabetes-subphenotype-based-market-identification)
 		- [Introduction](#introduction)
 		- [Data Assets](#data-assets)
 		- [Feature Normalisation Strategy](#feature-normalisation-strategy)
@@ -9,12 +9,19 @@
 		- [Subphenotype Attribution Workflow](#subphenotype-attribution-workflow)
 		- [Prior Calibration and Regularisation](#prior-calibration-and-regularisation)
 		- [Prioritisation Metrics for GLP-1 Planning](#prioritisation-metrics-for-glp-1-planning)
+	- [Cost-Benefit Analysis Simulation](#cost-benefit-analysis-simulation)
+		- [Parameterisation and Cohort Construction](#parameterisation-and-cohort-construction)
+		- [Condition Incidence and Progression Graph](#condition-incidence-and-progression-graph)
+		- [Modelling the GLP-1 Intervention](#modelling-the-glp-1-intervention)
+		- [Individual State Machine and Event Memory](#individual-state-machine-and-event-memory)
+		- [Cost Model and Cash-Flow Tracking](#cost-model-and-cash-flow-tracking)
+		- [Output Diagnostics and Scenario Analysis](#output-diagnostics-and-scenario-analysis)
 	- [Visualisation Module: Data Flow](#visualisation-module-data-flow)
 		- [Data Assets](#data-assets-1)
 		- [GeoJSON Augmentation and Layer Styling](#geojson-augmentation-and-layer-styling)
 
 
-## Diabetes Subphenotype & Visualisation Modules Technical Report
+## Diabetes Subphenotype-Based Market Identification
 
 ### Introduction
 
@@ -53,6 +60,34 @@ Recognising that survey-derived signals can be noisy — especially in districts
 ### Prioritisation Metrics for GLP-1 Planning
 
 Beyond subtype shares, the module computes two prioritisation scores. The first (`Priority_Score`) emphasises general diabetes burden by z-scoring the glycemic index and obesity proxy, combining them with weights 0.5 and 0.3 respectively, and scaling by 100 for readability. The second (`GLP1_Focused_Priority_Score`) extends this blend with additional emphasis on the SIRD and MOD shares — clusters most responsive to GLP-1 receptor agonists — through 0.05 weights on each. Scores remain relative, meaning a positive shift indicates a district performs above the national mean on the contributing factors.
+
+## Cost-Benefit Analysis Simulation
+
+The `cba/` directory hosts a Monte Carlo cost-benefit prototype that estimates the lifetime financial impact of scaling GLP-1 therapy (modelled as Wegovy) within an insured population. Rather than relying on static actuarial ratios, the notebook `simulation.ipynb` tracks simulated individuals year-by-year, contrasting status quo care with a counterfactual in which every covered member initiates Wegovy at the start of plan eligibility. The design goal is to translate the epidemiologic insights from the subphenotype module into insurer-facing insights: what aggregate expenditures might look like when cardiometabolic complications are mitigated by sustained weight loss.
+
+### Parameterisation and Cohort Construction
+
+Scenario levers live at the top of the notebook as scalars: the default population size (`POPULATION_SIZE = 1000`), simulation horizon (`SIMULATION_YEARS = 60`), coverage rate (`PERCENTAGE_COVERED = 1.0`), upfront therapy price (`WEGOVY_COST = 209000` rupees), and a derived annual cost (`WEGOVY_ANNUAL_COST`) that scales with plan coverage. Individuals are drawn by the helper `create_population`, which samples 40% of the cohort between ages 18–39 and 60% between 40–64. Each simulated member receives a random height between 1.5 m and 1.9 m and a weight drawn from a skewed beta distribution, generating BMI values centred in the low 30s to represent an at-risk pool. Insurance start ages are sampled within each age band to let enrolment precede or coincide with chronic disease onset.
+
+### Condition Incidence and Progression Graph
+
+Disease onset is driven by two nested dictionaries — `obese_first_order_probs` and `non_obese_first_order_probs` — that map age groups to annual probabilities for thirteen cardiometabolic, hepatic, musculoskeletal, and mental-health diagnoses. The notebook selects the appropriate ladder by checking whether the individual’s BMI exceeds 30, capturing the higher baseline risk carried by obese members. Once a condition is acquired, `second_order_probs` governs cascading complications via conditional probabilities that depend on both the current disease load and age bracket. For example, an obese 45-year-old with hypertension automatically faces a 17% chance of coronary heart disease and a 36% chance of diabetes in the subsequent cycle, while chronic kidney disease elevates heart-failure risk above 20%. These graph-based transitions give the model enough fidelity to represent multimorbidity without introducing opaque machine-learning components.
+
+### Modelling the GLP-1 Intervention
+
+When coverage includes Wegovy, each individual samples a personalised efficacy draw from a beta distribution when they reach their insurance start age. The sampled value calibrates a sustained one-time weight reduction (`weight_loss = weight × efficacy`) and toggles the `on_wegovy` flag. The notebook keeps a compact `efficacy_factors` dictionary to apply relative risk reductions to severe outcomes such as coronary heart disease (−20%), heart failure (−20%), type 2 diabetes (−71%), and chronic kidney disease (−18%). Remission probabilities are handled by `recovery_params`, which attaches a Hill-curve response to every managed condition. The helper `probability_of_recovery` merges cumulative weight loss (`deltaW`) and current BMI through two logistic-style factors, yielding higher remission odds for conditions known to respond strongly to weight reduction (e.g., prediabetes, obstructive sleep apnoea) and very low odds for difficult-to-reverse states such as malignancies.
+
+### Individual State Machine and Event Memory
+
+The `Individual` class encapsulates the member lifecycle, tracking age, anthropometrics, active conditions, interventions already billed, and a `recovered_from` ledger. During each yearly `update()` call the model: (1) attempts recoveries for active conditions if Wegovy is on board; (2) samples secondary complications based on the existing condition set and age category; (3) samples first-order occurrences using either the obese or non-obese probability table; and finally (4) increments age.
+
+### Cost Model and Cash-Flow Tracking
+
+Economic outputs are computed through `cost_to_insurer()`, which accumulates one-time procedure costs and recurring management spend. The `one_time_costs` table covers acute episodes such as oncology interventions (₹700,000), bypass surgery for coronary disease (₹600,000), and end-stage renal care (₹1,695,629). Annual burden is captured in `annual_costs` for chronic maintenance—ranging from ₹30329 for diabetes management to ₹858,000 for renal replacement therapy. Whenever Wegovy is active, the annual drug spend is added to the tally.
+
+### Output Diagnostics and Scenario Analysis
+
+After simulating the full horizon, the code interpolates cumulative cost trajectories onto a uniform `years_grid`, stacks them into matrices, and computes cohort means. Visual diagnostics generated with seaborn and matplotlib include kernel density estimates for initial BMI and insurance start age, as well as “spaghetti plots” that overlay individual and average cumulative costs in the treatment and control arms.
 
 ## Visualisation Module: Data Flow
 
