@@ -55,7 +55,7 @@ The notebook applies a row-wise softmax to translate them into percentage shares
 
 ### Prior Calibration and Regularisation
 
-Recognising that survey-derived signals can be noisy — especially in districts with limited sample sizes — the pipeline blends the softmax outputs with literature-based national priors. A lightweight `Prior` dataclass stores baseline prevalence weights (SIDD 25%, SIRD 30%, CIRDD 8%, MOD 2%, MARD 35%). The calibration applies a convex combination parameterised by `λ = 0.1`, yielding $\texttt{p\_final} = \lambda \times \texttt{p\_softmax} + (1 − \lambda) \times \texttt{p\_prior}$. This shrinkage tempers district-specific volatility without obliterating real geographic variation. The priors are normalised to sum to 100%, ensuring probabilistic coherence.
+Recognising that survey-derived signals can be noisy — especially in districts with limited sample sizes — the pipeline blends the softmax outputs with literature-based national priors. A lightweight `Prior` dataclass stores baseline prevalence weights (SIDD 25%, SIRD 30%, CIRDD 8%, MOD 2%, MARD 35%). The calibration applies a convex combination parameterised by `λ = 0.1`, yielding $\texttt{p\\_final} = \lambda \times \texttt{p\\_softmax} + (1 − \lambda) \times \texttt{p\\_prior}$. This shrinkage tempers district-specific volatility without obliterating real geographic variation. The priors are normalised to sum to 100%, ensuring probabilistic coherence.
 
 ### Prioritisation Metrics for GLP-1 Planning
 
