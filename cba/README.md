@@ -2,13 +2,20 @@
 
 The `simulation.ipynb` notebook models the long-term financial impact of expanding GLP-1 coverage (e.g., Wegovy) for an insured population. It uses a Monte Carlo engine to simulate chronic condition onset, downstream complications, and payer costs under varying assumptions.
 
-## Notebook Overview
-- **Population setup:** Adjustable constants (`POPULATION_SIZE`, age bands, `PERCENTAGE_COVERED`) configure cohort size, coverage penetration, and time horizon (`SIMULATION_YEARS`).
-- **Clinical probabilities:** First- and second-order dictionaries encode baseline incidence and conditional progression rates for cardiometabolic and obesity-related conditions in obese versus non-obese groups.
-- **Intervention effect:** `efficacy_factors` specify relative risk reductions attributable to GLP-1 therapy for key outcomes.
-- **Economic inputs:** `annual_costs` and `one_time_costs` capture payer burden by condition; totals are offset by annualised therapy costs (`WEGOVY_ANNUAL_COST`).
+## Inputs & Configuration
+- `data/costs.csv` – Annual and one-time payer cost assumptions by condition.
+- `data/transitions.csv` – Baseline incidence and progression probabilities for the simulated cohort.
+- In-notebook constants configure cohort size (`POPULATION_SIZE`), coverage penetration, time horizon (`SIMULATION_YEARS`), and therapy cost assumptions (`WEGOVY_ANNUAL_COST`).
 
-## Running the Simulation
-1. Install dependencies from `requirements.txt` and start Jupyter in the repository root.
-2. Open `cba/simulation.ipynb` and execute the cells top to bottom, adjusting parameters to explore alternative coverage strategies.
-3. Capture summary statistics or cash flow projections produced by the notebook for downstream reporting.
+## Running the Notebook
+1. Install dependencies from the repository root (`pip install -r ../requirements.txt`) and start Jupyter.
+2. Open `simulation.ipynb` and review the assumption cells at the top before executing.
+3. Run all cells to generate scenario tables, cumulative savings, and visual summaries.
+4. Export results (e.g., CSV tables or plots) to `out/` or paste directly into the presentation deck.
+
+## Extending the Model
+- Adjust probability tables in `data/transitions.csv` to reflect newer clinical evidence or segmented cohorts.
+- Swap in alternative cost scenarios by editing `data/costs.csv` or duplicating the notebook for side-by-side comparisons.
+- Wire the outputs into the `market/` notebooks to test sensitivity to pricing curves or into `preliminary/` visuals for quick narratives.
+
+Document material changes to assumptions either in new notebook markdown cells or a short changelog appended to this README.
